@@ -1,0 +1,61 @@
+@CHARSET "UTF-8";
+
+*{
+	font-family:verdana;
+	outline: none;
+	margin: 0;
+	text-decoration: none;
+}
+
+#divcenter
+{
+	width:1024px;
+	margin:0 auto;
+	position:relative;	
+}
+
+.divtitle{
+	background-image: url('../images/hbar.gif'); repeat-x;
+	border: solid 1px #000120;
+	width:100%;
+	margin:20px;
+	text-align: center;
+	color: #fff;
+}
+
+#movie1{
+	float: left;
+}
+
+#movie2{
+	float: right;
+}
+
+.movieopt{
+	width: 48%;
+	display: block;
+	text-align: center;
+}
+
+.wwFormTable {
+    text-align: center;
+    width: 100%;
+}
+
+.wwFormTable div {
+	width: 100%;
+}
+
+.movieopt img {
+	max-width: 300px;
+}
+
+.blocktable th{
+	background-image: url('../images/hbar.gif'); repeat-x;
+	border: 1px solid #000120;
+	color: #fff;
+}
+
+.blocktable td{
+	border: 1px solid #000120;
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Desafio1BlueSoft">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="Desafio1BlueSoft"/>
+        <property name="java-output-path" value="/Desafio1BlueSoft/build/classes"/>
+    </wb-module>
+</project-modules>
