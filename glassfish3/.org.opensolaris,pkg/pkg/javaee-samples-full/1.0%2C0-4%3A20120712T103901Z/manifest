@@ -1,0 +1,324 @@
+set name=fmri value=pkg://release.javaeesdk.oracle.com/javaee-samples-full@1.0,0-4:20120712T103901Z
+set name=authority value=release.javaeesdk.oracle.com
+set name=info.classification value="Application Servers"
+set name=pkg.description value="Java EE 6 Sample Applications for full platform. GlassFish is an application server created using modular, lightweight, extensible architecture built on OSGi.  It is the first implementation of Java EE 6 standard and is a great developer platform, starts fast, and it is easy to use."
+set name=pkg.summary value="Java EE Sample Applications Full Platform"
+depend fmri=pkg:/javaee-samples-build type=require
+depend fmri=pkg:/javaee-samples-web type=require
+license d5bbc6352d2afabc58bb30c4e8b68b3f87c212b3 chash=4d8efa3e2f655ad262555c5e989e11b42062f20e license=BSDLicense pkg.csize=923 pkg.size=1743
+dir group=sys mode=0755 owner=root path=glassfish
+dir group=sys mode=0755 owner=root path=glassfish/samples
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6
+file 739498716cde20bf56f985cfaeb27fcdd96d23a1 chash=c1ab25ebd97d3aa1638825ca6fba0336654b5e61 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/index.html pkg.csize=2343 pkg.size=5053
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/docs
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/rest
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-webserviceref
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-jaxws2.2
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-singleton-ejb
+file d9d13b506e2dfd467fc37a4f0a5b90add6d698e1 chash=90d12bec5f705928c72830fb9cafaf397e14aacb group=sys mode=0644 owner=root path=glassfish/samples/javaee6/webservices/hello-webserviceref/build.xml pkg.csize=1425 pkg.size=4005
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-webserviceref/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-webserviceref/hello-webserviceref-webclient
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-webserviceref/src
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-webserviceref/hello-webserviceref-appclient
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-webserviceref/docs
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-webserviceref/web
+file 3707b053e1390c3eee629bcce3f7fad7ac6e5c92 chash=f2760ec08a68cc64426d331dd046c9f074ca6e75 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/webservices/hello-webserviceref/nbproject/project.xml pkg.csize=1267 pkg.size=2783
+file 72d1c7c2ce5637635b258300e3330d0893264126 chash=6036bc284abddc1e528b452b4148b1bc52a3afa6 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/webservices/hello-webserviceref/nbproject/project.properties pkg.csize=1728 pkg.size=4018
+file 8da83259ee188c42c4f09fcab32656962434dced chash=24cf5dcf1e9bc6c4908a1e96de11dd399f342417 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/webservices/hello-webserviceref/hello-webserviceref-webclient/build.xml pkg.csize=1298 pkg.size=2754
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-webserviceref/hello-webserviceref-webclient/src
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-webserviceref/hello-webserviceref-webclient/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-webserviceref/hello-webserviceref-webclient/src/java/enterprise
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-webserviceref/hello-webserviceref-webclient/src/java/enterprise/hello_webserviceref_client1
+file bf172e908ad42150658512f1b06c46605ef56c10 chash=4df0e9480567107ce21809997e11ec7b75a05e52 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/webservices/hello-webserviceref/hello-webserviceref-webclient/src/java/enterprise/hello_webserviceref_client1/TestServlet.java pkg.csize=1433 pkg.size=3364
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-webserviceref/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-webserviceref/src/java/enterprise
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-webserviceref/src/java/enterprise/hello_webservice
+file 49bcff00998c4a2e6cbcc29b0727f0c94d323180 chash=465989d94817448c5fac33870ac4068e832e0d8b group=sys mode=0644 owner=root path=glassfish/samples/javaee6/webservices/hello-webserviceref/src/java/enterprise/hello_webservice/Hello.java pkg.csize=1229 pkg.size=2600
+file 9643722f97f1efe281c46435b1d9030b3f423f29 chash=d53671534e6ead5d96448530b4e25ad091bcf004 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/webservices/hello-webserviceref/hello-webserviceref-appclient/build.xml pkg.csize=1447 pkg.size=3168
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-webserviceref/hello-webserviceref-appclient/src
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-webserviceref/hello-webserviceref-appclient/src/conf
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-webserviceref/hello-webserviceref-appclient/src/java
+file ed6c13e71af571933cad8a528ca2a64aaea6af89 chash=b6cf73105918e44efffe17538e09d8ae9515ffc3 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/webservices/hello-webserviceref/hello-webserviceref-appclient/src/conf/MANIFEST.MF pkg.csize=59 pkg.size=42
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-webserviceref/hello-webserviceref-appclient/src/java/client
+file ba3eebddbb728e1c5f560f3013dbf3f15183145b chash=6321a30556045dd08ec4e681ea28de0aea6f8d79 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/webservices/hello-webserviceref/hello-webserviceref-appclient/src/java/client/WebServiceRef_AppClient.java pkg.csize=1306 pkg.size=2884
+file fd6d7b2b05a8747c72ff2f5c1ba9626ba5b650ae chash=cc341f4c53227d1d8cbbd4d5b3d041334f67b708 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/webservices/hello-webserviceref/docs/index.html pkg.csize=3919 pkg.size=10745
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-webserviceref/web/WEB-INF
+file fbe8357cf4444d282dfdeba345a94b7ff4e017f8 chash=e9a2ccd2400251ca31807f81248401421905a61f group=sys mode=0644 owner=root path=glassfish/samples/javaee6/webservices/hello-webserviceref/web/WEB-INF/sun-web.xml pkg.csize=1256 pkg.size=2524
+file d743b582de5d3402235032975769ec1badf296f6 chash=6af6fac622acd1372cce05a363406ee78d402f00 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/webservices/hello-jaxws2.2/build.xml pkg.csize=1420 pkg.size=3591
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-jaxws2.2/etc
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-jaxws2.2/hello-jaxws-client
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-jaxws2.2/src
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-jaxws2.2/web
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-jaxws2.2/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-jaxws2.2/docs
+file 8ef9300eb8db31a6b4172f0f0d7b830773bc75c5 chash=a527a0abe3755dd7969edaf26789868f204f1fb9 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/webservices/hello-jaxws2.2/etc/web.xml pkg.csize=1176 pkg.size=2494
+file c72330ccae0aaf984486ff6236c456b9ce18a46b chash=7a379a60816b316ab4f83d583329251bfb3dc9d5 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/webservices/hello-jaxws2.2/etc/sun-web.xml pkg.csize=1255 pkg.size=2519
+file acfe7ca21579048db5efe18ec89099ff6968204e chash=a7b8bdf96b3a6f750abcbd6a1712fb04cf419a07 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/webservices/hello-jaxws2.2/hello-jaxws-client/build.xml pkg.csize=1390 pkg.size=2961
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-jaxws2.2/hello-jaxws-client/src
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-jaxws2.2/hello-jaxws-client/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-jaxws2.2/hello-jaxws-client/src/java/client
+file b82fe4582665fef1bdffd4af7ee8899385bfad73 chash=17140ca20ffcef22f5a00678d5afa5cf5dfeaa7b group=sys mode=0644 owner=root path=glassfish/samples/javaee6/webservices/hello-jaxws2.2/hello-jaxws-client/src/java/client/Client.java pkg.csize=1259 pkg.size=2694
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-jaxws2.2/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-jaxws2.2/src/java/endpoint
+file 4f16a88949ffa7b664588b9f55048d0ed962d2e2 chash=db8ad3044e82d17fc94d81cdf6f908059670be1e group=sys mode=0644 owner=root path=glassfish/samples/javaee6/webservices/hello-jaxws2.2/src/java/endpoint/Hello.java pkg.csize=1071 pkg.size=2162
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-jaxws2.2/web/WEB-INF
+file c72330ccae0aaf984486ff6236c456b9ce18a46b chash=7a379a60816b316ab4f83d583329251bfb3dc9d5 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/webservices/hello-jaxws2.2/web/WEB-INF/sun-web.xml pkg.csize=1255 pkg.size=2519
+file ab2e33dd115d650a0a6366ec7cb9e351df36c197 chash=ff428f82efe820296fb99f75726e6f05fc2151de group=sys mode=0644 owner=root path=glassfish/samples/javaee6/webservices/hello-jaxws2.2/nbproject/project.properties pkg.csize=1723 pkg.size=4002
+file 852ae6135665aab12f682209e56f184a065b0191 chash=630545a077abc3d59b40e86633bb82d7379b745f group=sys mode=0644 owner=root path=glassfish/samples/javaee6/webservices/hello-jaxws2.2/nbproject/project.xml pkg.csize=1263 pkg.size=2778
+file 9292dd89ba79b26ef002e009d8b1da6bf0b0a8bf chash=e2b3b8219f3f7dc5df5dba4c50994edf41d548a3 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/webservices/hello-jaxws2.2/docs/index.html pkg.csize=3356 pkg.size=7925
+file dfc77d3769400ef9dcccdb87608b7b5fef318aab chash=56de93d6733ec3ab6ad8f83a4b93c1850202b91b group=sys mode=0644 owner=root path=glassfish/samples/javaee6/webservices/hello-singleton-ejb/build.xml pkg.csize=1433 pkg.size=3582
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-singleton-ejb/src
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-singleton-ejb/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-singleton-ejb/hello-singleton-client
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-singleton-ejb/docs
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-singleton-ejb/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-singleton-ejb/src/java/enterprise
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-singleton-ejb/src/java/enterprise/hello_singleton_ejb
+file d4386aac1bc481a0fb73880163de6ac79b759bb1 chash=eb6e4c8c761b04b36e04fe4fe5297fad6d2dfec5 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/webservices/hello-singleton-ejb/src/java/enterprise/hello_singleton_ejb/HelloSingletonImpl.java pkg.csize=1092 pkg.size=2216
+file 26cbe03933815317b9abe9552442a8f112f584b1 chash=6f438428658bf80b300f971b6774acd57e85a70e group=sys mode=0644 owner=root path=glassfish/samples/javaee6/webservices/hello-singleton-ejb/nbproject/jaxws-build.xml pkg.csize=1615 pkg.size=3936
+file 41f70a90813ee164daaa85785f600a87be482cfc chash=dd529e1dc09d7c8cfb6c17f63a5b8232cc3aee07 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/webservices/hello-singleton-ejb/nbproject/project.properties pkg.csize=1600 pkg.size=3690
+file d99896b8b96eea9a718e3abe794a3fe82273ec70 chash=53fec472f3811c53dcae854da880c53a111ec859 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/webservices/hello-singleton-ejb/nbproject/jax-ws.xml pkg.csize=1127 pkg.size=2302
+file 3f30b99b919b56952eafab6e08d45d8146914e3d chash=d132401bf84d1e0d85751dfee36f2693ccd6c582 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/webservices/hello-singleton-ejb/nbproject/project.xml pkg.csize=1235 pkg.size=2686
+file 7ca2c68e0ffb6611de63987627f65e23225fbfa0 chash=233aef4567be4d86e90756c269ce08fd4dab49a4 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/webservices/hello-singleton-ejb/hello-singleton-client/build.xml pkg.csize=1410 pkg.size=3047
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-singleton-ejb/hello-singleton-client/docs
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-singleton-ejb/hello-singleton-client/src
+file 02ebf263ae89ad24405f2541837918eae2ec6cf2 chash=ec81d1072513c49f055339a6535b389bc78539ec group=sys mode=0644 owner=root path=glassfish/samples/javaee6/webservices/hello-singleton-ejb/hello-singleton-client/docs/index.html pkg.csize=2698 pkg.size=6284
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-singleton-ejb/hello-singleton-client/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-singleton-ejb/hello-singleton-client/src/java/enterprise
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/webservices/hello-singleton-ejb/hello-singleton-client/src/java/enterprise/hello_singleton_client
+file e275bc13dc177ad984baf80507a4bbf65675b45b chash=b5dd515db5656b04695d5649a2d9b99316fea589 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/webservices/hello-singleton-ejb/hello-singleton-client/src/java/enterprise/hello_singleton_client/SingletonJavaClient.java pkg.csize=1194 pkg.size=2553
+file 7bbdbe2016e0aaae086678966260c3e8917c5a33 chash=e9ebfd9d60d8db0d44ec3ea6bc206255756abbe2 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/webservices/hello-singleton-ejb/docs/index.html pkg.csize=2902 pkg.size=7087
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector
+file cba3e69540312a7a3938bc8f73d654e3180bb152 chash=b7913e199da2a98cc976c97612c46e5375e8f05e group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector.jar pkg.csize=38785 pkg.size=44186
+file 7f0fb637e1a7149f1a2baa701072b711004521fa chash=5cf30e0c64ceffdbcb1becd88ea9f63e2fc1cb20 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector.rar pkg.csize=38750 pkg.size=44186
+file 073a09ef771b25254401a43c310410d528eb6758 chash=222738191efbad45ba0ea7c2521a53868994bf08 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear.ear pkg.csize=16002 pkg.size=16279
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/docs
+file c276c6d6d0311d6cd8c753e8c18b2374869dbcf2 chash=46d996c5fac7525605b5de31860ac0f5ee31cab9 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/nbbuild.xml pkg.csize=2154 pkg.size=5658
+file b80643e42acf9f94e2754e1792244daa6fcd1cd3 chash=8c03deae1b190e9dc26227ed6e22e4a600148f10 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/build.xml pkg.csize=1776 pkg.size=5527
+file ec305f8a929287cd0987846bdb02bd6c1aea9686 chash=0129b7fe3f053373bd1ea362c239fd896b48854d group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/nb-build.xml pkg.csize=1960 pkg.size=4760
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src
+file 8161ab8288b74cf7b53f1ec2de6490930eb9e6f0 chash=805da850ef0d98d5f7352e62bf56d30a0a7a8001 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/nbproject/project.xml pkg.csize=1609 pkg.size=4891
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/conf
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/conf/samples
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/conf/samples/connectors
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/conf/samples/connectors/mailconnector
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/conf/samples/connectors/mailconnector/ra
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/conf/samples/connectors/mailconnector/backend
+file c12e4a9f5f575bb76b4aa418ae15437c82995aa6 chash=baa2a3f34ec30ba95d14f96f2e1d2de9bb225c0a group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/conf/samples/connectors/mailconnector/ra/LocalStrings.properties pkg.csize=1037 pkg.size=2100
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/conf/samples/connectors/mailconnector/ra/outbound
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/conf/samples/connectors/mailconnector/ra/inbound
+file af211ccc960a8663e03db37af51f7442f9d1ae12 chash=5e199802ad553419572ec530c11564d6ee64d9a9 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/conf/samples/connectors/mailconnector/ra/outbound/ConnectionFactory.properties pkg.csize=1016 pkg.size=2030
+file 9de566149e7a6d5d40a00a18fee7d9812cffd018 chash=c4c634fc1c9505a2435511e4f971e6c63895df8e group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/conf/samples/connectors/mailconnector/ra/outbound/LocalStrings.properties pkg.csize=1317 pkg.size=2674
+file 4a65b959540ec53ec45f55007c19880c647a5dd3 chash=de42dd50576ab893899d969fc71b2afd6c305696 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/conf/samples/connectors/mailconnector/ra/inbound/LocalStrings.properties pkg.csize=1047 pkg.size=2136
+file d8cb5a915701ad263dac65de7158166faf2fc96d chash=071f313f9cf481b69ca9d422e43028c81d109191 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/conf/samples/connectors/mailconnector/backend/LocalStrings.properties pkg.csize=1103 pkg.size=2347
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/java/samples
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/java/samples/connectors
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/java/samples/connectors/mailconnector
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/java/samples/connectors/mailconnector/api
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/java/samples/connectors/mailconnector/ra
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/java/samples/connectors/mailconnector/share
+file 1252dc77d92f9c8aeb7a84ca043ed77be60da049 chash=1a19041517da5018630e263bd989c0d496f01f06 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/java/samples/connectors/mailconnector/api/JavaMailMessageListener.java pkg.csize=1184 pkg.size=2465
+file eb32f58f04bd5c22d8c1ac133c80073e330eb58e chash=489463b6e14554ff3e5bd9746f2458850c787a25 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/java/samples/connectors/mailconnector/api/JavaMailConnection.java pkg.csize=1294 pkg.size=2897
+file 64eeb74a1d0d3d82177fe540a9255ca48e6dbc47 chash=7ad156ab0456f3a4980582080d799563e43829a4 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/java/samples/connectors/mailconnector/api/JavaMailConnectionFactory.java pkg.csize=1359 pkg.size=3149
+file 8c06c61c011b2c4e84747c8db3f2ac6d76140665 chash=829ba5ee61b2b702651c984cc88ae216c9ffa011 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/java/samples/connectors/mailconnector/ra/ResourceAdapterImpl.java pkg.csize=3459 pkg.size=11086
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/java/samples/connectors/mailconnector/ra/inbound
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/java/samples/connectors/mailconnector/ra/outbound
+file 61f2e6d5166ff5bf4f6ab5485183ab1cf44855a5 chash=4b6e38cb38fe7b09193f25f5d4833084e62b856d group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/java/samples/connectors/mailconnector/ra/inbound/MailServerFolder.java pkg.csize=2736 pkg.size=9095
+file 7bb433625b32793504387bb1a9b13e176f233dd9 chash=a9e7390c4ec1759f24134ea98998668484cfb926 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/java/samples/connectors/mailconnector/ra/inbound/ActivationSpecImpl.java pkg.csize=2057 pkg.size=7253
+file 94f1587a9cbe5625caa3ddc692904047d8281b69 chash=be443a717b65a9c58b6c3313676fc903d9ee0c19 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/java/samples/connectors/mailconnector/ra/inbound/DeliveryThread.java pkg.csize=1812 pkg.size=4544
+file d328866ba77b9160e922aa50c959aefefb04d4c6 chash=4dcb5f0b667bfb507508e5ea634dd1123f2c53c2 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/java/samples/connectors/mailconnector/ra/inbound/EndpointConsumer.java pkg.csize=2525 pkg.size=6948
+file 2de74b2fece3e63231775b99fb9e79f80cd7992e chash=13e5191cb13f31f0f6df6cff59e3e3327748a950 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/java/samples/connectors/mailconnector/ra/inbound/PollingThread.java pkg.csize=2559 pkg.size=8288
+file 98393392ea597218b13164074355bda6ac1465be chash=59d003ee91d1ccdefbf911455eaf812a69c6fbac group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/java/samples/connectors/mailconnector/ra/inbound/MySecurityContext.java pkg.csize=1856 pkg.size=5172
+file 462009620deb5d36e915f8fefc89d0930cf736b3 chash=c62e60bd9b7269d9e73291fe80d488cee7e3607c group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/java/samples/connectors/mailconnector/ra/outbound/MailServerStore.java pkg.csize=2506 pkg.size=7990
+file 790efb3794d808f41fc35c953238f68507a1192e chash=00507a224b54aabc35ff7aef4f46e97ae9ea964b group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/java/samples/connectors/mailconnector/ra/outbound/JavaMailConnectionEventListener.java pkg.csize=2037 pkg.size=5842
+file 1a55b860f589ed922ade3c09620307f80dd19ec3 chash=d8e6e81fb9aa6bdc599e10917dc0c555f24273b7 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/java/samples/connectors/mailconnector/ra/outbound/JavaMailConnectionImpl.java pkg.csize=2288 pkg.size=7172
+file 8ce55d9313e8cb95f00e442356d9711920623a4d chash=9027f4bdf91d019b51c90be9c4378c4bd95859ef group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/java/samples/connectors/mailconnector/ra/outbound/JavaMailConnectionFactoryImpl.java pkg.csize=2472 pkg.size=8205
+file 379403394fbe1c68e3da0bee44a0f855724678b7 chash=9ed769ef55c103a21d6a6eb0d4c54ac5d6938ff8 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/java/samples/connectors/mailconnector/ra/outbound/Util.java pkg.csize=2232 pkg.size=6904
+file 0b509d80ceff7603229ae9b0ff5ca432fc2bd5d3 chash=3b89fe57e34daa5be472468bba31e1e25261df59 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/java/samples/connectors/mailconnector/ra/outbound/ManagedConnectionImpl.java pkg.csize=4385 pkg.size=18773
+file 31769badb51074aaa769d69adc2a925ef36e9b71 chash=9cc447f404854f75ddf509fe02b3cf3d2ff506e2 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/java/samples/connectors/mailconnector/ra/outbound/ConnectionMetaDataImpl.java pkg.csize=1620 pkg.size=4146
+file 967d210f7be017b7c2faf0ee3e9c2a31c848b560 chash=a1c6a7ba2fd7e9113ec452c2329e6645a5f5eb28 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/java/samples/connectors/mailconnector/ra/outbound/ManagedConnectionMetaDataImpl.java pkg.csize=1850 pkg.size=5076
+file 91427fa90be8572ce913c95b8401da8dee4b70f4 chash=9eac9b9710b08e82ce356d19c2d96e32e9b90c7d group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/java/samples/connectors/mailconnector/ra/outbound/ConnectionRequestInfoImpl.java pkg.csize=1850 pkg.size=5706
+file 316c9272948160712a63698c8fcb97fd195566b0 chash=20be468d980f6fd430ac4a0ab7782d3bf687b69d group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/java/samples/connectors/mailconnector/ra/outbound/ConnectionManagerImpl.java pkg.csize=1539 pkg.size=3698
+file 7c5088ebdec7398e482d3d4bf1452fee310f4694 chash=926ecb32f5a20ba756ce0ac2a8e1a15bc0b6263e group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/java/samples/connectors/mailconnector/ra/outbound/ManagedConnectionFactoryImpl.java pkg.csize=3792 pkg.size=15727
+file 122ef5cd5b9bc9963788d78663fbbe41276c6408 chash=08c318de89db207750ebef12cc1f7e129d3a3577 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ra/src/java/samples/connectors/mailconnector/share/ConnectionSpecImpl.java pkg.csize=1804 pkg.size=5965
+file aaaa28b3bdbd54a52cae6c9ec9dc6d09412368f8 chash=d396aa1ef6fe66f3cdd5342c122a368ee51a6788 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/build.xml pkg.csize=1590 pkg.size=5126
+file 6f34714fa608b451d40a85c3c7e1f62e4265fa1d chash=80aec35551fcb02f795eff7505d43f185874731f group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/nb-build.xml pkg.csize=1960 pkg.size=4762
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/src
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-war
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-ejb
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/setup
+file bb9046de43029c200bb1fd52cff8029f0b23f07b chash=13172ba259ace19eb98b61b0e154c1b419834b6d group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/nbproject/ant-deploy.xml pkg.csize=1820 pkg.size=5542
+file 57f0b4cb855d95186d7e458112dc44f33204f58a chash=7710c02b3ca6c631ba519ccc8b3ee3cf8325a02e group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/nbproject/project.xml pkg.csize=1373 pkg.size=3686
+file 7f2cf0cf9cc4d2e522713f70d35f8855d158d08c chash=25588e7a2e6afbc5d07fe78c65bbaa8fe34f20ab group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/nbproject/project.properties pkg.csize=1390 pkg.size=3110
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/src/conf
+file 248c531a45e3899e6bcc1210bef8b0ac21d64c5e chash=58d0cd744f389eb832702de74604fde4169565b5 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/src/conf/application.xml pkg.csize=1221 pkg.size=2598
+file e3d75426e2f567c04c3c9fdfc504bfacdd53de89 chash=f1d6fb88bd01c71288c64dc1515870821d48ffac group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/src/conf/mail.properties pkg.csize=1057 pkg.size=2175
+file 8c7d59abcec4b8d6d169058bfd1ab18d504d61d6 chash=a1bcc9dd542114725ed3f5216295afb351816a73 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-war/build.xml pkg.csize=1221 pkg.size=2517
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-war/src
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-war/web
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-war/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-war/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-war/src/conf
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-war/src/java/samples
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-war/src/java/samples/connectors
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-war/src/java/samples/connectors/mailconnector
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-war/src/java/samples/connectors/mailconnector/servlet
+file 3554b471caa4c26c3da3d3b75e29508b0acaf882 chash=43327987fc46833a0e54b233b6a362f387431f5e group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-war/src/java/samples/connectors/mailconnector/servlet/SendMailServlet.java pkg.csize=2097 pkg.size=5620
+file d374d2400272a3e72f9b566831cac536e18c3096 chash=071b5b668d80e7be5d415735d3e4451c6004310c group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-war/src/java/samples/connectors/mailconnector/servlet/MailBrowserServlet.java pkg.csize=2803 pkg.size=8273
+file 875ec7960c154134e73c21093f041fc3cccd7535 chash=2f3949fd743428ca5fef6c284b85d7680bc53f76 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-war/src/conf/LogStrings.properties pkg.csize=1961 pkg.size=4695
+file 82d23b3a497059fc4a2e3930cbf1275512915303 chash=330509c1c435eae38ec6c71534b2051bc79f2101 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-war/web/mailbrowser.jsp pkg.csize=1528 pkg.size=4334
+file cd75b8ce007aec7947609109fb50516805d00faf chash=5e614de57a93511d424917659af1d47ea95e9be8 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-war/web/sendmail.jsp pkg.csize=1512 pkg.size=3959
+file ec358afc76b7c10f052dba4aa4def793d5debbf1 chash=c02f1970cffee8ae267d7643e12efc321f78be90 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-war/web/index.html pkg.csize=1488 pkg.size=3172
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-war/web/WEB-INF
+file 8e3462105f99368f098ff416f45b657c771c07b7 chash=0aca761ec2eff7d33e37ad46e0f2f2de45f51a6e group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-war/web/WEB-INF/web.xml pkg.csize=1457 pkg.size=3769
+file 2d8a514c266709c85cfde6b61a0dc97b0c3a6ee7 chash=bd6072e74163e2dac43a914eeaef081e582d8150 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-war/web/WEB-INF/sun-web.xml pkg.csize=1313 pkg.size=2842
+file 681a21ded32ce46051f519ee10c4098044e14967 chash=e91e7231d70e3dd6a8c56979bb547c0fbe5ccd46 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-war/nbproject/project.xml pkg.csize=1395 pkg.size=3357
+file d37d94b3c4abb5cfcdc2be57f19b0c1f4607e1f8 chash=5292ce2dfe226e86cae66737831489099553df16 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-war/nbproject/project.properties pkg.csize=1799 pkg.size=4297
+file bb9046de43029c200bb1fd52cff8029f0b23f07b chash=13172ba259ace19eb98b61b0e154c1b419834b6d group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-war/nbproject/ant-deploy.xml pkg.csize=1820 pkg.size=5542
+file ce2538cf35507d34db0a1f9d16ec8becfbd0f382 chash=766eed12f7e06ac921c68365f9db2a7793a8cb9b group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-ejb/build.xml pkg.csize=1205 pkg.size=2484
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-ejb/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-ejb/src
+file 9f3d0b478d9488cae74e7cb76a672e557a63a297 chash=22e67ad345f66efb8dd78f8fd76bd335667ba980 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-ejb/nbproject/project.xml pkg.csize=1188 pkg.size=2516
+file 57ed509ddadbc19a99b987beae23c7b5d56e53ec chash=0014a0ec8400f4176fdc70b31786505b2027a6d9 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-ejb/nbproject/project.properties pkg.csize=1609 pkg.size=3719
+file bb9046de43029c200bb1fd52cff8029f0b23f07b chash=13172ba259ace19eb98b61b0e154c1b419834b6d group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-ejb/nbproject/ant-deploy.xml pkg.csize=1820 pkg.size=5542
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-ejb/src/conf
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-ejb/src/java
+file 3432d55f5b1f97fc46d2481f1a60b7bb593cae4c chash=0f8ec0caf0bea4b458de1d92debc72cb60bf1e91 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-ejb/src/conf/ejb-jar.xml pkg.csize=1599 pkg.size=4831
+file c810d9d4f61a20f0d4535203588b4690e75f5825 chash=acf8d8e689ea912e4c4909c66576aa4ddd7e575e group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-ejb/src/conf/sun-ejb-jar.xml pkg.csize=1533 pkg.size=3477
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-ejb/src/java/samples
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-ejb/src/java/samples/connectors
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-ejb/src/java/samples/connectors/mailconnector
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-ejb/src/java/samples/connectors/mailconnector/ejb
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-ejb/src/java/samples/connectors/mailconnector/ejb/mdb
+file 7d1962d7504441d781bdb9990cf6f0c54fc04c2d chash=875f41febc1b4d4435e7c28efb4465c2d475c924 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/mailconnector-ejb/src/java/samples/connectors/mailconnector/ejb/mdb/JavaMailMessageBean.java pkg.csize=2694 pkg.size=7532
+file b04c3c96803806ee6c46150afe4a02d79bb7b222 chash=51058af1568f328b3d2b9a2309c19f3ad72ecaf5 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/mailconnector-ear/setup/build.xml pkg.csize=1892 pkg.size=7497
+file 564e57b0f23200173605b596fc12e04681202124 chash=5fa22ad2ad4d551b3d713ca2c66de4e050232c8e group=sys mode=0644 owner=root path=glassfish/samples/javaee6/connectors/apps/mailconnector/docs/index.html pkg.csize=7276 pkg.size=22108
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/ejb-embedded
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/automatic-timer
+file 7f45462b06eb8bcc5b55450eaeca88bfd1d91f44 chash=cede3de571f27e9841736dbd95382ab19db498c8 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ejb/ejb-embedded/build.xml pkg.csize=1373 pkg.size=3428
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/ejb-embedded/docs
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/ejb-embedded/nbtest
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/ejb-embedded/ejb-embedded-client
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/ejb-embedded/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/ejb-embedded/src
+file 6cbca39cc037e31d8dfe91af01d4fba63449aef7 chash=87057d683d03f66aff9818c860e0e82bd5c837a1 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ejb/ejb-embedded/docs/index.html pkg.csize=3454 pkg.size=9073
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/ejb-embedded/nbtest/src
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/ejb-embedded/nbtest/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/ejb-embedded/nbtest/src/java/ejb
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/ejb-embedded/nbtest/src/java/ejb/embedded
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/ejb-embedded/nbtest/src/java/ejb/embedded/client
+file 515b836357df8cb5f4dce8a1ed088238595ac298 chash=f114ea096c81e4ef5347e98b9ab7eeb86974c303 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ejb/ejb-embedded/nbtest/src/java/ejb/embedded/client/SimpleEjbTest.java pkg.csize=1387 pkg.size=3173
+file 45281aced97526d0d454509b895f034e64128863 chash=279f61e8175d9850efdee30cb75a037c7b310eb0 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ejb/ejb-embedded/ejb-embedded-client/build.xml pkg.csize=1308 pkg.size=2834
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/ejb-embedded/ejb-embedded-client/docs
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/ejb-embedded/ejb-embedded-client/src
+file 2e23e188baae1e1835159bdecc1c5f140f1f606a chash=4c30ae4abe75481fce2c49d66cabe5d623ab9d0b group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ejb/ejb-embedded/ejb-embedded-client/docs/index.html pkg.csize=3342 pkg.size=11685
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/ejb-embedded/ejb-embedded-client/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/ejb-embedded/ejb-embedded-client/src/java/ejb
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/ejb-embedded/ejb-embedded-client/src/java/ejb/embedded
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/ejb-embedded/ejb-embedded-client/src/java/ejb/embedded/client
+file ca9d610bb5d6e8171d13445ae24601e22839fb93 chash=8559501dfc5f58d3bbd760e0fff13b6a40fe7c97 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ejb/ejb-embedded/ejb-embedded-client/src/java/ejb/embedded/client/TestClient.java pkg.csize=1381 pkg.size=3186
+file e01ebeb77343a82e739e20e8bca7c134852e5c82 chash=e32acc319fc16910ec3980648094d9523c7e0376 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ejb/ejb-embedded/nbproject/project.xml pkg.csize=1211 pkg.size=2623
+file f0ddbd2e16d3e04c50f836eb3ada6cc2f5f1d04c chash=4c57bf693a2bc22c6f0c951e07ac41dd0c6aa5b5 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ejb/ejb-embedded/nbproject/project.properties pkg.csize=1620 pkg.size=3739
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/ejb-embedded/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/ejb-embedded/src/conf
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/ejb-embedded/src/java/ejb
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/ejb-embedded/src/java/ejb/embedded
+file 0b6ab2c778b2dcf36bfbd7bf524e69ce0395a8fc chash=0c3e798c9cd5e7d88dfbede49649ab5c796ba0b3 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ejb/ejb-embedded/src/java/ejb/embedded/SimpleEjb.java pkg.csize=1387 pkg.size=3040
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/ejb-embedded/src/java/ejb/embedded/persistence
+file 6e505177b441fa970a3da993594dc3f0158f1423 chash=9f855ec198d23fdc3be47b716ed851a34a6c5b0f group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ejb/ejb-embedded/src/java/ejb/embedded/persistence/SimpleEntity.java pkg.csize=1240 pkg.size=2642
+file c3c8b1c247cfa04133f7edbfcd90029ab783a22f chash=4effa8f3f23d9eebffb01fa2b00037220eba9035 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ejb/ejb-embedded/src/conf/persistence.xml pkg.csize=1273 pkg.size=2687
+file 22a31bc342e88d142d09893664e6c1bd9e6a59b5 chash=42bb65bbc93df58f332c5f1fbdbda831717811d9 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ejb/automatic-timer/build.xml pkg.csize=1420 pkg.size=3548
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/automatic-timer/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/automatic-timer/docs
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/automatic-timer/src
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/automatic-timer/automatic-timer-client
+file 8896e7c2a4fae7e46abf91a3eeef355a1fb1c5df chash=e8b4c32637be20c77b9712f6637b34da55ba4df9 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ejb/automatic-timer/nbproject/project.xml pkg.csize=1189 pkg.size=2518
+file 76abe2e784d5e1a106b82df063685b8a1d29e5e7 chash=4df5f6d872afb1087f1fd7a115540a675718813f group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ejb/automatic-timer/nbproject/project.properties pkg.csize=1606 pkg.size=3694
+file b2919dc893e0933812d08afcfcb6cbcdfe162f9f chash=bac2386e51df49e3ce26e97b2d774bf99af914ac group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ejb/automatic-timer/docs/index.html pkg.csize=3863 pkg.size=10386
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/automatic-timer/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/automatic-timer/src/conf
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/automatic-timer/src/java/enterprise
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/automatic-timer/src/java/enterprise/automatic_timer_ejb
+file b83663c0828d0fc886e41f4bb00df0956271f63b chash=2ad1e5e4b898aa0626dc78200bea1fa81ad7fa26 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ejb/automatic-timer/src/java/enterprise/automatic_timer_ejb/StatelessSessionBean.java pkg.csize=1485 pkg.size=3369
+file 3774cb8cd704b3b961000c3a02654995ac8f04b4 chash=86e86f52d89cca2836b54ad6fd53f6d2c463cd4b group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ejb/automatic-timer/src/java/enterprise/automatic_timer_ejb/StatelessSession.java pkg.csize=1078 pkg.size=2163
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/automatic-timer/src/java/enterprise/automatic_timer_ejb/persistence
+file a4f85d554fcacd28f7deb3753f275d8123483022 chash=7fa68ee095b4e55d5c76cc821d28dbfaabaee83d group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ejb/automatic-timer/src/java/enterprise/automatic_timer_ejb/persistence/LogRecord.java pkg.csize=1324 pkg.size=2858
+file dabbdd8e50330385ef800b9112198eb04a2d7b43 chash=4452868ccc4005231d0fa19e1fa89d4bf357a692 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ejb/automatic-timer/src/conf/persistence.xml pkg.csize=1269 pkg.size=2684
+file 32c76bedb41561aa421fda27d2550ebd5b830eb7 chash=c10f13c71fdcab7093d582e19e31a740ed5489c4 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ejb/automatic-timer/automatic-timer-client/build.xml pkg.csize=1223 pkg.size=2536
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/automatic-timer/automatic-timer-client/src
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/automatic-timer/automatic-timer-client/docs
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/automatic-timer/automatic-timer-client/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/automatic-timer/automatic-timer-client/src/java/enterprise
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/automatic-timer/automatic-timer-client/src/java/enterprise/automatic_timer_client
+file 286ac38fef10060d526d0082f632d2a3c8ccc5a5 chash=616a79970560439711dd318cbb9f3b54596cc437 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ejb/automatic-timer/automatic-timer-client/src/java/enterprise/automatic_timer_client/AutomaticTimerJavaClient.java pkg.csize=1346 pkg.size=2910
+file f1917aeef49ca32c38771eccb35061fec43db29e chash=28bb49db69da39dded60352aa8132af6b692dbc2 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ejb/automatic-timer/automatic-timer-client/docs/index.html pkg.csize=2811 pkg.size=7009
+file 40e51b7b8110bd19926591a60b454ec00e8d5d80 chash=eba57d37e1b4a2b27d537d062589a484be028482 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/docs/JavaDB.html pkg.csize=2361 pkg.size=5759
+file 003715adbe953eaf5c59603829c0bbe28d365d84 chash=3803048df4a881884a9437564601a6d1a50565b1 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/docs/UserREADME.html pkg.csize=4281 pkg.size=11877
+file 0722ae2435d64e37ab9761761ce8b88a0d82cbb0 chash=3be1e3b5dae4a3f821a4b04c4e950db178aae078 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/docs/list.html pkg.csize=4403 pkg.size=16704
+file 57f7f9cfc5dc23d883188737e5efd0b1a1919b1e chash=d369267c338ff68e47df891fb1d241dbf9d8d614 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/docs/UserTroubleShooting.html pkg.csize=2794 pkg.size=6076
+file e4e3fe73b736bd6068e0d158dc5b78659f7bcbf9 chash=670e6555432d6bca4c576c7b2560d436334edce6 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/docs/Components.js pkg.csize=979 pkg.size=2001
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/docs/javadb-setup
+file 07bfb7d9d43c41bfbab715676afb3fd665b6dac9 chash=33383f35b764d65a3c4ba462b98d40ad6b40cd46 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/docs/javadb-setup/build.xml pkg.csize=1723 pkg.size=4934
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/docs/javadb-setup/sql
+file a71707d79f838ddea1810eadb2f9d72a0f3c53da chash=8ae5f76c18355fb04ad2c88083db159fd3da3a61 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/docs/javadb-setup/sql/create.sql pkg.csize=158 pkg.size=218
+file ef1ba61ed497ce145bed270578ed7cb3ba04e433 chash=4903013ab63bd318f738a7ff90a7db6655ee7d63 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/docs/javadb-setup/sql/delete.sql pkg.csize=41 pkg.size=21
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/rest/managed-beans-war
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/rest/message-board-war
+file f38831cbf22348d3fa13c5fb3ab20294642c8fff chash=6ca09023d58ee390adf548ff091fc272508e07d3 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/rest/managed-beans-war/build.xml pkg.csize=1213 pkg.size=2526
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/rest/managed-beans-war/src
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/rest/managed-beans-war/web
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/rest/managed-beans-war/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/rest/managed-beans-war/docs
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/rest/managed-beans-war/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/rest/managed-beans-war/src/java/enterprise
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/rest/managed-beans-war/src/java/enterprise/managedbeans
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/rest/managed-beans-war/src/java/enterprise/managedbeans/resources
+file 03e4918dfd06c72c1fa3b85185f30e97fe77a9c7 chash=9c3b95c86d2770a0a0bcfaf5def0db7bc0cdc85c group=sys mode=0644 owner=root path=glassfish/samples/javaee6/rest/managed-beans-war/src/java/enterprise/managedbeans/resources/StatelessSessionBean.java pkg.csize=1078 pkg.size=2174
+file 0d69deae757f366d515fd492e8dc929d066e9cd6 chash=22799691f8d307bad6412eec922c70678cf07eb9 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/rest/managed-beans-war/src/java/enterprise/managedbeans/resources/ManagedBeanPerRequestResource.java pkg.csize=1482 pkg.size=3630
+file 5ab4f10157da34e4f328323bb7816409b56ea9ae chash=7e6c889e7c0297d7b04bb3788bb192f1bdccaec7 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/rest/managed-beans-war/src/java/enterprise/managedbeans/resources/ManagedBeanSingletonResource.java pkg.csize=1408 pkg.size=3479
+file ffea1d6156a3b39382948129b58aab2d8886399c chash=bde7fe385411e2ea40cf1e62d81dc7452d477289 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/rest/managed-beans-war/web/index.html pkg.csize=1257 pkg.size=2623
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/rest/managed-beans-war/web/WEB-INF
+file 666ccee3b7d8e7ca6eca19925c6b08a9df948026 chash=55f3de13063c70aa1ddeead2a97ffc8919322d16 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/rest/managed-beans-war/web/WEB-INF/sun-web.xml pkg.csize=1180 pkg.size=2376
+file d374ce28176721f8e176738a9ab44e37a93f97ab chash=5c8fb9c1f710fedb0fc6f4998be3ef15ed9d0b73 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/rest/managed-beans-war/web/WEB-INF/web.xml pkg.csize=1389 pkg.size=3155
+file 429fc6c21b98d955499ffa84164b239a00638e56 chash=5a319bfeef30431e3323e65638f0cf386fe7062d group=sys mode=0644 owner=root path=glassfish/samples/javaee6/rest/managed-beans-war/nbproject/ant-deploy.xml pkg.csize=1822 pkg.size=5680
+file 62c8a9e6511ebe9a3cfa20470e99bc5376735887 chash=3c2bd4b5a226b332e630e2118d3d878afc6c89a2 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/rest/managed-beans-war/nbproject/project.properties pkg.csize=1767 pkg.size=4097
+file baa8afe55492b05e0b5bbf59834b611cb2afe4b4 chash=410ed38349b0b94986a191357adfebc5053d67f3 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/rest/managed-beans-war/nbproject/rest-build.xml pkg.csize=1552 pkg.size=3721
+file f4286d0d4440b04016e208f8e84594ff8610edaa chash=856ba266cc3fe2ee8ec7e6302c9866e0cfb741ba group=sys mode=0644 owner=root path=glassfish/samples/javaee6/rest/managed-beans-war/nbproject/project.xml pkg.csize=1307 pkg.size=2917
+file 5e34cf0124b66a3ed59fa7cb905297e18ef53059 chash=637de16ec6b459453537281bcf3f9ca1d458e19f group=sys mode=0644 owner=root path=glassfish/samples/javaee6/rest/managed-beans-war/docs/index.html pkg.csize=3785 pkg.size=9719
+file eff58fe2eddc12f82d31df50388764815b1ae7cf chash=301d5af796f5f3259ee63fd55643658ab823b766 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/rest/message-board-war/build.xml pkg.csize=1214 pkg.size=2526
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/rest/message-board-war/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/rest/message-board-war/src
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/rest/message-board-war/docs
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/rest/message-board-war/web
+file 429fc6c21b98d955499ffa84164b239a00638e56 chash=5a319bfeef30431e3323e65638f0cf386fe7062d group=sys mode=0644 owner=root path=glassfish/samples/javaee6/rest/message-board-war/nbproject/ant-deploy.xml pkg.csize=1822 pkg.size=5680
+file baa8afe55492b05e0b5bbf59834b611cb2afe4b4 chash=410ed38349b0b94986a191357adfebc5053d67f3 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/rest/message-board-war/nbproject/rest-build.xml pkg.csize=1552 pkg.size=3721
+file 374dcae2bd83d3021544e68db05c0c36ff4ac2b6 chash=135e128f739578267af4128d6a9ed29627ed9b4f group=sys mode=0644 owner=root path=glassfish/samples/javaee6/rest/message-board-war/nbproject/project.properties pkg.csize=1749 pkg.size=4038
+file 5b6c21c46a967f94d0454f0e7a6826aeb4ce34d0 chash=4bc045503245aaabb4d29fd6d12ca9ff35449a93 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/rest/message-board-war/nbproject/project.xml pkg.csize=1250 pkg.size=2751
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/rest/message-board-war/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/rest/message-board-war/src/java/enterprise
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/rest/message-board-war/src/java/enterprise/messageboard
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/rest/message-board-war/src/java/enterprise/messageboard/resources
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/rest/message-board-war/src/java/enterprise/messageboard/entities
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/rest/message-board-war/src/java/enterprise/messageboard/exceptions
+file 688b354f1dccf8aa3699393b5eb2ea60f35cf62e chash=6be201a44b2ab8231d2bf7674cf5738e6eb9cf18 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/rest/message-board-war/src/java/enterprise/messageboard/resources/MessageHolderSingletonBean.java pkg.csize=1484 pkg.size=3819
+file db9ec6d821dfd711094ae157fbed364dc2607623 chash=9df78e2f36389151b74aec203d40d19690a60fbc group=sys mode=0644 owner=root path=glassfish/samples/javaee6/rest/message-board-war/src/java/enterprise/messageboard/resources/MessageBoardResourceBean.java pkg.csize=1460 pkg.size=3539
+file 32f804df3a40dfbb6082b412655308d1a900bdfc chash=713f788e7125c08fd810ec65ddf7c5a35637506e group=sys mode=0644 owner=root path=glassfish/samples/javaee6/rest/message-board-war/src/java/enterprise/messageboard/resources/MessageBoardRootResource.java pkg.csize=1120 pkg.size=2324
+file 87905603df1e3ff75002fcc7b4bc71da44f56e86 chash=bdf153e56559418d18d500b058c867e6eddf1400 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/rest/message-board-war/src/java/enterprise/messageboard/entities/MessageListWriter.java pkg.csize=1648 pkg.size=3959
+file 556697555f20c4d871c5ce722ee914ca507d5880 chash=389c3f901e04914378b410a54bdf9d6f964363f1 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/rest/message-board-war/src/java/enterprise/messageboard/entities/MessageWriter.java pkg.csize=1335 pkg.size=3044
+file 77fa3b844806db3555600838d167dee293fb6be9 chash=857f6f9324de594c83e4dd1e7e70a34afd240ab7 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/rest/message-board-war/src/java/enterprise/messageboard/entities/Message.java pkg.csize=1209 pkg.size=2621
+file 2f4eb7dfbfb0bf17937e6e630511a3ccc9102655 chash=0dd0eebf290436d4a3ed6f44eca39b6fcbb8bdab group=sys mode=0644 owner=root path=glassfish/samples/javaee6/rest/message-board-war/src/java/enterprise/messageboard/exceptions/NotFoundException.java pkg.csize=1022 pkg.size=2085
+file 1281f1d57e1483c39925fb2d7fef38cdfac44406 chash=018706d545dc73b7a5a6bb551343350e54a482ac group=sys mode=0644 owner=root path=glassfish/samples/javaee6/rest/message-board-war/src/java/enterprise/messageboard/exceptions/NotFoundExceptionMapper.java pkg.csize=1127 pkg.size=2351
+file e566c197eb4b190e7a484bedd1cdb25c2c159f80 chash=9ce14e676a8ae4bd6b4314df58be721d9dc89a44 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/rest/message-board-war/docs/index.html pkg.csize=4167 pkg.size=11379
+file 7a7c5deb795ac9d81154915ed1731a1f50b32ad0 chash=71eaa4c3ef12557cbbe4ae5284509cd4f5300d9e group=sys mode=0644 owner=root path=glassfish/samples/javaee6/rest/message-board-war/web/index.html pkg.csize=2069 pkg.size=7531
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/rest/message-board-war/web/WEB-INF
+file b358d73945a5e3c6539e1053a8a11391a3fec1d4 chash=edbfc764ce45cb0d8bb677a74362aea0a88efa63 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/rest/message-board-war/web/WEB-INF/web.xml pkg.csize=1333 pkg.size=2952
+file dee62ed942c1c0fe232e2ecd2644b5581f552020 chash=4e84e9812dbf7c95d9066c7b5d987847efc0e154 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/rest/message-board-war/web/WEB-INF/sun-web.xml pkg.csize=1180 pkg.size=2376

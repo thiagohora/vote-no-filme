@@ -1,0 +1,198 @@
+set name=fmri value=pkg://release.javaeesdk.oracle.com/javaee-firstcup-tutorial@2.1.2,1-2:20120406T203926Z
+set name=authority value=release.javaeesdk.oracle.com
+set name=info.classification value=Documentation
+set name=pkg.description value="Your First Cup: An Introduction to the Java EE Platform. A short tutorial and examples introducing the Java EE platform. Includes step-by-step instructions on creating a simple web service, enterprise bean, and web client."
+set name=pkg.summary value="First Cup 2.1 for Java EE 6"
+license 81497f602baf1a6c65f73642511bbd5fc4e9a8ca chash=b96a41ac0cff0a036d81cec6e525c180e7a5ff11 license=BSD_LICENSE pkg.csize=918 pkg.size=1723
+dir group=sys mode=0775 owner=root path=glassfish/docs/firstcup-2.1
+file 81497f602baf1a6c65f73642511bbd5fc4e9a8ca chash=b96a41ac0cff0a036d81cec6e525c180e7a5ff11 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/license.txt pkg.csize=918 pkg.size=1723
+dir group=sys mode=0775 owner=root path=glassfish/docs/firstcup-2.1/doc
+dir group=sys mode=0775 owner=root path=glassfish/docs/firstcup-2.1/information
+dir group=sys mode=0775 owner=root path=glassfish/docs/firstcup-2.1/example
+file 5e01314fa2d3bdcb616e6430bc3b7aaf8037b231 chash=8816291d675c8004c85cee89a73a9a59480196bc group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/gkhqt.html pkg.csize=2750 pkg.size=8810
+file ca3a5a8e7702ac7bc98b0ff0a9d4202bdea85b8c chash=c681317a5fb0068d4b0da550d33333e074c06a62 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/gcrlx.html pkg.csize=3674 pkg.size=13556
+file 985034c80cc5cbd6e0609a02d4964398468cc932 chash=b1e27fdbbb7d2c263e1e8c83e39011783fb3c058 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/p1.html pkg.csize=1112 pkg.size=3357
+file 5275504b10fb8fd93f4b4c1a7d70a01e8c456e3c chash=1d4a3e8a4b1e706fde95ba76b7b1652bb624bd1f group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/target.xml pkg.csize=2459 pkg.size=18867
+file 282dd93e4eb6a0f7c53b5695fb3910a390ea4a8c chash=386ce7c0b9b59ee25c5df40f0bcca2496643874d group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/gctnx.html pkg.csize=2444 pkg.size=8858
+file c9b88e1e4a34167c3dee1adf5062d8a23eb02668 chash=623abe72545b173cfd00865e0439c5f8bc7eb9ab group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/gjbcs.html pkg.csize=3333 pkg.size=12467
+file 600f172e081dfebaf76f37fa536a4e4138b65eb9 chash=cc14e6b3197ada668e5125bd6c0c75a4c5f81742 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/gcqyu.html pkg.csize=1241 pkg.size=3698
+file ac3682233daf8171084b584c471acb2b8f687d7a chash=7993f5bcf35e4ec13c4e092d051594921c119d62 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/gcqyw.html pkg.csize=1234 pkg.size=3703
+file 84d78ac0bb0b09dbf8369ebbd8f54820516e763c chash=4f569266d82b443eb27ee975c60c75602306215b group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/gkhra.html pkg.csize=1366 pkg.size=4388
+file 04310ca80ee466a9a1a5b6662000b65b45d6aba7 chash=e14e8ad578488baed072e1c305fc5d81a16a94b5 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/eqqfd.html pkg.csize=1422 pkg.size=4123
+file 0d9b5b302cb562aff73bdedc83a52fa13d8cd784 chash=a3c688ea6ae74c07d6b6fb28bd2e089e992da2fb group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/docinfo.html pkg.csize=2995 pkg.size=7725
+file 539ab4ffc6000b9c9ec8d11658a066971dc5068b chash=bcad6d226ebd5435bfd6c07480a37049a029e8fd group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/gcrkm.html pkg.csize=4423 pkg.size=13956
+file a9da2df75d749c35a77a31676f09753e0c82516b chash=0878056921ccff1695c1e6d67b4bebbcb0ca5471 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/gcqyb.html pkg.csize=1324 pkg.size=4149
+file 294d5ad8280d83c1c1a6b42ad2cf430c2ff590ac chash=83b47142a3b68d8ae009c2956a715deaa8fb9d71 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/gcrlo.html pkg.csize=1544 pkg.size=5428
+file 1229b2b50a63356800deb0e4a7aee87c5e83ad61 chash=7aeb0d6ea6ece17cc107b6415d385d3690cf444e group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/gcrkq.html pkg.csize=2119 pkg.size=7145
+file 4e46b813fa66fce7ab0a4d88d488bb0662b814a9 chash=d802e27fb7882a40c2deb2e337bc314d15482441 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/gcrku.html pkg.csize=1530 pkg.size=4694
+file 6fa208660cdfb41f138cc2024c8c4b19f48ff117 chash=2802d744d9aa94e4c151a13befd5205525decd2f group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/gcqyj.html pkg.csize=1403 pkg.size=4447
+file 2839e2ecc77a235abc047c077938ca5e560ef2bc chash=d7f007821fe70be6a75e7cceee8d7fb782e86484 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/glcfc.html pkg.csize=2289 pkg.size=8327
+file 3c62a8f6bf17da164bd120b3f559aa2ceeb845b5 chash=d9f77c169c1b35b4ce34b07781af0c1686950934 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/gcrky.html pkg.csize=4049 pkg.size=14745
+file a07ba28dd3597dd14f74086fe056710080e9002e chash=bdbc936f08fec9940932fdca8427ecfa38499bad group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/gcqzl.html pkg.csize=2214 pkg.size=6977
+file aca2de0d10989be12d9d6c273fc80ad2c0f2dbb0 chash=569713a8ab8637b6ccb78cdc8bf73fc847e143ad group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/gkhoy.html pkg.csize=2581 pkg.size=8294
+file 2b7ffd51e4cdc7fd6de7925ea0cdf5df20d88c3c chash=f6a255d59cc6a99f054f31624ea30c8894687e31 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/gcqyr.html pkg.csize=1279 pkg.size=3770
+file 307245ddd024fca480b230756811b7445344ea72 chash=400ec4393df71f383f66036cc6868b989c055c53 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/gcqxv.html pkg.csize=1248 pkg.size=3761
+file a8403a8329c95377f1288d54e64c3c15f3e24dd4 chash=a1db67316efa7c74158c933e11f62ddb6cec0f63 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/firstcup.pdf pkg.csize=602717 pkg.size=744452
+file 97c0f3b8e5286a705a54362e8e9c90796bd3fe63 chash=3aab4efb0ff2b94423f97a0d103170c0479758bd group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/gcrlh.html pkg.csize=1342 pkg.size=4244
+file fbcb58f3b61dfe6a3bb47b95bdcc02510eaf5791 chash=6f0973103daa007c074992b7e8cc10733c5e562b group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/gcrll.html pkg.csize=1315 pkg.size=4102
+file a93edcba13e0b2c481b1345d299d6a1b3446799a chash=040adda313e15aeb429055e419df926b7d59bffa group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/gcqya.html pkg.csize=1689 pkg.size=5365
+file f9add2999d084f3430a5cb5bba31cc75ee5be7e4 chash=d56a7033c5cadf95a8c7307bdcb1383a8e2b71fb group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/gcrkp.html pkg.csize=1427 pkg.size=4590
+file fbd012bb4c9b724e3f50d33d89e195659e35dd40 chash=d01dcdcc1bc53441bcc12fafc155bdc671c5e0b6 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/gjbca.html pkg.csize=2304 pkg.size=8530
+file 985034c80cc5cbd6e0609a02d4964398468cc932 chash=b1e27fdbbb7d2c263e1e8c83e39011783fb3c058 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/index.html pkg.csize=1112 pkg.size=3357
+file 1674d1383444132567d1e55276efaa02150f1973 chash=07f97eec1f094ab4d44c0df2a36d5f619a78dd74 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/gcrlt.html pkg.csize=9270 pkg.size=39723
+dir group=sys mode=0775 owner=root path=glassfish/docs/firstcup-2.1/doc/figures
+dir group=sys mode=0775 owner=root path=glassfish/docs/firstcup-2.1/doc/css
+dir group=sys mode=0775 owner=root path=glassfish/docs/firstcup-2.1/doc/graphics
+file 0bbe167cd15c339b71d9b03834184eb26d339ebf chash=3f04fc09983ac4d3498f0c7b448280ef40f03290 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/figures/firstcup-architecture.gif pkg.csize=33255 pkg.size=33362
+file c4e92566726dc735cc06453d532c6fa9a4c2a68f chash=9e1819992d271bdf78698330ca0b54a3ab309bb2 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/a2_menu_corner_r.gif pkg.csize=139 pkg.size=136
+file 27597e0379dbb347b03f8c4f587c870b229e6fb0 chash=049796548febf113f7352d7ee3a9cb253ca4dfe2 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/logo_sun_small.gif pkg.csize=1065 pkg.size=1042
+file 962547979429187b5d27accaf4e7b0aa9ab9f666 chash=3c9d8f9ce0ee5572a9ef3aea963d2b488653cac3 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/a2_corner_bl.gif pkg.csize=132 pkg.size=112
+file cb8b77fa7a56fe392b96e9c4d5d1188151296e12 chash=92856248d4238f794b2a6049994557161baf96a7 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/BR_b8b8b8.gif pkg.csize=78 pkg.size=60
+file 859b7e367e6ae6bb355487a9391d66b85be14cc8 chash=b50391704380dd9978ac671cbc0e763ce4e8e9ce group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/a2_menu_on.gif pkg.csize=409 pkg.size=401
+file 695d5d6309c78255e7fb2a4c9a49fd57e2b2fb85 chash=1ce759965253bb708e72f78b4fc6a3f29bfdb4d7 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/bg_white_to_grey.gif pkg.csize=592 pkg.size=569
+file ae0828db2ce3e733fdf6a1e49759abb71d69d5af chash=4df15d22a764bb05ec47998ebc62d2fb2eedc7f9 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/a2_bg_logo_wlinks.gif pkg.csize=6724 pkg.size=6701
+file d6f59e1c5cb62b3fdd9c6a078ec72665cd382d05 chash=fa1e2f230ce579ee7670d4792c32904b18a79e1b group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/a2_corner_br.gif pkg.csize=131 pkg.size=111
+file 19906c70e2c3cb83889eee417bb8fd97b1c7a327 chash=7f7d6cc8116c453e0b3987031f21443144598d8e group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/a2_bg_logo.gif pkg.csize=6493 pkg.size=6470
+file 2362b62d4bb73d098b39a13924759e13ca66b98a chash=69aa15dd80c67aefe4b279f8ce0f6e84ccb8ea52 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/BL_eee.gif pkg.csize=79 pkg.size=61
+file a0097cdd2bd1f45f9143daa33e98c42c48dd2c56 chash=41dc2bfe5d9fc00e4b7d3a1ea4d6c5f5f5122447 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/ipg.css pkg.csize=863 pkg.size=2772
+file 4aa731297041bc5dbff719a4937995ace09db2ba chash=b2b723fa9cc01911241cb36f41e6ac6d501aeb5b group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/BL_c8c8c8_zoomed.gif pkg.csize=134 pkg.size=120
+file f221c4600648323f23d712b8a6350a52e82be58b chash=c35bab7bf77f7bbaf969edf32269b904020c1e54 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/TL_fff.gif pkg.csize=75 pkg.size=61
+file 7b64ec7ecec9c010d281d63e2469f091dfbe4075 chash=b0cbc4e75eba35bc44e2941df9c58ea7ce137052 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/BL_zoom.gif pkg.csize=134 pkg.size=115
+file afb21863b9b2978acd92b602a642c738bec9e440 chash=6966a4891c13173f6d5156d65d874521592ee68a group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/TR_b8b8b8.gif pkg.csize=78 pkg.size=60
+file 626fbce0f608a4de5a9b8d52449cc72346cdc7b9 chash=1da476ef085a3ea3a31e8e2acc6bf165b14fb993 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/corner_navblue_tl.gif pkg.csize=82 pkg.size=74
+file 703fa0f02b45cfefc779c6a7bea5a6d2bc210e37 chash=1e8b0dc07f0c53c4ad6184ada688f28a84d7ec79 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/TR_fff.gif pkg.csize=74 pkg.size=60
+file 42d671eb188d3d4c16643ffa2cd773dbe5c5a9d5 chash=71fd6d2949680088c9f7098f9211816984d0869f group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/corner_navblue_tr.gif pkg.csize=83 pkg.size=75
+file 024000d0a015eb67c7d33f49bc1287819ab6175f chash=0d1aa2ef813717557f0f6e29488fe195e3093b5e group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/generic_tl.gif pkg.csize=75 pkg.size=61
+file 6c4b7a061b120bd470a2e09a2bb8a50b15b4e7cf chash=d7162b94f07a7a012039ca1c13aabfc9a6f6f811 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/bg_titlebar.gif pkg.csize=4315 pkg.size=4337
+file c4b9f7dc077ff93aaa318699254f30da5dc23e52 chash=f762d7d888f90274bc56c4d08f0c7a888c89e349 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/ar_lg_orange.gif pkg.csize=119 pkg.size=117
+file e2489fc1323b823449b94efc88693dc8515cac3c chash=d65ce7aa85f905892c1be91dca07c2239d96235c group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/BL_c8c8c8_zoom.gif pkg.csize=158 pkg.size=155
+file 5c9e7d5a59ff5f8df26734d81df3d254e34e8678 chash=72f05042d30d3338290c76a7d0bcd37c92bf738c group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/generic_tr.gif pkg.csize=75 pkg.size=61
+file 135b018103f7cb2a5199c8cc743a983117c5e9db chash=21520edb5115c7e38af01ac7ac4516d00bd2a696 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/BL_fff_zoom.gif pkg.csize=158 pkg.size=155
+file c251b65718a61d90db43cb9e9d870b24c0e4858d chash=fd77283062bb81fbfe4958d17ebd8a6c3e9969a8 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/BR_c8c8c8.gif pkg.csize=78 pkg.size=60
+file b0838bcc6b25c3464077890ba31b359b3c764e40 chash=63977d4b16b866242e634d376e6213e7479366f0 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/TL_eee.gif pkg.csize=79 pkg.size=61
+file 703250d41f9289c048d20219ae1d13787db86ef5 chash=34d40498e2bfad7b2369058548663a824e1ed36d group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/bg_titlebar2.gif pkg.csize=2380 pkg.size=2357
+file d447ef45a080d299bf7725d72187930050fdf8e8 chash=e014de1cc0d790ec569c87d7c96e6dd4b59c2142 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/bg_titlebar3.gif pkg.csize=2295 pkg.size=2333
+file 68e3dccd1924153b111fa1343c91910f0670f93d chash=33009687e8004b296b09d87f9a2e46df5aeae70c group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/a2_background.gif pkg.csize=1053 pkg.size=1030
+file 688177f0722252ffbb94a974e56e4b9ef085a53f chash=e37d67ca2bbc5a35d12982e8a89dd946f49f9bea group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/bg_titlebar4.gif pkg.csize=1548 pkg.size=1525
+file 7527e26ce90a2a7e7bc4d93f634fa829701c81d5 chash=ada74b5e205a6c21d69699fa45f8e8c615986b7d group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/bg_titlebar5.gif pkg.csize=438 pkg.size=415
+file 43f7c3984fed2105e317691da6fa2e30056f9ad4 chash=3a54a1ded4143b5cf841d9dbc092eccb17dbdb44 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/TR_eee.gif pkg.csize=79 pkg.size=61
+file a815030a14f0e27feb4e3d007c6c8297a13a7145 chash=e31a803bc11699238cb45868ab5f133b9dcb7b9f group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/bg_titlebar6.gif pkg.csize=491 pkg.size=468
+file 2fe796213f6df0f31fb0ee21d860c28ed5a769b9 chash=1c8e883b17c9edc05c0c65374b3b48608c054d3e group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/bg_dksunblue.gif pkg.csize=921 pkg.size=898
+file 0a1aabc9238ca4785805d36eaf3fddc3930a0c91 chash=3ef76b1af076af949388ce6d37cbd836341a7a3b group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/TR_c8c8c8.gif pkg.csize=78 pkg.size=60
+file 16896f9a79e0b8d48b9a5cd80cc3a0f0ae4d86fd chash=7e81499d5ca402765225be8dd2be9f7e8aeafaef group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/BL_b8b8b8.gif pkg.csize=78 pkg.size=60
+file db7627f3d046f0b96f40288d2df3449fed7db316 chash=b3970e1ec93548ed5faac46eccc91d603fec0686 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/bg_navgreen.gif pkg.csize=1356 pkg.size=1333
+file 1713fdc17d3af4ea0f93e9a6ca8475483452ade7 chash=0088e9b7e9668c2a7e50c0484c3a78e27b47a9f4 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/BL_fff.gif pkg.csize=76 pkg.size=62
+file 8112f8cc3e37a4a023659c673d3e4bd60474ad04 chash=527e9ee8c915b7566126d4dc0f689b8e1b7c8049 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/bg_home_b3_iewin.gif pkg.csize=140 pkg.size=119
+file 4c4ad4cfb9ea83adc9f38b83b6801f401072ef40 chash=05fce5c70e3870a0688cbe04ca092f854bc83d40 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/a2_menu_off.gif pkg.csize=86 pkg.size=69
+file ef387bd9f760d258f64dd5fc4c4a86f7b8e0d474 chash=ac9aaffe004ca98b6dad6109b5d82b0b6dd7f3a2 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/BR_fff.gif pkg.csize=75 pkg.size=61
+file 2613f159980f5aa13b98fbd29c445ecd126a4a13 chash=c346f92389fd668526d5a49ec7cb0062d6712a01 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/bg_sunblue.gif pkg.csize=399 pkg.size=446
+file 81c49abe5ca19ec6712d06f3f21cc24baf443f22 chash=12a954293c7791340b539dafe92b8fbd47c89e0f group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/ar_lg_orange_h.gif pkg.csize=124 pkg.size=119
+file 2f6f22ba0880e2ea6104403319e4ff912d35378c chash=7fd9b2c6acb8c653db1d0d2ed5fd94f9790133a9 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/BL_eee_zoomed.gif pkg.csize=137 pkg.size=121
+file c4459aef78c71d19a0ded14b5829eb2bbb8f5359 chash=36287bf474a8bb4b751aa72b4ec296599c1d599e group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/advanced.css pkg.csize=19897 pkg.size=97531
+file 32a1f2d7dfaaf9a7119f562b9d58884ae9fd839f chash=b9c0b54ceb2f0a729c14eb03af43f0398d7db5dc group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/generic_bl.gif pkg.csize=75 pkg.size=61
+file 75c429c365e0eafbcd0060e476077ac633f3241a chash=f8f41330dff832e6b6b732e86e7583b2a07060a9 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/ar_dbl_blue.gif pkg.csize=104 pkg.size=84
+file 8d9a30ec5fba60456f1e2bd7e1ee71b6e318967b chash=23d1f4bd635f1569a7143af4f9cf3392388338f2 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/BL_fff_zoomed.gif pkg.csize=133 pkg.size=120
+file 82368a501dca7fcea5d822ee7d1d9a061c582236 chash=8e0515e6f4e8567172f4aee5ae620057990194d8 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/TL_b8b8b8.gif pkg.csize=78 pkg.size=60
+file 3cfa73dbd75b73e2a55462cc0348cedde0491fc9 chash=4a68992c2cf699d8bba1fc10826810d1caf718d4 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/generic_br.gif pkg.csize=75 pkg.size=61
+file ddbbc59a4022735f38d55113794eed9ff9c9d400 chash=de0ece15cdc3c9a16b8e47e804c06bb7703deac9 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/a2_bg_logo_wolinks.gif pkg.csize=6578 pkg.size=6555
+file 161250f875561f7fa3de3db403985c5a2e022d33 chash=b1677ff1d3f31546cb5e1175a87be1893e051089 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/ic_bullet_white.gif pkg.csize=65 pkg.size=48
+file 5db2213fb503d2f04fc3c3429d7fbdb03e5b640c chash=6918cf4e872ef9d3324cf865fa4075ef75de50dd group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/a2_corner_tl.gif pkg.csize=131 pkg.size=112
+file 71984ecd558add490232dc86b7b0a1b409f4ce7e chash=27bfa6542ecb40b83f5d93a6804bf135ec99c12a group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/bg_sunorange.gif pkg.csize=770 pkg.size=881
+file b4f57ca00582fa060c6de7e671bf3d580a68f185 chash=495cee17aeec1a067b47ced33953bee556cd0968 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/bg_sunyellow.gif pkg.csize=974 pkg.size=951
+file 2d882ca08afe3fba5a63c6d528fba28d8c24fd6b chash=4f843cf18f89f9b35bacfe900e2a2a8c3ee7ca4e group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/bg_lightyellow.gif pkg.csize=551 pkg.size=528
+file 225326dc7c0e01578559c952568ba742dc8d5ff7 chash=0176037ca9dd8bef719347c0ff68c343cf03ed66 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/BL_c8c8c8.gif pkg.csize=78 pkg.size=60
+file d20603330145536949cd37c2d90a8aaaf07096a1 chash=d9f98905db7587ccf3890ad13d9211a4d7b8fb53 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/BL_eee_zoom.gif pkg.csize=163 pkg.size=156
+file b8c910535cd805e78ad3f3ac47338e8179472f16 chash=3cb9189342d52a17e1ac7a3fc282834960a10947 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/a2_corner_tr.gif pkg.csize=129 pkg.size=110
+file 2daeaa8b5f19f0bc209d976c02bd6acb51b00b0a chash=9d9614010199ca9b47b777aa4feab3c2c29f78a5 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/a.gif pkg.csize=57 pkg.size=43
+file 7495ab9871d2c18ce6229eb752364635756722bc chash=e12cd2add223d9c77c58da1e11357dbf88c2e7a6 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/BR_eee.gif pkg.csize=79 pkg.size=61
+file 1d5073fa6e48a439cf4d9a3e3214e931011fb850 chash=3e628c60482d2275f23f5cd8bd64dff946ac7f17 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/vnv1_bg_logo.gif pkg.csize=7193 pkg.size=7170
+file 517451a42710a42d2b7767ac1a5400d97209125d chash=c773441e24d7e8918aa0e67f6ad1ec3b2cb98d2f group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/bg_home_b3.gif pkg.csize=144 pkg.size=123
+file 9d70bbd011df65b4a34b1c73c4c3935afec859e4 chash=f56dd250b3b0a55ae4c28d4f5286fbec8e7e453c group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/bg_home_b4.gif pkg.csize=281 pkg.size=258
+file 0fd15dff92eb0d23b109b77208ede7d7a26e3043 chash=d698f1321b1cd105be77b2a0afa013d78fdde053 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/ul_bullet.gif pkg.csize=74 pkg.size=57
+file b6307ad45c4c19c93db657ee16a31d0d839f600c chash=825a3a9b23aa9be36d2c584f566d95d35bb6e8f4 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/TL_c8c8c8.gif pkg.csize=78 pkg.size=60
+file 4f86a2b1600d8d86a2b26ee9d92c9624d7f2f3c3 chash=bfb6117379c3e789da82ba7f9175991d0e5eac59 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/ar_single_black_bold.gif pkg.csize=120 pkg.size=108
+file da2684f3d8df9c7c87690e85096e5c5aed9d5b01 chash=756ae0000e2c878af01c9bc95c770332c16eb139 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/a2_menu_corner_l.gif pkg.csize=140 pkg.size=136
+file 3328fd30a4a8f739abbe7dfac8560953d36134b7 chash=8311debc0549f7332ae31a9f6746499337b8671f group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/javaeetutorial.css pkg.csize=533 pkg.size=2251
+file 21d90a043d943387a7e59619185495313b3c4c08 chash=7e9e22d3b6f7a8a41c2e6ea6d9c30dfc63c88116 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/bg_navblue.gif pkg.csize=1313 pkg.size=1290
+file 1347458436a047df553076d0e2bd73579bf862cf chash=7c46b15ce407cadb26ca1bfd2908f9e19022e697 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/a2_menu_on_s.gif pkg.csize=373 pkg.size=370
+file 6670cc3d561eedf95f6087ad4ac7b5e0ca4d5e99 chash=09072472f87a8226e37c73b62ab867d12d562d73 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/default.css pkg.csize=5619 pkg.size=20742
+file 3b987ff099bd7841983b094ad8d795447a49d134 chash=8e06a21dfa282f8ac969f65046b66a48b4036f7f group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/d7_tab_bg.gif pkg.csize=1084 pkg.size=1111
+file db1d34c4ef99701545d09be2c1e04a189917cdea chash=add5de2da31e995817af68038994ead28bf89756 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/css/BL_zoomed.gif pkg.csize=110 pkg.size=93
+file 67990e95b34305a901065e6bd6145417cd215128 chash=cae767433e0b25725c2c817e4060f620a44a79b8 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/graphics/upButton.gif pkg.csize=376 pkg.size=434
+file 0da2a93c680b616e897121ef594cbbf92b969340 chash=a7108e9a70d3cc68d7933e288e5ce5b72833bf1b group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/graphics/javalogo.png pkg.csize=1937 pkg.size=2255
+file 6e02c2260de6f9fdd38bd609803e40e758b63335 chash=f1121f9861ca37e13d3079b5769332e489b7e447 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/graphics/leftButton.gif pkg.csize=367 pkg.size=425
+file 7c012e53469c81a53ab54a0ebea1c6a36a684171 chash=4e3666238894cd9a4b68be7ed6ae456d1fc33e31 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/doc/graphics/rightButton.gif pkg.csize=362 pkg.size=423
+file 9116ad708c3c6053299db51fff80e3562e1a5354 chash=24abf1a1076ca4b8cdd1f3395eab8dfc386cafac group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/information/download.html pkg.csize=645 pkg.size=1262
+file 638cd58fea69d2e4618ea1ed5161449f126fe03e chash=fe2691e85de0dbfaed2d2e4a83f57ccde2d9bd09 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/license.txt pkg.csize=919 pkg.size=1724
+dir group=sys mode=0775 owner=root path=glassfish/docs/firstcup-2.1/example/firstcup
+dir group=sys mode=0775 owner=root path=glassfish/docs/firstcup-2.1/example/bp-project
+dir group=sys mode=0775 owner=root path=glassfish/docs/firstcup-2.1/example/dukes-age
+file 856519bb87b5e2d0214cd0f73611cfe7925c9819 chash=9035be6e375f123f4cc2f926a86c657b0c7437de group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/firstcup/build.xml pkg.csize=177 pkg.size=229
+dir group=sys mode=0775 owner=root path=glassfish/docs/firstcup-2.1/example/firstcup/nbproject
+dir group=sys mode=0775 owner=root path=glassfish/docs/firstcup-2.1/example/firstcup/src
+dir group=sys mode=0775 owner=root path=glassfish/docs/firstcup-2.1/example/firstcup/web
+file 3ac27a4e271f02f591440b8ba0aea67762091ae0 chash=1bb98492ae6012887d31f0a36bc5389460524361 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/firstcup/nbproject/build-impl.xml pkg.csize=8598 pkg.size=57623
+file ed9b35c71bf88b04c8eb13cf767919e884a55099 chash=05da4ff4c72c89ac8ef336fb44d292adf20f4746 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/firstcup/nbproject/faces-config.NavData pkg.csize=233 pkg.size=441
+file 48f6928c81e9a671d0b9a5906025dbe3f94dc7e3 chash=0acaa7a3012650b97c464ba3436d47063b21b55c group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/firstcup/nbproject/project.properties pkg.csize=1273 pkg.size=4507
+file 211810cbabeb388a4159161a92fa882e5c59bbe7 chash=a62a6d59418a75d12a50ad154930ee2574869822 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/firstcup/nbproject/project.xml pkg.csize=297 pkg.size=683
+file 8525d8ed4b3efb777da81aa61f5ee002e3e2cf28 chash=1699f070bef4b2e12873b2575881ac43f71a998d group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/firstcup/nbproject/genfiles.properties pkg.csize=273 pkg.size=465
+file 506f970c3bd272d9978a54a4a9df161f3e277d97 chash=73440ca738fecc2e319dad4b6d0ee90f2ed6548a group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/firstcup/nbproject/ant-deploy.xml pkg.csize=1142 pkg.size=6784
+dir group=sys mode=0775 owner=root path=glassfish/docs/firstcup-2.1/example/firstcup/src/java
+dir group=sys mode=0775 owner=root path=glassfish/docs/firstcup-2.1/example/firstcup/src/conf
+dir group=sys mode=0775 owner=root path=glassfish/docs/firstcup-2.1/example/firstcup/src/java/firstcup
+dir group=sys mode=0775 owner=root path=glassfish/docs/firstcup-2.1/example/firstcup/src/java/firstcup/ejb
+dir group=sys mode=0775 owner=root path=glassfish/docs/firstcup-2.1/example/firstcup/src/java/firstcup/entity
+dir group=sys mode=0775 owner=root path=glassfish/docs/firstcup-2.1/example/firstcup/src/java/firstcup/web
+file 6beccfad894adc287d665261b15275f8a0847bc8 chash=fb2095ef274f890c4f1f9ec8135eb6e0afd77c0b group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/firstcup/src/java/firstcup/ejb/DukesBirthdayBean.java pkg.csize=917 pkg.size=2282
+file f807c489bcb86b052f09034e6894963035269ce0 chash=128bfde5dcb275cc0b0a3ac2ede4e952f9f8ef67 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/firstcup/src/java/firstcup/entity/FirstcupUser.java pkg.csize=1027 pkg.size=2932
+file 379d95b9d21cd5c5fe7bd02c50847d3a0522cad9 chash=e0c026b430d7da107a825d25e4817d2858685043 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/firstcup/src/java/firstcup/web/WebMessages_es.properties pkg.csize=314 pkg.size=489
+file 5f8d478d661a28ab08c82aab60c64ea9d9bc1276 chash=10bdd7f5dedc980d619e7a5f01fd114732df281f group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/firstcup/src/java/firstcup/web/WebMessages.properties pkg.csize=278 pkg.size=414
+file cf33c4d4e22b5078465500951d3b3912a41c5047 chash=b26c80b4effc0c284f38182f3a450485f3810abc group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/firstcup/src/java/firstcup/web/DukesBDay.java pkg.csize=1475 pkg.size=5209
+file e1e09de2d37a7e8e21dcfaccb6455fbdf94f4289 chash=832f662a675dbee98da649312f1599acd882b340 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/firstcup/src/conf/persistence.xml pkg.csize=332 pkg.size=631
+file fb034e8c7eda6c16757978d1141fca4e7a0d9131 chash=c17baeecceaf72ac490ee28aded528adcd956035 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/firstcup/src/conf/MANIFEST.MF pkg.csize=43 pkg.size=23
+file 4239928d3546650f2b5b18f01ceb3a2d12736828 chash=707c6e3d6e4e80e3eeed0078ce6f43bd8716b7ea group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/firstcup/web/greeting.xhtml pkg.csize=488 pkg.size=1180
+file 37e7c8b249aa9fa4f173b309771cdc9d079b41b7 chash=c4d220c2bc0edf4bc3640d88cda3f3e8e8502fcd group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/firstcup/web/response.xhtml pkg.csize=475 pkg.size=1732
+dir group=sys mode=0775 owner=root path=glassfish/docs/firstcup-2.1/example/firstcup/web/WEB-INF
+dir group=sys mode=0775 owner=root path=glassfish/docs/firstcup-2.1/example/firstcup/web/resources
+file a01a236c56039a3f52f60cdea3ef2a9835f7c026 chash=44f95a3afe8f6e70a9a1428cd46c92c83719343c group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/firstcup/web/WEB-INF/beans.xml pkg.csize=177 pkg.size=269
+file aa5079cdd5a90317925e9b03dc6a358b035f0484 chash=8c95a9152d698d8fef53f836678c7479ebfbf075 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/firstcup/web/WEB-INF/sun-web.xml pkg.csize=350 pkg.size=524
+file d819a31f83ec26578d952864e5a7a83d27bc6d1a chash=22f11aa3590f16689aed06a62657c7f617348b96 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/firstcup/web/WEB-INF/faces-config.xml pkg.csize=350 pkg.size=719
+file 3cfed662db08b0c14b0cd407730a2c31c415edae chash=256b4320d6bb7c7060c66af2ef8ee149bf41841e group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/firstcup/web/WEB-INF/web.xml pkg.csize=413 pkg.size=989
+dir group=sys mode=0775 owner=root path=glassfish/docs/firstcup-2.1/example/firstcup/web/resources/components
+file 5ddeebc11f9b467159e661280cf8c81fcd6826b1 chash=4847a895132e94cfa5f60ad45e48bc6cd798a7f3 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/firstcup/web/resources/components/inputDate.xhtml pkg.csize=369 pkg.size=662
+file 7093d38894ff55022759fdcba40244877c228afb chash=e114e29e1aa054605c0c5fc6990c8630a21e5684 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/bp-project/persistence-unit-ant.xml pkg.csize=680 pkg.size=1588
+file 380ebaa869ff545d1119248bef0cd14f7ccfc35b chash=b5ba1dad802393b0503291d3fbde52f5dbcd3d10 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/bp-project/app-server.properties pkg.csize=533 pkg.size=1153
+file 5a35831eda833274f465ac541208721c672ce951 chash=c2367ad064c8014cc9371f6122e0773d139798b6 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/bp-project/command-line-ant-tasks.xml pkg.csize=1961 pkg.size=7089
+file de94e786c3b91bd5acd602e0f4c7bdfe80aa918a chash=a76d7eea1938dfbe0fa3cb38be51e9fdeb8c306f group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/bp-project/common-properties.xml pkg.csize=681 pkg.size=1529
+file d652e4ba448526322e85dcf18d2f317fb7f837ce chash=d4918b501f39533f27172db144e9582f0f008d4a group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/bp-project/common.properties pkg.csize=585 pkg.size=1094
+file be41a596ef7dfe4d916a8ea909e26797aa157483 chash=09861cc62393319938e240060235e2750dec95fe group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/bp-project/database-ant.xml pkg.csize=773 pkg.size=1948
+file 7bdc3821dedf76ac925f8a8d8f505b8d9706f270 chash=b3237608b172d81d24a76049f9ea279d972dc4bc group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/bp-project/main.xml pkg.csize=636 pkg.size=1167
+file 1043233d7ff34648672b5f8c15159005f4b581ef chash=bae330899aaae04b13f5adde6fedf0cfc3beb85d group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/bp-project/ear-ant.xml pkg.csize=1033 pkg.size=2626
+file af5096e663261ab0ddd9783c7f0170c30e91f670 chash=51c5c5092b81d3cb6c6333eaaebf79981657b053 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/bp-project/ejb-jar-ant.xml pkg.csize=799 pkg.size=1811
+file c4e8ddc4c81ee3b7b851f3bb95e239f0c98beebc chash=515cb93fee7a5250d5133c13db4b9500828c4da1 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/bp-project/jar-ant.xml pkg.csize=772 pkg.size=1719
+file 8a62908c5eee848ca93847ee0fa6c495fe1e6783 chash=69dc646128ab6323f7e9eccb28357c162187366c group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/bp-project/app-server-ant.xml pkg.csize=3120 pkg.size=20193
+file fc49e3d3899f745701e95c6a141edb7420fcf545 chash=4da60bfb0914db6716d7d71060e944d218336e47 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/bp-project/admin-password.txt pkg.csize=45 pkg.size=29
+file d9ac94faac71f72adfbf913abe458d9b42868801 chash=7a9e43e56f5d09381f82b9104f1c6ab24a6fb185 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/bp-project/free-form-project-ant.xml pkg.csize=574 pkg.size=1014
+file e0edcfcde23e6099c0c8bc645830d66b7796a371 chash=edf9448564d72cdd875952903dc298db5a1e47e8 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/bp-project/jaxws-ant.xml pkg.csize=459 pkg.size=1195
+file 2e5350ca63720177c97f643539bf322f5a4caa72 chash=6ff5b1683b03d1c664dc4efb4545205e4fd1aef5 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/bp-project/war-ant.xml pkg.csize=1048 pkg.size=2962
+file 7824cdb455dd2e960924c599eee3f5a28477437a chash=e61cbf0cc0c2db7a11855d7b857e13dfd388c7ad group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/bp-project/build.properties.sample pkg.csize=650 pkg.size=1409
+file ba2967f655d1c52b69ca972f1f162c317db85f27 chash=e62369e774b556181fb42091bba8b90256796bd8 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/bp-project/app-client-ant.xml pkg.csize=1033 pkg.size=2752
+file acf58522ee1defd2f81261abbf920119fa0bec7f chash=0343cce8dbf739ccea8faaca19bcdd7ceec99d98 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/bp-project/java-client-ant.xml pkg.csize=760 pkg.size=1644
+file 8b4b2ffb465588c59dd8bedb8638567874731920 chash=e9dff9db8431e7629f01934448f219701d7251a2 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/dukes-age/build.xml pkg.csize=181 pkg.size=231
+dir group=sys mode=0775 owner=root path=glassfish/docs/firstcup-2.1/example/dukes-age/nbproject
+dir group=sys mode=0775 owner=root path=glassfish/docs/firstcup-2.1/example/dukes-age/src
+dir group=sys mode=0775 owner=root path=glassfish/docs/firstcup-2.1/example/dukes-age/web
+file bd1a1a8ba89958c0e7bd310583a550cc0f3d957b chash=c64a512db781356f2d687b833da99141c4e3f1cf group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/dukes-age/nbproject/build-impl.xml pkg.csize=7807 pkg.size=52756
+file 11235a32a60b40c62f4923a5cd358d38862a6b72 chash=c69d374bee81454fae641c00f5124c1519df72d9 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/dukes-age/nbproject/project.properties pkg.csize=1074 pkg.size=3356
+file f8bbdc84bd1ca27dab08caf071895e59c8ca28a3 chash=287e23a00ab830d90d231f32b835a7d8afb4299c group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/dukes-age/nbproject/project.xml pkg.csize=434 pkg.size=1087
+file ce4d1284b99eba901ab3cac281343fcf871d2723 chash=bdb6ef69c15b51607cbb1e1f02339ed58488724d group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/dukes-age/nbproject/genfiles.properties pkg.csize=304 pkg.size=614
+file 17abc4ab7245e3ad1eb57c9ce4977678cbcee7d7 chash=272394088bd3668223d3bc6f599b92d9d98fedf5 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/dukes-age/nbproject/rest-build.xml pkg.csize=946 pkg.size=2688
+file 9692486f4dd06a1db0c723014d09a626e25982a3 chash=fab8fcc2fbee45766718b3eb6ae48b06a6b5eceb group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/dukes-age/nbproject/ant-deploy.xml pkg.csize=1028 pkg.size=5176
+dir group=sys mode=0775 owner=root path=glassfish/docs/firstcup-2.1/example/dukes-age/src/java
+dir group=sys mode=0775 owner=root path=glassfish/docs/firstcup-2.1/example/dukes-age/src/conf
+dir group=sys mode=0775 owner=root path=glassfish/docs/firstcup-2.1/example/dukes-age/src/java/firstcup
+dir group=sys mode=0775 owner=root path=glassfish/docs/firstcup-2.1/example/dukes-age/src/java/firstcup/webservice
+file 6de3f486758a07afb768d2d12f009a8f4eff5e8e chash=52b3a8b17934ad78cb509301c9548b28ee19d668 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/dukes-age/src/java/firstcup/webservice/DukesAgeResource.java pkg.csize=711 pkg.size=1636
+file fb034e8c7eda6c16757978d1141fca4e7a0d9131 chash=c17baeecceaf72ac490ee28aded528adcd956035 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/dukes-age/src/conf/MANIFEST.MF pkg.csize=43 pkg.size=23
+dir group=sys mode=0775 owner=root path=glassfish/docs/firstcup-2.1/example/dukes-age/web/WEB-INF
+file 78d4064f76e4ab8dcde9c6c75ad1495131c3b220 chash=4bfc2300e8667e6d5869e8f6762e52bb2b62c032 group=sys mode=0664 owner=root path=glassfish/docs/firstcup-2.1/example/dukes-age/web/WEB-INF/sun-web.xml pkg.csize=352 pkg.size=526

@@ -1,0 +1,10 @@
+set name=fmri value=pkg:/glassfish-jms-l10n@3.1,0-41.1:20110213T154409Z
+set name=info.classification value="Application Servers"
+set name=pkg.description value="Localization of The Java Message Service. GlassFish Server is a modular, lightweight, and extensible Java EE 6 application server built on OSGi. Key features include fast startup time, improved developer productivity, hybrid OSGi/Java EE applications, high availability clustering, centralized administration, and overall ease-of-use."
+set name=pkg.summary value="GlassFish JMS Localization"
+depend fmri=pkg:/glassfish-jms@3.1 type=require
+license 8741fa556feea4ca58ec28abc47de0bf9d5b39a3 chash=28b7cfba8f297b99296afc231955dc90e8d76d47 license="CDDL and GPL v2 with classpath exception" pkg.csize=12394 pkg.size=38052
+dir group=sys mode=0755 owner=nobody path=glassfish
+dir group=sys mode=0755 owner=nobody path=glassfish/modules
+file 0576ce842e455c5da8a21205627ecb03baa5c0f3 chash=4211e41945f470d195335781f98abdd3a8767796 group=sys mode=0644 owner=nobody path=glassfish/modules/console-jms-plugin-l10n.jar pkg.csize=89860 pkg.size=91912
+set name=publisher value=stable.glassfish.org

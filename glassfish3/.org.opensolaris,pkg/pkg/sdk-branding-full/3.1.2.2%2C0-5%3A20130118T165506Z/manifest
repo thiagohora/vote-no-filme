@@ -1,0 +1,10 @@
+set name=fmri value=pkg://release.javaeesdk.oracle.com/sdk-branding-full@3.1.2.2,0-5:20130118T165506Z
+set name=authority value=release.javaeesdk.oracle.com
+set name=info.classification value="Application Servers"
+set name=pkg.description value="Java EE 6 SDK Extension Files."
+set name=pkg.summary value="Java EE 6 SDK Extensions"
+depend fmri=pkg:/glassfish-nucleus type=require
+license 295d95dbca362b6392155e01a4be7607e9b72110 chash=f7a5f98d6fd365e9d81d66f03b4f7812eba82838 license="OTN License" pkg.csize=4072 pkg.size=10710
+dir group=sys mode=0777 owner=root path=glassfish
+dir group=sys mode=0777 owner=root path=glassfish/docs
+file 077a38298e5e3d9a772489082225fc934464f381 chash=2b79a945325a03bc62ec7919805ecdd7aa85262b group=sys mode=0666 owner=root path=glassfish/docs/about_sdk.html pkg.csize=3087 pkg.size=9771

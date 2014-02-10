@@ -1,0 +1,14 @@
+set name=fmri value=pkg://release.javaeesdk.oracle.com/javaee-sdk-full-profile@3.1.2.2,0-5:20120712T103914Z
+set name=authority value=release.javaeesdk.oracle.com
+set name=info.classification value="Application Servers"
+set name=pkg.description value="Java EE 6 SDK Full Platform Metapackage.  GlassFish is an application server created using modular, lightweight, extensible architecture built on OSGi.  It is the first implementation of Java EE 6 standard and is a great developer platform, starts fast, and it is easy to use."
+set name=pkg.summary value="Java EE 6 SDK Full Platform"
+depend fmri=pkg:/glassfish-full-profile type=require
+depend fmri=pkg:/javaee-samples-full type=require
+depend fmri=pkg:/sdk-branding-full type=require
+depend fmri=pkg:/javaee-samples-web type=require
+depend fmri=pkg:/javaee-samples-build type=require
+depend fmri=pkg:/javaee-tutorial type=require
+depend fmri=pkg:/javaee-firstcup-tutorial type=require
+depend fmri=pkg:/javaee-javadocs type=require
+license 295d95dbca362b6392155e01a4be7607e9b72110 chash=f7a5f98d6fd365e9d81d66f03b4f7812eba82838 license="OTN License" pkg.csize=4072 pkg.size=10710

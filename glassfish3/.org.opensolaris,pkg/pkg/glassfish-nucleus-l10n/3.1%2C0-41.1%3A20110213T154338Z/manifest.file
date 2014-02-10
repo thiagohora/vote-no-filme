@@ -1,0 +1,5 @@
+file 5c22630dd44211cae07c4ed4bdfcc9e5fb3f9a98 chash=c5ce34770135e2e0bb03209c31b7f9cead4fef2f group=sys mode=0644 owner=nobody path=glassfish/modules/admin-cli-l10n.jar pkg.csize=498401 pkg.size=532466
+file 9329f45d9dd0147045f6a8ebee5e2820d3fa36dd chash=4a2a527c10698dee57a70325a6d54df77fcd502e group=sys mode=0644 owner=nobody path=glassfish/modules/config-api-l10n.jar pkg.csize=193401 pkg.size=208524
+file 9f4d49cd5f14d295f3b8eb4a8f2dfad75f922b84 chash=c6bb08c641319c01f19d0e2f96d4280134da8bb1 group=sys mode=0644 owner=nobody path=glassfish/modules/kernel-l10n.jar pkg.csize=517473 pkg.size=552986
+file cf05f493476bf37febb2ce0b5cbee1a0756f0779 chash=4108d82a042a736b05ad39be523fb1a9832a64ef group=sys mode=0644 owner=nobody path=glassfish/modules/launcher-l10n.jar pkg.csize=35894 pkg.size=38448
+file 6b5ebbe815ef642acf115197914367f11fc3d18d chash=8a4dd556499ad1792baecb276cc0a36a6afba31b group=sys mode=0644 owner=nobody path=glassfish/modules/logging-l10n.jar pkg.csize=69988 pkg.size=81475

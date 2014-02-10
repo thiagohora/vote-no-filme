@@ -5,11 +5,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<META HTTP-EQUIV="Refresh" CONTENT="1;URL=/Vote/pageVote">
+<META HTTP-EQUIV="Refresh" CONTENT="1;URL=${pageContext.request.contextPath}/Vote/pageVote">
 </head>
 <body>
 <% 
-response.sendRedirect("/Vote/pageVote");
+response.sendRedirect("/Desafio1BlueSoft/Vote/pageVote");
 %> 
 </body>
 </html>

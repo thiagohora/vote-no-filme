@@ -1,0 +1,2 @@
+file 7a8797fb2ad6f556db6a15acbdcefa0f22517148 chash=06eec4c8215efb43cfcbcb381ec0056d29430731 group=sys mode=0644 owner=nobody path=glassfish/modules/console-corba-plugin-l10n.jar pkg.csize=193161 pkg.size=213602
+file 2d30eba6f52b08fcf4cbcb1877c136f3ff973f7c chash=3e890183425f5e7f936e7c26e8a5f236e1458acf group=sys mode=0644 owner=nobody path=glassfish/modules/console-ejb-plugin-l10n.jar pkg.csize=147951 pkg.size=166954

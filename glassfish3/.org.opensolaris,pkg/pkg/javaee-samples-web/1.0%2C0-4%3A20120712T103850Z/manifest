@@ -1,0 +1,767 @@
+set name=fmri value=pkg://release.javaeesdk.oracle.com/javaee-samples-web@1.0,0-4:20120712T103850Z
+set name=authority value=release.javaeesdk.oracle.com
+set name=info.classification value="Application Servers"
+set name=pkg.description value="Java EE 6 Sample Applications for web profile. GlassFish is an application server created using modular, lightweight, extensible architecture built on OSGi.  It is the first implementation of Java EE 6 standard and is a great developer platform, starts fast, and it is easy to use."
+set name=pkg.summary value="Java EE Sample Applications Web Profile"
+depend fmri=pkg:/javaee-samples-build type=require
+license d5bbc6352d2afabc58bb30c4e8b68b3f87c212b3 chash=4d8efa3e2f655ad262555c5e989e11b42062f20e license=BSDLicense pkg.csize=923 pkg.size=1743
+dir group=sys mode=0755 owner=root path=glassfish
+dir group=sys mode=0755 owner=root path=glassfish/samples
+file 9e3a589f3d048fba671f26f3fab980033aeea456 chash=01acbc4978930600570977dff5a3da2fc71eddaf group=sys mode=0644 owner=root path=glassfish/samples/index.html pkg.csize=1805 pkg.size=3718
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6
+file 739498716cde20bf56f985cfaeb27fcdd96d23a1 chash=c1ab25ebd97d3aa1638825ca6fba0336654b5e61 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/index.html pkg.csize=2343 pkg.size=5053
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/security
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ha
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/weld
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/docs
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web
+file 5195b8aebcfd63abffd56b29f3bb3c099073990a chash=157c291f3419646751581d922c74d86b8bed441d group=sys mode=0644 owner=root path=glassfish/samples/javaee6/security/build.xml pkg.csize=1655 pkg.size=4137
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/security/programmatic-login
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/security/http-method-omission
+file 375c668c4e35f41bcda41aefb7987ea5e77e2ec2 chash=abbe1fdc338abc617fd58077c7301a19e870759c group=sys mode=0644 owner=root path=glassfish/samples/javaee6/security/programmatic-login/build.xml pkg.csize=1435 pkg.size=3648
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/security/programmatic-login/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/security/programmatic-login/docs
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/security/programmatic-login/web
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/security/programmatic-login/src
+file 02891eb7ade7f93d259e279349b32876f2531420 chash=2a395295e8fea5c88e980779f7b5326dd17c99a4 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/security/programmatic-login/nbproject/project.properties pkg.csize=1797 pkg.size=4121
+file 884f79d72b79a892304b3b5151e244a26f3acef5 chash=031c3aa5aeee886afd8dc4d951bfd011e12a470e group=sys mode=0644 owner=root path=glassfish/samples/javaee6/security/programmatic-login/nbproject/project.xml pkg.csize=1214 pkg.size=2607
+file bb9046de43029c200bb1fd52cff8029f0b23f07b chash=13172ba259ace19eb98b61b0e154c1b419834b6d group=sys mode=0644 owner=root path=glassfish/samples/javaee6/security/programmatic-login/nbproject/ant-deploy.xml pkg.csize=1820 pkg.size=5542
+file 221f1f91af2da9b6906e04789e4fad4cd756f0ea chash=d2b7bb00d1fcf65b2200b78031d7c2ffde30ee65 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/security/programmatic-login/docs/index.html pkg.csize=3324 pkg.size=8164
+file 9d31d7d1dfb74e9c2bac85bd9161b07f524e67eb chash=03886bc8316ba61c124b9f0d45113716b6cb35af group=sys mode=0644 owner=root path=glassfish/samples/javaee6/security/programmatic-login/web/index.jsp pkg.csize=1157 pkg.size=2490
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/security/programmatic-login/web/WEB-INF
+file cb6de927f2160ff1fabc885f846d263a8c29a86f chash=976c186ba49925eeb58abf9189c266510ff414cd group=sys mode=0644 owner=root path=glassfish/samples/javaee6/security/programmatic-login/web/WEB-INF/web.xml pkg.csize=1296 pkg.size=2905
+file fca7f82c7038b4bdac3a56707994c3709029750b chash=5af8c86a9daa70ec6ad3a88a011ae1b87776666f group=sys mode=0644 owner=root path=glassfish/samples/javaee6/security/programmatic-login/web/WEB-INF/sun-web.xml pkg.csize=1304 pkg.size=2690
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/security/programmatic-login/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/security/programmatic-login/src/java/enterprise
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/security/programmatic-login/src/java/enterprise/programmatic_login
+file 96bc0088629cfb8562492df9f2f30cd2c49c80fc chash=5950d1e7a55a5df428236cefabc70862eb913e4f group=sys mode=0644 owner=root path=glassfish/samples/javaee6/security/programmatic-login/src/java/enterprise/programmatic_login/LoginServlet.java pkg.csize=1795 pkg.size=5449
+file ff6e6bb57ce78e63ccf500f286787f8af1ef2779 chash=b10cdbcd3fc1578bc3b68ab0467e97775fa5b71c group=sys mode=0644 owner=root path=glassfish/samples/javaee6/security/http-method-omission/catalog.xml pkg.csize=1107 pkg.size=2223
+file 432f908769ba05e56708112161b9da3550038ce4 chash=18ba8d12d1b390d138877dc195561cdd147dedb9 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/security/http-method-omission/build.xml pkg.csize=1429 pkg.size=3652
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/security/http-method-omission/docs
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/security/http-method-omission/src
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/security/http-method-omission/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/security/http-method-omission/web
+file 3f355de2dcf038bba0901b3da6022cf9c9d6b2ee chash=2803bf22478c3fbb450474a81f36190f596b1c94 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/security/http-method-omission/docs/index.html pkg.csize=2828 pkg.size=6593
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/security/http-method-omission/src/conf
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/security/http-method-omission/src/java
+file fb034e8c7eda6c16757978d1141fca4e7a0d9131 chash=c17baeecceaf72ac490ee28aded528adcd956035 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/security/http-method-omission/src/conf/MANIFEST.MF pkg.csize=43 pkg.size=23
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/security/http-method-omission/src/java/enterprise
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/security/http-method-omission/src/java/enterprise/http_method_omission
+file 4faf114bd64bd55040ee9f01746ac3d81c2f659f chash=e03cf4b4f52efe36e9ed28a4a60c20d34faabcb6 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/security/http-method-omission/src/java/enterprise/http_method_omission/OmissionServlet.java pkg.csize=1550 pkg.size=3961
+file bb9046de43029c200bb1fd52cff8029f0b23f07b chash=13172ba259ace19eb98b61b0e154c1b419834b6d group=sys mode=0644 owner=root path=glassfish/samples/javaee6/security/http-method-omission/nbproject/ant-deploy.xml pkg.csize=1820 pkg.size=5542
+file a921958701c9015fe9ac468fc28d62e4dc41db3d chash=cd91909c82f9f2b8849a819b9f3adcaeb604a77e group=sys mode=0644 owner=root path=glassfish/samples/javaee6/security/http-method-omission/nbproject/project.xml pkg.csize=1214 pkg.size=2609
+file 697274081b162ba5c7b559c0e8e529006e223f1d chash=2ffbf45d79cb3d2455c1b2f467ff27f75172b647 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/security/http-method-omission/nbproject/project.properties pkg.csize=1804 pkg.size=4145
+file c038886bd2e7ffb563812f5f163d95d7bf0d6a77 chash=56cc8bbd47a0e27d5905f38db74ddcbf60e8f10b group=sys mode=0644 owner=root path=glassfish/samples/javaee6/security/http-method-omission/web/index.jsp pkg.csize=1172 pkg.size=2585
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/security/http-method-omission/web/WEB-INF
+file df0a3256ccd24f629b77c419bc89e8b538755813 chash=2f171d980d8c1c00d7fc2ef40343ac398c7aa30a group=sys mode=0644 owner=root path=glassfish/samples/javaee6/security/http-method-omission/web/WEB-INF/web.xml pkg.csize=1456 pkg.size=3992
+file 272b7d6e860ee11f653c924e297f98cf630c7947 chash=0994a523f967e8357c722b6879b07b3fa815716f group=sys mode=0644 owner=root path=glassfish/samples/javaee6/security/http-method-omission/web/WEB-INF/sun-web.xml pkg.csize=1303 pkg.size=2692
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ha/clusterjsp
+file d1c3dfae7c49e4cd4c054f2a609f54f19acf7cb5 chash=00bdf94f33a026d9099f7b81cc4ddf312830471f group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ha/clusterjsp/build.xml pkg.csize=1776 pkg.size=5230
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ha/clusterjsp/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ha/clusterjsp/clusterjsp-war
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ha/clusterjsp/docs
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ha/clusterjsp/src
+file 9579003401896a8e96947eed80489c5b082a8b17 chash=9c8835dad38b9bf6057a2dab4e653996eac7dee8 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ha/clusterjsp/nbproject/project.xml pkg.csize=442 pkg.size=3414
+file e136c710229797569b4f32f17b027aa9dd4dcc12 chash=2c5fcae36ba3155d3e62f3af480378a1c5e670d6 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ha/clusterjsp/nbproject/project.properties pkg.csize=751 pkg.size=7855
+file fdd90bf186ae7d0e54bbc348fd3ce7c05b8deab7 chash=51dadc49a43de2819da8a4b08aec600edbde25ac group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ha/clusterjsp/clusterjsp-war/build.xml pkg.csize=1154 pkg.size=2363
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ha/clusterjsp/clusterjsp-war/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ha/clusterjsp/clusterjsp-war/web
+file d7045a00d2e92ed99558b5441fc784806b6c1cc8 chash=e371e8eda734edfbd94f4ddadd013b64b59f644a group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ha/clusterjsp/clusterjsp-war/nbproject/project.properties pkg.csize=1139 pkg.size=10090
+file 1b66e2cacfa6966a0223cd5e0d7d7e096cf3ba04 chash=9fd1824da81b8fe18796371e9e9d0eafa7e68f26 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ha/clusterjsp/clusterjsp-war/nbproject/project.xml pkg.csize=320 pkg.size=2067
+file 6dc26533fc2aa62edf54e92c54c253dbac4786f7 chash=2d76566e863d41cfcdc92e42d5cb43853620549e group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ha/clusterjsp/clusterjsp-war/web/ClearSession.jsp pkg.csize=1284 pkg.size=2537
+file 00429c4c99d0d7661bcce9080ad92008e04c8d2b chash=e6f2b8216f8449db11b330bd1e0b7b478f293a14 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ha/clusterjsp/clusterjsp-war/web/HaJsp.jsp pkg.csize=1933 pkg.size=4633
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ha/clusterjsp/clusterjsp-war/web/WEB-INF
+file 2771a45248d2033fdc7732ccc0cd6cd6eeb1f76b chash=b6fe715122f0a0809b8764979047e987d318c538 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ha/clusterjsp/clusterjsp-war/web/WEB-INF/sun-web.xml pkg.csize=1372 pkg.size=2870
+file fd5e65c052e8af4d79ebe70a31e434af22ce6ea0 chash=225d5dbc3bd5d0ad508e4e6aa34f64008d5fbb93 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ha/clusterjsp/clusterjsp-war/web/WEB-INF/web.xml pkg.csize=1258 pkg.size=2817
+file ef4a342aaa5197023594d6c622a59c6d7cf85dd2 chash=0c40b12e8aa06ef427949c37014288f987a35dcd group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ha/clusterjsp/docs/index.html pkg.csize=2340 pkg.size=5933
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ha/clusterjsp/docs/images
+file f20cd3f719bad98fd6760a07017a98ae93011968 chash=88d0224e9795f0a164625972895b7c381f562a9f group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ha/clusterjsp/docs/images/instance1.jpg pkg.csize=126050 pkg.size=160332
+file 0a93316ba80e0db3baef4a49ac2a088a8e9e69d8 chash=f09472583b6503447e9100a905a02e8cf8d1646b group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ha/clusterjsp/docs/images/instance2.jpg pkg.csize=128073 pkg.size=164032
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ha/clusterjsp/src/conf
+file be92bd1b9b685f9d9f649755c0a04f9ec29a1533 chash=43ee7744ef1e10b4e6e1db7bd089b5e55da98bc2 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ha/clusterjsp/src/conf/application.xml pkg.csize=1204 pkg.size=2523
+file b3db7ea04b44b965ef140bfbac91696a660471fd chash=553453e3cde1c2049068c66b00b12ebd4772f63c group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ha/clusterjsp/src/conf/sun-application.xml pkg.csize=1122 pkg.size=2268
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/weld/weld-guess
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/weld/weld-servlet
+file 941e79b92dbfd0d8ce73186bed0acd7b9fb2e4a0 chash=4b8e7e87c2d159afdd541ae9e30e598ea4c0e355 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-guess/build.xml pkg.csize=1211 pkg.size=2544
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/weld/weld-guess/web
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/weld/weld-guess/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/weld/weld-guess/src
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/weld/weld-guess/docs
+file 4090d30d3358cd26703d48a04c80adc41722f58a chash=b178956fc422b4dec5a12979517b70fa2cb79c47 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-guess/web/template.xhtml pkg.csize=1333 pkg.size=2768
+file 59fce6725f7f56a2ccb9941053db2ec750c8ee5c chash=f10d789605f0ce118f50b444fae2e69afb1d3ce8 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-guess/web/index.html pkg.csize=1190 pkg.size=2413
+file e5b824ac07807ba75d71318afdff076c6871dace chash=faed2001ba384d85489bbadffc8796a75bc38175 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-guess/web/home.xhtml pkg.csize=1756 pkg.size=4134
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/weld/weld-guess/web/WEB-INF
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/weld/weld-guess/web/resources
+file da39a3ee5e6b4b0d3255bfef95601890afd80709 chash=89892054d65b8b0dd6a081b33a97b6f2bd1fa267 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-guess/web/WEB-INF/beans.xml pkg.csize=20 pkg.size=0
+file bef71db6796372c12eff07f2722e7032b06105bd chash=0d81be97d1d0ec9fe8dd77148237ecf8e3e9717a group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-guess/web/WEB-INF/faces-config.xml pkg.csize=1110 pkg.size=2329
+file 87e69cc2ae615609c6b30952ff78f6e795617da9 chash=2ec186898838ea8022d7d2459ccbf59b816b0573 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-guess/web/WEB-INF/web.xml pkg.csize=1274 pkg.size=2740
+file 60b6eb64919d1a3defad7ee2cb8e20dc78ca8162 chash=ad1f3d746e2e6d2068f78147f108586ec8103b06 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-guess/web/WEB-INF/sun-web.xml pkg.csize=1251 pkg.size=2515
+file 83307b5438b4e55419d4edd10a5d6b87d194fbf8 chash=d22bd39e62e991e9e0288654a80c1dee915a60e0 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-guess/web/resources/bgblack18.jpg pkg.csize=11189 pkg.size=12179
+file b002c22edcf63063d42d73b350a3dbe01de542e3 chash=ba23784c96fa00751279e7e05812939cba350cd9 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-guess/web/resources/stylesheet.css pkg.csize=1317 pkg.size=3055
+file fe97748e65250b61410590f2091744ff66156e10 chash=f96880ff248ce127ea41dcbd34d6a311990eadfe group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-guess/nbproject/project.xml pkg.csize=1201 pkg.size=2578
+file 551232d42e4444551b7950e5ba07f5262955473f chash=338d0135957a0061c779553e3923d9aae54f8364 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-guess/nbproject/project.properties pkg.csize=1730 pkg.size=4017
+file b5e1df8150c5c54241e8ed283d8f7b07079a5aaa chash=c8e644cc316d0d00f5766cecd85a2512751e4b44 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-guess/nbproject/build-impl.xml pkg.csize=7864 pkg.size=46384
+file 429fc6c21b98d955499ffa84164b239a00638e56 chash=5a319bfeef30431e3323e65638f0cf386fe7062d group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-guess/nbproject/ant-deploy.xml pkg.csize=1822 pkg.size=5680
+file 0e053200da77816b3ffdcdd472ea842236affc84 chash=74b964fa4239309182ec0fc1f56a21fadbb92493 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-guess/nbproject/genfiles.properties pkg.csize=1132 pkg.size=2299
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/weld/weld-guess/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/weld/weld-guess/src/java/weldguess
+file b85798af92d30de05c1cd5dd82d9fe7793a0e582 chash=36bb8cfe05ef32128f0b02346b18978f376dfcfe group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-guess/src/java/weldguess/Random.java pkg.csize=1152 pkg.size=2548
+file cc0434a8c09611ab86bd2e1f9a5a730232460f0a chash=b79d64bb0728ff3ba0af0929b5cf36f36833d710 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-guess/src/java/weldguess/MaxNumber.java pkg.csize=1155 pkg.size=2551
+file 3b5f71f192e898f702c5b8dc8378fd0f8ebf90d2 chash=94300d4231ae9e86be59113733a6d6a067092c9c group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-guess/src/java/weldguess/Game.java pkg.csize=1685 pkg.size=4420
+file d3edf8efc97db4438684bbad2ca1b38727a02bad chash=05668e6bc02c4e44254419fdf92bdacf9d64fa82 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-guess/src/java/weldguess/Generator.java pkg.csize=1250 pkg.size=2636
+file 293a907aa5829db6017da29f05ed7524a18cd382 chash=c6e7e8fd60141dee1f961bdfc41489a8e2f2b9be group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-guess/docs/index.html pkg.csize=2478 pkg.size=5899
+file ce1e51e4ee8c1c574d2b12d9b2075efc1ff572a2 chash=f35dd10c6ee550c0a1b81b11323b7292c4abaf17 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-servlet/build.xml pkg.csize=1211 pkg.size=2548
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/weld/weld-servlet/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/weld/weld-servlet/web
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/weld/weld-servlet/docs
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/weld/weld-servlet/src
+file 551232d42e4444551b7950e5ba07f5262955473f chash=338d0135957a0061c779553e3923d9aae54f8364 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-servlet/nbproject/project.properties pkg.csize=1730 pkg.size=4017
+file 5b63e30a3eea91e0eab6e63cccbfaf60c5870c7b chash=e242353c54c284b78e310e83ea7c3c67bef9200d group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-servlet/nbproject/project.xml pkg.csize=1201 pkg.size=2580
+file b5e1df8150c5c54241e8ed283d8f7b07079a5aaa chash=c8e644cc316d0d00f5766cecd85a2512751e4b44 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-servlet/nbproject/build-impl.xml pkg.csize=7864 pkg.size=46384
+file 0e053200da77816b3ffdcdd472ea842236affc84 chash=74b964fa4239309182ec0fc1f56a21fadbb92493 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-servlet/nbproject/genfiles.properties pkg.csize=1132 pkg.size=2299
+file 429fc6c21b98d955499ffa84164b239a00638e56 chash=5a319bfeef30431e3323e65638f0cf386fe7062d group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-servlet/nbproject/ant-deploy.xml pkg.csize=1822 pkg.size=5680
+file 6cac46e3d7ac096a9ceac921300b539e7f4230d5 chash=f57021a18d7361a41aeb8e5571b7bc5104ac2699 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-servlet/web/index.jsp pkg.csize=1670 pkg.size=4391
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/weld/weld-servlet/web/WEB-INF
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/weld/weld-servlet/web/resources
+file bfb828663064dd4699eba4d29d1a31cb8f7d330f chash=1e7e82fe1599b067c3450d9177ddc4dba5d99e2c group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-servlet/web/WEB-INF/sun-web.xml pkg.csize=1250 pkg.size=2517
+file 30ec78baca303df9ef5a6486c755ca01cd1faa24 chash=5c4a8d5d6b73d79612ed3605498654bb30c13d1b group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-servlet/web/WEB-INF/web.xml pkg.csize=1177 pkg.size=2488
+file 7016e4858b7a0eb403b70e71502ca0d0e72fbdaa chash=0417ede64b5b959ad2650a31cd6a3b59054a5ace group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-servlet/web/WEB-INF/beans.xml pkg.csize=1009 pkg.size=2052
+file 4d8c9bd1ec63f1946934a13a61eb671be9fd2de0 chash=27ef84f04e023a58a973240a07fa7e910f2f67d3 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-servlet/web/resources/ajax.js pkg.csize=1668 pkg.size=4022
+file 880c1fc4162b1e0c139bc26ff07ad920a4f7cb3b chash=23f84c211b471b9626540dbebb3865d2428671d2 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-servlet/web/resources/stylesheet.css pkg.csize=1313 pkg.size=3051
+file 83307b5438b4e55419d4edd10a5d6b87d194fbf8 chash=d22bd39e62e991e9e0288654a80c1dee915a60e0 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-servlet/web/resources/bgblack18.jpg pkg.csize=11189 pkg.size=12179
+file a2396e2380b1563125f0aae95f00c07048ee3073 chash=fb3bc06556fa93b651dfe66c4e73cae7c7e5e8a5 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-servlet/docs/index.html pkg.csize=3281 pkg.size=8383
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/weld/weld-servlet/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/weld/weld-servlet/src/java/weldservlet
+file c1eda51d22b07374689a7112ce30acd656acffe8 chash=58cf8590fd714444d58a4f997a552dc6e2872f9e group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-servlet/src/java/weldservlet/LoginHandler.java pkg.csize=1367 pkg.size=2995
+file 99dd6920872378f679ad0524f14102933b8a2e36 chash=be089628d72a5c888ff9411651c9df6f92ca73d9 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-servlet/src/java/weldservlet/LoginServlet.java pkg.csize=1745 pkg.size=4894
+file e07c95f71c5b3fa9ecb746423464b125cc856f32 chash=f71d979656802fad005aefeb7789e9963dd4d990 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/weld/weld-servlet/src/java/weldservlet/Credentials.java pkg.csize=1174 pkg.size=2576
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/ejb31-war
+file e28e25d31aafe82af5ef2c059e489f54b72c7235 chash=4b122bfd6b15640a78ee08830de5189ee13ec43e group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ejb/ejb31-war/build.xml pkg.csize=1356 pkg.size=2999
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/ejb31-war/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/ejb31-war/src
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/ejb31-war/docs
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/ejb31-war/web
+file 74037c3a6cf407e4e761de8ea35ebbd1dfcb2616 chash=3d68c2c28904e49e972ab26673e18681b5605f62 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ejb/ejb31-war/nbproject/project.xml pkg.csize=1201 pkg.size=2577
+file ecdaa9c0270c50239579cb1aa0e71418994cbad3 chash=6e8ea0cf11e51dfdacef03d61a1810f777b9c0ba group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ejb/ejb31-war/nbproject/project.properties pkg.csize=1727 pkg.size=4011
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/ejb31-war/src/conf
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/ejb31-war/src/java
+file 52dad54e31596c0aa103e538759da54e1b110e28 chash=ef1f1566af41bde716481d17270c696bbb6cec1f group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ejb/ejb31-war/src/conf/app.properties pkg.csize=995 pkg.size=2000
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/ejb31-war/src/java/ejb
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/ejb31-war/src/java/ejb/ejb31
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/ejb31-war/src/java/ejb/ejb31/war
+file 205307b4016f6bfdfe343f0f2b66dc88ddcd5bc3 chash=b42e3bb0ae77de706879963e9108374b8fba1a0c group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ejb/ejb31-war/src/java/ejb/ejb31/war/HelloBean.java pkg.csize=1202 pkg.size=2573
+file 441adbe72b80b33910093216c380e773888d20da chash=84cc132b6a5746941a4fed6dd8e31d1da62974f8 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ejb/ejb31-war/src/java/ejb/ejb31/war/PropertiesBean.java pkg.csize=1387 pkg.size=3104
+file 2b1cc24f3e96dd3feadc40f19f352ccfc5ae7fe5 chash=4746bf7bfe2b7725a26cb243109abf3baead0c83 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ejb/ejb31-war/src/java/ejb/ejb31/war/TestServlet.java pkg.csize=1454 pkg.size=3325
+file 9e2b2ce6d13580a2f2738b75c45650d6b087e1ef chash=be8f269c5116d64ef738c411a77d9d34fd915756 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ejb/ejb31-war/docs/index.html pkg.csize=3947 pkg.size=11390
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/ejb/ejb31-war/web/WEB-INF
+file 18e93117d6fbe9e379c226c475dfaaef760a59b4 chash=8e1120073c6bc92ea79a33b5369bd5dac054eb1f group=sys mode=0644 owner=root path=glassfish/samples/javaee6/ejb/ejb31-war/web/WEB-INF/sun-web.xml pkg.csize=1251 pkg.size=2514
+file 57f7f9cfc5dc23d883188737e5efd0b1a1919b1e chash=d369267c338ff68e47df891fb1d241dbf9d8d614 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/docs/UserTroubleShooting.html pkg.csize=2794 pkg.size=6076
+file 0722ae2435d64e37ab9761761ce8b88a0d82cbb0 chash=3be1e3b5dae4a3f821a4b04c4e950db178aae078 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/docs/list.html pkg.csize=4403 pkg.size=16704
+file 003715adbe953eaf5c59603829c0bbe28d365d84 chash=3803048df4a881884a9437564601a6d1a50565b1 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/docs/UserREADME.html pkg.csize=4281 pkg.size=11877
+file 40e51b7b8110bd19926591a60b454ec00e8d5d80 chash=eba57d37e1b4a2b27d537d062589a484be028482 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/docs/JavaDB.html pkg.csize=2361 pkg.size=5759
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/docs/javadb-setup
+file 07bfb7d9d43c41bfbab715676afb3fd665b6dac9 chash=33383f35b764d65a3c4ba462b98d40ad6b40cd46 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/docs/javadb-setup/build.xml pkg.csize=1723 pkg.size=4934
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/docs/javadb-setup/sql
+file ef1ba61ed497ce145bed270578ed7cb3ba04e433 chash=4903013ab63bd318f738a7ff90a7db6655ee7d63 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/docs/javadb-setup/sql/delete.sql pkg.csize=41 pkg.size=21
+file a71707d79f838ddea1810eadb2f9d72a0f3c53da chash=8ae5f76c18355fb04ad2c88083db159fd3da3a61 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/docs/javadb-setup/sql/create.sql pkg.csize=158 pkg.size=218
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/locking
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/advancedMapping
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/criteriaQuery
+file 91865a80b068a5a6301f309cb3e96a7f9505691a chash=4189822ad184e53df9d9595827c6172c30fe12ad group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/locking/build.xml pkg.csize=1392 pkg.size=3294
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/locking/src
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/locking/web
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/locking/locking_client
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/locking/docs
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/locking/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/locking/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/locking/src/conf
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/locking/src/java/enterprise
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/locking/src/java/enterprise/locking
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/locking/src/java/enterprise/locking/servlet
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/locking/src/java/enterprise/locking/entity
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/locking/src/java/enterprise/locking/ejb
+file 6a49c413b8aa71aab671e1063ac9f2b4f09772d2 chash=5b94c27d3de3a47db111f00124a221aa2fe1dafc group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/locking/src/java/enterprise/locking/servlet/TestServlet.java pkg.csize=1872 pkg.size=5751
+file 9fc98e7458cb044c24c88b78513fdae1d3cbe496 chash=7b4ea8b833622f9bafd33e05785fc39be66a1339 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/locking/src/java/enterprise/locking/entity/User.java pkg.csize=1525 pkg.size=4216
+file ef578177405c3e657adc32f288ed045a3968aca4 chash=68e02370095a1e1912dc5e8aecf6be8deafa31e8 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/locking/src/java/enterprise/locking/entity/Part.java pkg.csize=1484 pkg.size=3763
+file a3f7499cac3f18c54d2ac716221f74498dba9d23 chash=7b38625745c4afa90f1b9b7d1cdf318ad4160554 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/locking/src/java/enterprise/locking/ejb/StatelessSessionBean.java pkg.csize=2112 pkg.size=6487
+file affbec12d16336a47ec4a49d9f5df466d6d9dca4 chash=1101ccc545d930b664b162018e747387f3db3af1 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/locking/src/conf/persistence.xml pkg.csize=1396 pkg.size=3046
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/locking/web/WEB-INF
+file 19616d850f726d1a0cdf9e15224ce17bd7619fd7 chash=d5231015c1643ef035698d5b4a529e909465c117 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/locking/locking_client/build.xml pkg.csize=1211 pkg.size=2515
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/locking/locking_client/src
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/locking/locking_client/docs
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/locking/locking_client/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/locking/locking_client/src/java/enterprise
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/locking/locking_client/src/java/enterprise/locking_client
+file e5b79dede97635ecf5b0ded4d8c5eda58faf0df0 chash=ef3586096d19d96aee3b24413881be759e8aa356 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/locking/locking_client/src/java/enterprise/locking_client/LockingJavaClient.java pkg.csize=2384 pkg.size=6691
+file 24dc7dbb6684e8fb47640e3fb40f272acb25a0f9 chash=da8b0d0a436df6a4e94c6d918ee060db049a066b group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/locking/locking_client/docs/index.html pkg.csize=2856 pkg.size=7505
+file 7b81a750efc4c2a244050b4c699d71ab2d294bc1 chash=9e83ef044a505731c82174f72f67ea52560c3c13 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/locking/docs/index.html pkg.csize=3164 pkg.size=7599
+file 544f12b0989b03ef844313b4bd57cdfb10cb586e chash=2726107cbdb9854d31aa3c190ff7866f9b275107 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/locking/nbproject/project.properties pkg.csize=1753 pkg.size=4044
+file 52bd2023b92e12fface8170b85c616ca896b3de6 chash=41f1eeec9a6ea85a1e3b53116c76a18f67e6e41b group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/locking/nbproject/project.xml pkg.csize=1206 pkg.size=2617
+file 1628aafcf348a0434c254ae3d28453b8f6a81c23 chash=6e86f2b922cb59afb0ddddfe592b1dc3adcf605f group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/advancedMapping/build.xml pkg.csize=1401 pkg.size=3334
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/advancedMapping/src
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/advancedMapping/advancedMapping_client
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/advancedMapping/docs
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/advancedMapping/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/advancedMapping/web
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/advancedMapping/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/advancedMapping/src/conf
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/advancedMapping/src/java/enterprise
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/advancedMapping/src/java/enterprise/advancedmapping
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/advancedMapping/src/java/enterprise/advancedmapping/entity
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/advancedMapping/src/java/enterprise/advancedmapping/servlet
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/advancedMapping/src/java/enterprise/advancedmapping/ejb
+file a830735accb2972182ca337d441f11088696e4fe chash=6894c995611aa0cbb05c00f2540c62defb981557 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/advancedMapping/src/java/enterprise/advancedmapping/entity/Item.java pkg.csize=1189 pkg.size=2576
+file 5f275a050fe59fa6e39cf484e0db4f93c1f932aa chash=fd5583102a3e0af30e40abbff931db26b1b73bd7 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/advancedMapping/src/java/enterprise/advancedmapping/entity/LineItemId.java pkg.csize=1067 pkg.size=2162
+file 10f69011f5cef6cc29e19cfcde3dbd95fc512fb8 chash=e6531ff6caa0f7273d4be6bbc792b9067a1ab314 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/advancedMapping/src/java/enterprise/advancedmapping/entity/LineItem.java pkg.csize=1235 pkg.size=2694
+file 14fb78cb01dcb0a1e6c25a57f7d1c506c3370035 chash=a716f1cdad1b6099ebbe97a40b3d901f2aa2f9c3 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/advancedMapping/src/java/enterprise/advancedmapping/entity/Order.java pkg.csize=1314 pkg.size=2839
+file af04d3d49772efef7426376c20306560cc7a20e5 chash=3bb9dd6302a00baf15c397edbeaf86577a56a5ae group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/advancedMapping/src/java/enterprise/advancedmapping/servlet/TestServlet.java pkg.csize=1569 pkg.size=4156
+file 956b3675bc8117c1e3ddedc5cf0ad0dfb90337d0 chash=f1a0f4596830c0463aa8935f5050116e55abab61 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/advancedMapping/src/java/enterprise/advancedmapping/ejb/StatelessSessionBean.java pkg.csize=1819 pkg.size=4847
+file b452d14f83e106dc16a6d6cc278bcec77ba2b0a2 chash=411594128b412a76cefe5353951272e7a6bcbf42 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/advancedMapping/src/conf/persistence.xml pkg.csize=1390 pkg.size=3042
+file 5f47590cb94f3f08019678f5eb9955a325f0733e chash=70e61064f425c03746cbe16995d5ba59b764f9ba group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/advancedMapping/advancedMapping_client/build.xml pkg.csize=1208 pkg.size=2523
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/advancedMapping/advancedMapping_client/src
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/advancedMapping/advancedMapping_client/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/advancedMapping/advancedMapping_client/src/java/advancedmapping
+file 7e506a3105348fe39a0886d9aa08b5a33142d385 chash=37a87c9586440550f9fe20fd32a7d7dda7e2b5c5 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/advancedMapping/advancedMapping_client/src/java/advancedmapping/AdvancedMappingJavaClient.java pkg.csize=1709 pkg.size=4264
+file 0f9d9530f92279348f2d0a93f62766d24664cd26 chash=2b9dd6a275e412f0341c8799e42bede6927b3e98 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/advancedMapping/docs/index.html pkg.csize=3129 pkg.size=7539
+file 56ed3c21a2736d18685d3f2dd02b4b51c712afdf chash=4e63d4e0fcabde8d4468920a7a02000152ccbf3e group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/advancedMapping/nbproject/project.properties pkg.csize=1757 pkg.size=4068
+file 26439b133fa44e05802a82e4c40e51a203c321b0 chash=c4a895526cea88a251034be702aa1a84e72dca6e group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/advancedMapping/nbproject/project.xml pkg.csize=1211 pkg.size=2625
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/advancedMapping/web/WEB-INF
+file d4fa947076dc95f60bd918ac49d3c1d1390d7907 chash=f2ed271abcb6e95f0e0c1729747403971d79c7f2 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/advancedMapping/web/WEB-INF/sun-web.xml pkg.csize=1231 pkg.size=2473
+file 5bec8d6b4af32a4a0f706cb9e9b78fc1b2a2a0e9 chash=b95a092236920f166a0f6964a97dd8b11fdc94ea group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/criteriaQuery/build.xml pkg.csize=1401 pkg.size=3324
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/criteriaQuery/web
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/criteriaQuery/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/criteriaQuery/src
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/criteriaQuery/criteriaQuery_client
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/criteriaQuery/docs
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/criteriaQuery/web/WEB-INF
+file d4fa947076dc95f60bd918ac49d3c1d1390d7907 chash=f2ed271abcb6e95f0e0c1729747403971d79c7f2 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/criteriaQuery/web/WEB-INF/sun-web.xml pkg.csize=1231 pkg.size=2473
+file bc9a2d842fcea03693473336c5a0c6f24dc547d4 chash=5aa4d8fd6981bd4e80e0a19edfba67b722fcb8c5 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/criteriaQuery/nbproject/project.properties pkg.csize=1756 pkg.size=4062
+file dce70083fd77a8539ff217edf0420a944fe81f17 chash=fba18c753e07bc9b579cbbeaab783e46a4709840 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/criteriaQuery/nbproject/project.xml pkg.csize=1210 pkg.size=2623
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/criteriaQuery/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/criteriaQuery/src/conf
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/criteriaQuery/src/java/enterprise
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/criteriaQuery/src/java/enterprise/criteriaQuery
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/criteriaQuery/src/java/enterprise/criteriaQuery/entity
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/criteriaQuery/src/java/enterprise/criteriaQuery/ejb
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/criteriaQuery/src/java/enterprise/criteriaQuery/servlet
+file b16be1e83abe672333a97db01ed7cd61ee128ba2 chash=cc5ac9a642add9192bdbb204acdf2eb0e284144f group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/criteriaQuery/src/java/enterprise/criteriaQuery/entity/LineItemId.java pkg.csize=1066 pkg.size=2160
+file 3d5aabbdb84104f30ed084d33e6ba76272292fa2 chash=2a37aa133c0f604b828fa594b4f2247c06f97ac5 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/criteriaQuery/src/java/enterprise/criteriaQuery/entity/Order.java pkg.csize=1314 pkg.size=2837
+file ffcc08217a3f3de63c60dab823b6d7ec9753611a chash=8d914d3e535aca6a9f58503119f95ae503c137c6 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/criteriaQuery/src/java/enterprise/criteriaQuery/entity/LineItem.java pkg.csize=1234 pkg.size=2692
+file 0da850d04f0b2221445704b4da27cf216ddf2dbb chash=29c141f043b2d921f125c84676646e816e6ce504 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/criteriaQuery/src/java/enterprise/criteriaQuery/entity/Item.java pkg.csize=1188 pkg.size=2574
+file 5880db88882d6f6e00ee20e57bad0ec1443887b4 chash=1caa36d03c670b5b2850de46537c91a9ce354cfb group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/criteriaQuery/src/java/enterprise/criteriaQuery/ejb/StatelessSessionBean.java pkg.csize=1976 pkg.size=5917
+file 8c1a1f83238539badc745ffb16002038e244a49d chash=b0afe265a46fec73bf2b9094227f7a48ab9f2e52 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/criteriaQuery/src/java/enterprise/criteriaQuery/servlet/TestServlet.java pkg.csize=1569 pkg.size=4152
+file faa1f9b41ae817210f804ceb71e5a3711251d33c chash=137caddc171102c0b5e9d66930ba4ee8a7d66df1 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/criteriaQuery/src/conf/persistence.xml pkg.csize=1448 pkg.size=3203
+file 2128628358f00c560cdb008f001208a4c00aa09d chash=69ae5df2d7561ae21414056d607119796e7f42a3 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/criteriaQuery/criteriaQuery_client/build.xml pkg.csize=1209 pkg.size=2517
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/criteriaQuery/criteriaQuery_client/src
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/criteriaQuery/criteriaQuery_client/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/jpa/criteriaQuery/criteriaQuery_client/src/java/criteriaquery
+file 5ed5cdc4d7c123aed700a791647d7ae7ae9fc053 chash=e7fb6c28e699fb6425f0d566cdc97b9a3fea7e24 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/criteriaQuery/criteriaQuery_client/src/java/criteriaquery/CriteriaQueryJavaClient.java pkg.csize=1709 pkg.size=4250
+file d2baee992aace24538cc987ccec5f3192c7918fa chash=e1f4ac13e6653b8e4e94024d2ade35ce4bc30540 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/jpa/criteriaQuery/docs/index.html pkg.csize=3206 pkg.size=7714
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/container
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax
+file e337e60844bb0a4509cef282f2807df0cfc9b423 chash=75f4b04e1302638951a7195b36a5f148f06d15fa group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/build.xml pkg.csize=1215 pkg.size=2562
+file 56fbc780af4481b9eb447db0665b74629600bbae chash=ef5dd15c2aaae27f1fa97a172c1d7d53ac95b048 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/nbbuild.xml pkg.csize=2069 pkg.size=5438
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/docs
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/src
+file 663b9d9e02f760225fb37c04bfc368e5fa1056e2 chash=e70f2951250bb591cbc7f2f793254937df3a9ea4 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/nbproject/project.xml pkg.csize=1214 pkg.size=2603
+file e079e961102d3e9509c5cecb7ccde3305569b9df chash=50f77a37504281abbc8e1a299b65341d17a7446a group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/nbproject/project.properties pkg.csize=1756 pkg.size=4054
+file 151a0d8a71ee0f2a5aadd99dd01d48dcf37c86f0 chash=643452622aaf15ac4f8b106d74b3a85aa1d29209 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/out.xhtml pkg.csize=1506 pkg.size=3192
+file aa08d5e70a124cc5699ccd1fbcb8a9ff5664a3ab chash=98ad7b01ec2c356e2eb2d457d476e0c9bdb97d45 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/actionListener.xhtml pkg.csize=1410 pkg.size=2838
+file a623383a44c9c22ec96d7278acc591e5002ddc13 chash=7e0a3543922f31d4b8fb2f22b070e2f5eeb596b4 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/inout.xhtml pkg.csize=1474 pkg.size=3181
+file 55bccb3f1c576c60c937efdfeb701c79a09d19ef chash=e9fb6193f31b041c83174021da724d6792ec8273 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/displaysource.xhtml pkg.csize=1229 pkg.size=2494
+file 6787eabadc8351fb3a7cc91336be552564b44d3a chash=ecb6b2d921ca4efe162aea17c78229817f4428af group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/index.xhtml pkg.csize=1662 pkg.size=4676
+file 56829cd190dd21bb7ee3cfc4a99f5fa988034255 chash=308d5cb8a7cb03a1c6b71578d75de29066f58ab2 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/nav1.xhtml pkg.csize=1479 pkg.size=3219
+file be110c03c04bc369c97c9dfc10774950f4739d39 chash=9c319b28cb84de7ca3b148a086bc81d3b2f3b790 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/spinnerStyled.xhtml pkg.csize=1385 pkg.size=2898
+file 2d17067750603390071a6e90e997a9fd77a577ed chash=b8630e41e6dac5456b6ccbd8516c4da11c6751ef group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/nav2.xhtml pkg.csize=1474 pkg.size=3188
+file 63d8daf8e6002de944c41af33817a2e579c2514b chash=a03acb4799a328492d169efc5a09eb115c14416e group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/index.html pkg.csize=1047 pkg.size=2125
+file d7df6671534600a3edb908e4fa7659a76cc21406 chash=b46796f73123f34d3191304632be76693574c242 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/spinner.xhtml pkg.csize=1382 pkg.size=2875
+file 77449c2eeeb18cbe35ead4c77b803fb212733ecc chash=d3f09e146354a268dc53dc5d0a081e9682c42df7 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/spinnerFinal.xhtml pkg.csize=1440 pkg.size=3225
+file a9b18ede36579e0bd463c540b13c7488de599dc9 chash=32c514c9ba0cfc60ab2a8a21f5b546c9b45a57a4 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/contract.xhtml pkg.csize=1444 pkg.size=3040
+file 62e0b8eb0f1e18b7c08c24b2d28f97cf16c26d4a chash=6336bf69870b581be7d7971607f7f5bca4e54bd8 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/inout2.xhtml pkg.csize=1374 pkg.size=2844
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/resources
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/sources
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/WEB-INF
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/resources/simpleout
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/resources/images
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/resources/action
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/resources/simplecontract
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/resources/spinnerFinal
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/resources/css
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/resources/spinnerStyled
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/resources/spinner
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/resources/simpleinout
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/resources/navbutton
+file dfd97b3ac1c6b418fb4fb2b0ace7cdd4c8b22959 chash=b71d5fcae52d3dc00de8badf9fd833d9805fbf86 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/resources/simpleout/out.xhtml pkg.csize=1279 pkg.size=2624
+file 59c94ae880eb1106d43c620cb90f0cb5e24ce952 chash=e4f3cb4332184f307e212cf70511155afc7d81c1 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/resources/images/execute.gif pkg.csize=913 pkg.size=1242
+file 19f2eb946950d3f749bef60bc890aebae7e5c86c chash=43de667d3951021f06feddb84ee74d3d6c6d8034 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/resources/action/actionButton.xhtml pkg.csize=1236 pkg.size=2569
+file 73e70418373f8a279ab1353ba91449c679082740 chash=7a9bc347afbe992661d32eeaf6a51746a42eaa5f group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/resources/simplecontract/double.xhtml pkg.csize=1353 pkg.size=2909
+file 890ed9be5b13db9a29247bc8c83105b2702572ce chash=ded07eb94199f2d0a18f3fa1691b466b86766c15 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/resources/spinnerFinal/spinner.js pkg.csize=1185 pkg.size=2554
+file 3187d230cae8457d53bed4341dc3bdc0c8f21b61 chash=2b159e5c7fb1eb0f92aa8028e70ec18f947ee27c group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/resources/spinnerFinal/spinner.css pkg.csize=1066 pkg.size=2174
+file e9dcfc41ca698cb0ffe6d7a7e07287fdb0d3c505 chash=887042c1440c922eb5473130b50ed0224047f434 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/resources/spinnerFinal/spinner.xhtml pkg.csize=1496 pkg.size=3335
+file 6040ff23776101f413071071ef094e95f66cf8c1 chash=7a1cb3f7af10b0a18bcccfeb21fc566cd8969a59 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/resources/css/styles.css pkg.csize=1238 pkg.size=2573
+file 9c3b332214443f8bba712b2dcca9cd9ebe2238c9 chash=6a2bb3b7022bd68f97fd9f18154a9558995fe716 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/resources/spinnerStyled/spinnerStyled.css pkg.csize=994 pkg.size=2015
+file 3187d230cae8457d53bed4341dc3bdc0c8f21b61 chash=2b159e5c7fb1eb0f92aa8028e70ec18f947ee27c group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/resources/spinnerStyled/spinner.css pkg.csize=1066 pkg.size=2174
+file c10c00183297b9625819ed49dc5fed80305bed80 chash=d001f27fb6cd84a5bdaec58b659ae216abad264d group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/resources/spinnerStyled/spinner.xhtml pkg.csize=1586 pkg.size=3557
+file c565950acdeb3ce75607e9d16a67be31b7ab6005 chash=1e49bee1259319a379417206c58c603562595def group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/resources/spinnerStyled/spinnerStyled.xhtml pkg.csize=1411 pkg.size=2976
+file 5f94931bb06173d6a70fa134ee0ecbfa0bdd5cb8 chash=c61cb819330a51209a4b4016500d777668028bf8 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/resources/spinner/spinner.xhtml pkg.csize=1529 pkg.size=3484
+file 90b2922f4d896150ecf57f7fc3eb6de3baf76100 chash=e9705384234e8cdee133c94289e9a4aa263b168a group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/resources/simpleinout/inout.xhtml pkg.csize=1361 pkg.size=2815
+file 94e76cf7cede1b518fbaf71355c17d548b464a36 chash=ddacfe289cd6997ce3173c2a9937bf8062dff7a7 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/resources/navbutton/nav.xhtml pkg.csize=1313 pkg.size=2696
+file 433a2c2b94ef70f3969d9994e86cb38ba10a56eb chash=a7efdae5710e950f611b7e8e5d46228af4836036 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/sources/MultiNumberHolder.java.source pkg.csize=1217 pkg.size=2602
+file 61579f427c2ad186f32b201ee4f2a2898d3dc231 chash=75b3b08991d3eb29944eb5c0e162a2dc212ac751 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/sources/InOutBean.java.source pkg.csize=1366 pkg.size=3130
+file aaa6eed072639df55e879480fa2548834018cb92 chash=aeefa6d93301daf7e020deacddd7064e877f1628 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/sources/ActionCaller.java.source pkg.csize=1227 pkg.size=2624
+file 1066c91e973066f7d16e23a22b1c85eb92e42485 chash=42b37ea3fffa3e9ad6b195d1da0b4a02f78594ba group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/sources/NumberHolder.java.source pkg.csize=1185 pkg.size=2431
+file 2380c47ee106eb4983d6e131b99ae79358811122 chash=17f809b0a07349683e0f253d8919952ac25a12fc group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/sources/NavigationHandler.java.source pkg.csize=1227 pkg.size=2645
+file 452a02480bbf97fa5bdf68d46cb0beb4198de8cb chash=4cc108a48a77ddb5e7c1b0a7ce0131830fb3ae2b group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/WEB-INF/demo.xml pkg.csize=1519 pkg.size=7392
+file df4a5ae4dcaa9b4683ebdf85f3f4dab4f82d02bf chash=f71f1d7e76418dce440365df475fa4a9b6a1febc group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/WEB-INF/web.xml pkg.csize=1472 pkg.size=3422
+file bf95e0f29998ec62e6fb7296832e00e208a5d6d0 chash=6a2b92db396d4c25124901fbda9583ec1731c98c group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/WEB-INF/ezcomp-taglib.xml pkg.csize=1235 pkg.size=2657
+file fd4de139bf29ce95dc9a0d9626645d115208f970 chash=656f0c861a69ca0b915f27ebe714cbc730571b79 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/web/WEB-INF/demotemplate.xhtml pkg.csize=1229 pkg.size=2532
+file f4148953d1aa1b4d77a66bab3b90f97812bb44ad chash=2b191d26e63b05ce4fbb9a45a5501b247398efc1 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/docs/index.html pkg.csize=2680 pkg.size=6477
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/src/java/ezcomp
+file afd033a0f24fab22d537da1b7036c52776e740f2 chash=9cb1eaa4f880f2ca665ce2de5f3b3695469eed5a group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/src/java/ezcomp/DemoResourceBean.java pkg.csize=2839 pkg.size=9443
+file 1066c91e973066f7d16e23a22b1c85eb92e42485 chash=42b37ea3fffa3e9ad6b195d1da0b4a02f78594ba group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/src/java/ezcomp/NumberHolder.java pkg.csize=1185 pkg.size=2431
+file f844706baa140f0ccfcd5ff8b49065989e27b66c chash=976fe1640041965c978da2d83d007dfffe125cde group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/src/java/ezcomp/Functions.java pkg.csize=1601 pkg.size=3783
+file aaa6eed072639df55e879480fa2548834018cb92 chash=aeefa6d93301daf7e020deacddd7064e877f1628 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/src/java/ezcomp/ActionCaller.java pkg.csize=1227 pkg.size=2624
+file 61579f427c2ad186f32b201ee4f2a2898d3dc231 chash=75b3b08991d3eb29944eb5c0e162a2dc212ac751 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/src/java/ezcomp/InOutBean.java pkg.csize=1366 pkg.size=3130
+file 433a2c2b94ef70f3969d9994e86cb38ba10a56eb chash=a7efdae5710e950f611b7e8e5d46228af4836036 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/src/java/ezcomp/MultiNumberHolder.java pkg.csize=1217 pkg.size=2602
+file 2380c47ee106eb4983d6e131b99ae79358811122 chash=17f809b0a07349683e0f253d8919952ac25a12fc group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ezcomp/src/java/ezcomp/NavigationHandler.java pkg.csize=1227 pkg.size=2645
+file 24c06ba660ac3129f3d6ef73cacb4d139767d88e chash=bb02a89d771dc233944fe49f31840a0435e3d6f4 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/build.xml pkg.csize=1384 pkg.size=3221
+file f8c8db47e39dc4abca2b664f235e1c5529a6d5df chash=cbf2dd4d54be59b0b1ebdeed5576e1b6174ffda2 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/README.txt pkg.csize=597 pkg.size=1108
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/docs
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/conf
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/resources
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java/jsf2
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java/jsf2/demo
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java/jsf2/demo/scrum
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java/jsf2/demo/scrum/web
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java/jsf2/demo/scrum/model
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java/jsf2/demo/scrum/web/event
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java/jsf2/demo/scrum/web/helper
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java/jsf2/demo/scrum/web/scope
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java/jsf2/demo/scrum/web/controller
+file 0d77b4abff08eaac7419da7becbfd266318cbd80 chash=2855e38b2ab43c88393ead509e32c907665df494 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java/jsf2/demo/scrum/web/event/CurrentTaskChangeEvent.java pkg.csize=1164 pkg.size=2329
+file 78887e92e0603c48cb61ce75ade0ff192ea1f4d6 chash=e6efa71769b889c35e08d8e63ad95bfef43d4f2a group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java/jsf2/demo/scrum/web/event/CurrentSprintChangeEvent.java pkg.csize=1167 pkg.size=2334
+file 2cb7265e179e623bf606ffa2ba7f75872d3089a0 chash=3903ee708229401b396d69700318fe90e1550a1b group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java/jsf2/demo/scrum/web/event/CurrentStoryChangeEvent.java pkg.csize=1167 pkg.size=2332
+file 680d4ca0c856208dca93f7ad6199141cb0b3f971 chash=40eb462afcdfe6978fe871a0fa085bfaf859b0ae group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java/jsf2/demo/scrum/web/event/CurrentProjectChangeEvent.java pkg.csize=1167 pkg.size=2336
+file 776f5c6de355cbdb4acbab741527d22f01400f6c chash=52d7478b42f5136e3b4a3ca76a2ee70e057d3b75 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java/jsf2/demo/scrum/web/helper/ProjectConverter.java pkg.csize=1441 pkg.size=3276
+file 5d6d4cca7f3c6bb0020e1aa482201c4809dc39c1 chash=b0cc82e72aaaae2f80db10c530320a89f12b16be group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java/jsf2/demo/scrum/web/scope/TaskScopeResolver.java pkg.csize=1878 pkg.size=5266
+file 6c32f80817bb4c0bce4872db5b5b0c76315fcd99 chash=404c34f9963fb25773b7e9c155f4f9196880fce2 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java/jsf2/demo/scrum/web/scope/TaskScope.java pkg.csize=1379 pkg.size=3256
+file cf1be1d793f714edc630634eb966053c5480eab7 chash=afec4eea913fdf74ba0de4ea0cb1349930cc73ff group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java/jsf2/demo/scrum/web/controller/ProjectManager.java pkg.csize=2736 pkg.size=9886
+file 2db90ee94eddbada29492bbe130bb14b1827713e chash=3442263aec71f662af4ca37500ad32ab00971c1c group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java/jsf2/demo/scrum/web/controller/SkinUrlManager.java pkg.csize=1414 pkg.size=3377
+file 95e57294d9d3b568664982ba63703057aff5839f chash=ab48450b9fbb16a18a52aa8a9816d7f70075ef11 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java/jsf2/demo/scrum/web/controller/StoryManager.java pkg.csize=2649 pkg.size=9468
+file 261bc22f2ffbc9c5ddac85c5dc6c97fab97214ed chash=a71ac17711bf898f75a687dd09782be6f34a14b2 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java/jsf2/demo/scrum/web/controller/SkinManager.java pkg.csize=1441 pkg.size=3362
+file 2497de98399e506c0313abca4bcfc30e3b4d4e36 chash=7b51e1647839519a3285e00be8ee8ea6f9e312ff group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java/jsf2/demo/scrum/web/controller/TaskManager.java pkg.csize=2614 pkg.size=8831
+file b74052a652ad7c800bd797884af1f8c847bd6da3 chash=bf30b5a4311c951b4f4097243e2221b899c1e754 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java/jsf2/demo/scrum/web/controller/ManagerException.java pkg.csize=1140 pkg.size=2366
+file 88cc4bfd2b92a9006d71f4dbb98ed388bfd6d8ed chash=c906b78895dde47614610e3ff3239cbdbb5c463f group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java/jsf2/demo/scrum/web/controller/SkinValuesManager.java pkg.csize=1596 pkg.size=3693
+file b4a7168ea30c213f66db9aa660dd516818022a6d chash=dfb24a6edc741c829817e89a9643537f6e8c1024 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java/jsf2/demo/scrum/web/controller/SprintManager.java pkg.csize=3037 pkg.size=10650
+file 2e09ada59201a6cb996d62d808761d101de032b1 chash=861f19fdea36e81e725f23165c33713fe7491321 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java/jsf2/demo/scrum/web/controller/DashboardManager.java pkg.csize=1885 pkg.size=6298
+file edc1717ff7fb72319e0bdad125f2dad525aac0d5 chash=6a55c8f767b35c2a7bc9f0163cb0bfca4d695452 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java/jsf2/demo/scrum/web/controller/AbstractManager.java pkg.csize=1916 pkg.size=6153
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java/jsf2/demo/scrum/model/entities
+file 32ed9c1ac203c935421b7dde892ee0fe0c6e07aa chash=c64976b31c3037de9f75d905ad1028d413b9cc0d group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java/jsf2/demo/scrum/model/entities/AbstractEntity.java pkg.csize=1281 pkg.size=2786
+file 945b3ef773d394c1d72c2e882c4e001d64663b6f chash=558c2a003d1d308e988752577a3cea8fd5c654f1 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java/jsf2/demo/scrum/model/entities/SprintNameUniquenessConstraint.java pkg.csize=1259 pkg.size=2689
+file c0ee8b7d8943fb234bb126c6f20d55d160e97104 chash=84686a255406343c839ff384a8c763eac22519c1 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java/jsf2/demo/scrum/model/entities/TaskStatus.java pkg.csize=1071 pkg.size=2135
+file 69fbe3623ca0ea3e8aba23ff56741491f2e9a8e0 chash=5dbfd94ecf0ca1306f5d4d69401d6c05efc3add4 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java/jsf2/demo/scrum/model/entities/Project.java pkg.csize=1960 pkg.size=5582
+file b7874812184f7462cae0d1e21c793b0ee45243f0 chash=c3198af750e93a467abe53362959e46544e5ffe9 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java/jsf2/demo/scrum/model/entities/SprintNameUniquenessConstraintValidator.java pkg.csize=1392 pkg.size=3185
+file bafb576d5a1b13e3858a124000c9b8a2754eb659 chash=dee9a818a8b3c852fcf37c0a2945dca4cf0bd456 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java/jsf2/demo/scrum/model/entities/Story.java pkg.csize=2260 pkg.size=6875
+file aa8c00471b8c4d88a1023a48aad7f6fb6612bf37 chash=53ee8571e75ae2ac80030e36c5a5b554ae1e4db5 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java/jsf2/demo/scrum/model/entities/PersistentEntity.java pkg.csize=1111 pkg.size=2241
+file a2e88bf070a04665560e91b3028dc222ede7c5ab chash=a1d0ae876679c66764d73a7c91231cf77e88614c group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java/jsf2/demo/scrum/model/entities/Task.java pkg.csize=1998 pkg.size=5564
+file 9d763ce7d05582c27a9d077ae35c2d90003c731d chash=e4f5b090cfac2fafa6c46c672ee92f009f6bcba3 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/java/jsf2/demo/scrum/model/entities/Sprint.java pkg.csize=2225 pkg.size=6668
+file 94abd2f43eafbb35318afe00032ba922f541cbed chash=da484707d205026121191b675d54f9e328089b24 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/conf/persistence.xml pkg.csize=1322 pkg.size=2983
+file 75e00c94c010fff1f71fc4d07dc65f7950254528 chash=e50dac82a8e32c4faf17ba423e07b6ee9d0fcb03 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/resources/i18n_en_US.properties pkg.csize=3139 pkg.size=12388
+file 1d590b65ef0d3c0319ba3c28999b9f6c6f4caf66 chash=042f551af546759b12b35c98ee9bc7ff778efdaa group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/resources/ValidationMessages_pt_BR.properties pkg.csize=999 pkg.size=2015
+file 1d590b65ef0d3c0319ba3c28999b9f6c6f4caf66 chash=042f551af546759b12b35c98ee9bc7ff778efdaa group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/resources/ValidationMessages.properties pkg.csize=999 pkg.size=2015
+file 4a903badca24388a2041d5471668e77be2332a09 chash=d63036e963170752a726946e325e041f68f3d846 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/resources/i18n.properties pkg.csize=3109 pkg.size=12296
+file 9b71b3da76ededccdc4abc521e4d37df7fb546e3 chash=2794b55dbca45ed4b04e7e50afe5a53445d88fb0 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/resources/i18n_pt_BR.properties pkg.csize=3348 pkg.size=12802
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/resources/META-INF
+file 94abd2f43eafbb35318afe00032ba922f541cbed chash=da484707d205026121191b675d54f9e328089b24 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/src/resources/META-INF/persistence.xml pkg.csize=1322 pkg.size=2983
+file e48b9f75846ee32e98bed1604f079f0c3a8f901a chash=64db9ee9fe82fefe92edb6cfe025c89df8a5039b group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/.dashboard.doneTasks.xhtml pkg.csize=1473 pkg.size=3360
+file 575b8d4e22f9fd559e0efcade693751f52984251 chash=3b8114e9b3ddc1d744f6d5bf8372b51f2079f61c group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/allInOne.xhtml pkg.csize=2548 pkg.size=11787
+file 35dee4132861efde98ee7e92dc434075af7be75a chash=a800d2d80f235596a093aaf170ead96ec68efdf1 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/burndown.xhtml pkg.csize=1463 pkg.size=3156
+file d1691bd55c260db7bd372f3c69f8cc97253988aa chash=fa1f4c1b83dfcafdab2bd6917c1000bd912c6067 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/.dashboard.workingTasks.xhtml pkg.csize=1484 pkg.size=3290
+file 8eaf7bbab3322077dcab7bdf3fe22ca82870581d chash=f24e81cab01fadb4f34b26a558ab59220eb9465f group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/footer.xhtml pkg.csize=1306 pkg.size=2615
+file 50d2a57ec0ae4cfc8ca815aef8c93d6a83330a90 chash=babfe18efac329f09139991215226c849f980ae6 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/dashboard.xhtml pkg.csize=1762 pkg.size=5200
+file 98d6f6ba4b192f639ea9b7e611db7a2099f71613 chash=970ae00c543bdcc95f3f2d8eed9218bea6a8c9b2 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/.dashboard.stories.xhtml pkg.csize=1599 pkg.size=3783
+file 7eef2ad06ae2d5ed70350477f0ce03df62509ab3 chash=3d200f49544e3d2871dc22bb3790e66ee4dca655 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/index.html pkg.csize=1022 pkg.size=2073
+file ec8ec60793461bb212de7060376b86de86606d9a chash=37cf4de698af1345a34a8ca7cc51e8dc3f2dfd4c group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/template.xhtml pkg.csize=1705 pkg.size=4341
+file 5d1817aefa6b66eb387c539b216d05fdf87db077 chash=56ce63f200210b6ae2fe7a1a070fb748df489ac8 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/menu.xhtml pkg.csize=1780 pkg.size=7580
+file ee77ff9b8eb23ec9110b6a348864e386db7a4988 chash=dc575898fd2a82564a7b3b9fa39572e7c80e78af group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/changeSkin.xhtml pkg.csize=1496 pkg.size=3814
+file c8271c234c230100380338e21e9082de8119885b chash=8fce43cab60ddfc238e7f39c39bcb08e503e5d11 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/home.xhtml pkg.csize=1321 pkg.size=2804
+file 2b8dce664d995d366f5ed7043d6d83de73d5dac1 chash=f7e0242404ba7d1ae61a3ca9d3998dcc88d58b53 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/storiesList.xhtml pkg.csize=2007 pkg.size=6654
+file 05412f4458ace95fc5c3db0dd1ca4233cf78d76a chash=59dadd427604440d3cdad2f7501a427b544ca192 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/.dashboard.todoTasks.xhtml pkg.csize=1434 pkg.size=3223
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/task
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/skin
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/story
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/project
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/sprint
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/WEB-INF
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/dashboard
+file 78adf7972406f279e3b008c759a55d63faa21185 chash=8f5a8ac975031ba1c85e04baf3c8ca742cd5e57f group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/task/form.xhtml pkg.csize=1610 pkg.size=4364
+file 6f419a49b5c5eb73849d7f6b116979d9825be0cf chash=a7b00e8936d456ba9457cf4c6b96c872ac367a52 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/task/create.xhtml pkg.csize=1624 pkg.size=4716
+file c1d6b579fa5131b82d945eefe7983f160b62b2af chash=eaff8d6ae59a2799146dbf20ba96d38304d6c5d2 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/task/edit.xhtml pkg.csize=1652 pkg.size=4876
+file ff8fc27ca22fe10644a1c103e011483dd5709cfe chash=ac58479eacbb162600a07f1aa4259cacba758bb4 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/task/show.xhtml pkg.csize=2061 pkg.size=8440
+file 1ef6c8d1983d260b4a55b2dce070747b4664de34 chash=7d7099513a8cc3df7e9a807f54c112c182108733 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/skin/changeSkin.xhtml pkg.csize=1551 pkg.size=3603
+file 94077d81e465b7af10418bb6f03e3323fbd8906f chash=bf1e48f7aba48a263b3fe515f6375d3299843043 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/story/form.xhtml pkg.csize=1599 pkg.size=4570
+file 3f2e90fe7f7e0d900057d27dd0fbbf3644df3768 chash=d4f11758a153dc9499827617d11fdb768f681ead group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/story/show.xhtml pkg.csize=2050 pkg.size=7899
+file 80756728c49152fb03e3e966a3020c5ece592cc2 chash=de103ed64e8587a404cf581f0baf218256070031 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/story/create.xhtml pkg.csize=1968 pkg.size=6792
+file e3f77d18fc2b685e4dd6cce8e49ef741ec62d97a chash=848965150e5773bde2be90adb044feff77a1c711 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/story/edit.xhtml pkg.csize=1682 pkg.size=4758
+file 76fbd26147dd3a550ce2db414c294309e31039d9 chash=18ee511524a39661d0519a38e4e534fce1445605 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/project/form.xhtml pkg.csize=1559 pkg.size=4222
+file 5e282919bbedb816019bd799e666367e4696a39d chash=ee9d351440d7f021af17838124bdbf7608fe3994 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/project/edit.xhtml pkg.csize=1537 pkg.size=3682
+file 15df2077b630a7c6eeca9c540903aa5febb43915 chash=8f81196a436d0ac748b525a90119b3eb8671d8be group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/project/create.xhtml pkg.csize=1522 pkg.size=3643
+file 522718d4cf3547a066d04a126885575dda88b752 chash=cadb4f8b8163ebfa3a7470d5971b5c89874d175f group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/project/show.xhtml pkg.csize=1739 pkg.size=5829
+file 66c095d8f1f1ab511ef67da184b07b408c419e36 chash=800646d47e0df24f33c54abc15d0de1f74b92f7b group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/sprint/show.xhtml pkg.csize=1990 pkg.size=7633
+file 81adbb245d48b13f66f46ae215f5343557d9fc24 chash=ba3656db038aff42ff01220bbea1e7bf906c4a7b group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/sprint/edit.xhtml pkg.csize=1590 pkg.size=4121
+file 8191e25a0981678a00507bb41ded9aba1bddc24d chash=9dca03751ac5492ac44352e98d1824288b301605 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/sprint/form.xhtml pkg.csize=1652 pkg.size=4971
+file 09f8f56ebe54fc01dfe9c6841ba328ed228f32fe chash=33ef43a12b5d807e2eb9ee025ad6e936430726db group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/sprint/create.xhtml pkg.csize=1557 pkg.size=3889
+file 34e3012a2b5586506338403aca03e337b87bf298 chash=dae5686a98de5b53f0c546ce4936ef36ba05691b group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/WEB-INF/faces-config.xml pkg.csize=1586 pkg.size=6089
+file f75c8eb678947910927db910b54a997d4bb26a96 chash=18ebd2864c0d09cba12e1a2f3ebac120fa2c7d58 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/WEB-INF/sun-web.xml pkg.csize=1256 pkg.size=2519
+file da3e881ac5b9907cfe8819335b06095028d1201e chash=0adbeaec360c7cf27e6b2f436c3f83fa99a74a4c group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/WEB-INF/web.xml pkg.csize=1458 pkg.size=3438
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/WEB-INF/facelets
+file 5d3e8e480038d553c26f07763e3c94d26dd04bae chash=db3589676f673b570e40dc74dc3b9b32c81221d7 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/WEB-INF/facelets/jsfcomps.taglib.xml pkg.csize=1228 pkg.size=2603
+file 22d600302ecd944c0affcb8651fc475c00a3da55 chash=7d0ea7423f38f47164f7d967d383b77498639720 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/WEB-INF/facelets/testTag.xhtml pkg.csize=1155 pkg.size=2358
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/js
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/css
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/images
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/components
+file fa3a414875ea2a938e0f48d5898f2dc8fc5ded8f chash=7712d21605e67e9c9afd04c0b8102069d95330e5 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/js/menu.js pkg.csize=1185 pkg.size=2447
+file f3d8670b778599d44e7bda48bf45be06d92be486 chash=22574944e0e7c06fcbd22c071f136c54c1bac6b9 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/js/app.js pkg.csize=1062 pkg.size=2139
+file a83c973b443b36efabfe634af880f428589e6c22 chash=0b163668357e3a6b363fe2d62ec27421ee4cb4dc group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/js/date.js pkg.csize=4457 pkg.size=13813
+file 135a924567981e99d1b03b3e1f3e2b3bae49c897 chash=28c4b558ccacb1cddbce45729a5b0b1ca11a287d group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/js/validations.js pkg.csize=4081 pkg.size=17262
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/css/1_0
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/css/1_1
+file 467105f26132038a84bcd47b3dbee27165d0a51d chash=1635078fcbe7639b4f83572eb64c4d259510070a group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/css/1_0/app.css pkg.csize=1051 pkg.size=2114
+file 81c2c3e3ce8f81628c11404a6860570904bbbd03 chash=d3c4c9a6df6a00bcd578860d8c37cc72932a253e group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/css/1_1/common.css pkg.csize=1715 pkg.size=5151
+file 56fc1d6e60009e8a834999fbb6a6a1326fd44392 chash=e79c0d44f5789ec9a611d97eb781c2a21d8b078f group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/css/1_1/appYellowSkin.css pkg.csize=2039 pkg.size=6029
+file 64f5bad1bc172a86b310093457efd439ba232456 chash=f440aacb4f078b57333a60290f3b4013d090d568 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/css/1_1/appOrangeSkin.css pkg.csize=2015 pkg.size=6023
+file f287e7a192c87e6fdc4dd7107f7d9f11864e39b6 chash=db44c9c79c9d55c5bbbcf34b233fd0ca41552b1a group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/css/1_1/appSelectedColor.css pkg.csize=2013 pkg.size=5927
+file d8b7bdf2ee373461f852d8f12a6ee5a990e1a6a7 chash=cafe892d107f96c1e12cdc806c6a78f43dbfd955 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/css/1_1/appRedSkin.css pkg.csize=2014 pkg.size=5928
+file f287e7a192c87e6fdc4dd7107f7d9f11864e39b6 chash=db44c9c79c9d55c5bbbcf34b233fd0ca41552b1a group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/css/1_1/appBlueSkin.css pkg.csize=2013 pkg.size=5927
+file f5e4b811f4f20d98d0ee94d10fa4f1834e2f1411 chash=9c83cebf29bb7f332373a6e23269cc4ccc50a4e8 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/images/JSFScrumWhiteBoard.png pkg.csize=139223 pkg.size=140710
+file 860a9b22e5dbf89bd6054e7c23b2c61c29745e4f chash=e6feefb6ba2e379e7846db5639499a8a77d995df group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/images/SoccerDukeSmall.png pkg.csize=187315 pkg.size=187753
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/images/lousaNova
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/images/menu
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/images/postits
+file 50fac4097a7b114a69870ee58d1011f8fdf88e55 chash=7ec8e61395d77ee374bf725282b59e979afb47c3 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/images/lousaNova/quadroNegro_top_990x80.png pkg.csize=956 pkg.size=1088
+file 48bf2a00db6cfe4fd899df230989b6070699d39a chash=4f1c3f76ddb6a72e9d2af43012fa5cf2182989c6 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/images/lousaNova/quadroNegro_r2_c1.png pkg.csize=312 pkg.size=1570
+file fb07d82c9fcc2a78c62480f83eb639cade32da99 chash=9c5acfd596f5176c25723341842c611145f3b633 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/images/lousaNova/quadroNegro_r1_c1.png pkg.csize=639 pkg.size=666
+file a9077d4e1ba8b2594057de6267ae7f010c387ba5 chash=fcb87dd6babaa818a9699852afda1819ba5d7dc8 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/images/lousaNova/quadroNegro_meio_990x10.png pkg.csize=364 pkg.size=371
+file 1eeb529ac96f855370208284c4d11bc709035ae2 chash=f0a0091b80bb7dda679f1ad04c35439517422da1 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/images/lousaNova/quadroNegro_r3_c1.png pkg.csize=2205 pkg.size=2476
+file 9967f02d303b1652dfbadeae97b9eb01fbb8a358 chash=dfc300a9df00595e0377b544fc56cf3a1a0c10f7 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/images/lousaNova/quadroNegro_botton_990x120.png pkg.csize=947 pkg.size=1229
+file 650fb72a215d02693ff495e396da20a90f7c9f48 chash=68152ad82a85bd00799489d51646815af6a41187 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/images/menu/bt_preto03_165x35.png pkg.csize=1134 pkg.size=1111
+file b2c41dc5a76c0c4c68950aaa4239cfe113a883b7 chash=0f80dd6081dc3b717d031cf87805dab97a9339df group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/images/menu/barraSuperior-04.png pkg.csize=28566 pkg.size=28732
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/images/postits/novos
+file e515eaea11fe4cf253630b71c21340d0f962ace0 chash=733e82364010f9dc621b3d293cc9b59979af4286 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/images/postits/novos/postit_lara_315x150.png pkg.csize=11116 pkg.size=11093
+file 9eb1e3fcc89037fc4ffb5502d0bc9756f8681665 chash=ebc8c049b9a2b5e5e1ffe7769e498e068d96fb1e group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/images/postits/novos/postit_lara_150x145.png pkg.csize=4199 pkg.size=4176
+file ada7a66c192f68ec3667742ab97c9a06077898e3 chash=e3c5588abb075953edda719a44ab407f7eb30a63 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/images/postits/novos/postit_amar_150x145.png pkg.csize=8941 pkg.size=8918
+file 6a643809ce445fecc26dc73382134a8019840da6 chash=c593b28bda813b929e0433f42574890420c42e77 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/images/postits/novos/postit_verm_315x150.png pkg.csize=10869 pkg.size=10846
+file b6fc634f707a8ff8bf4396567ca19188cf1b7393 chash=8f6d76e5238c239138f528c4c4a740a10e28d260 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/images/postits/novos/postit_azul_150x145.png pkg.csize=3999 pkg.size=3976
+file 7106b07f845a4a9e6c486bcfc563ebe98b865807 chash=ddc72badd0029b9e94a2e65efea998b3ae8d2b0d group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/images/postits/novos/postit_azul_315x150.png pkg.csize=9684 pkg.size=9661
+file 70111385f0656a5ca09c6bc1b129f5d888c0f919 chash=720ba2267d8f9063164df17b5b2e5c5410b19cde group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/images/postits/novos/postit_amar_315x150.png pkg.csize=11417 pkg.size=11394
+file 0840eff5b97b6207ac29a049308849bd7018dd7e chash=aa2be3fbe3150898114e6f159f19e093a40fe8db group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/images/postits/novos/postit_verm_150x145.png pkg.csize=4153 pkg.size=4130
+file cdec333ee25f8e6c00116da279fd3d2a6e15d47a chash=2cbe8310b5ac5b6750b932ca742ea51c8db0093c group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/components/title_pt_BR.properties pkg.csize=982 pkg.size=1973
+file 883780c079dd7d07d82945c872f88d129987187d chash=c4cdee7a95f384ae049f06c01cc80c5a3907765d group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/components/postit.xhtml pkg.csize=1405 pkg.size=3270
+file 6ea8ca527ba7fbae323d3234eac9f1e45c353d39 chash=baf35091853a8b447282abafc3c3da890425cdd7 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/components/submenuItem.xhtml pkg.csize=1250 pkg.size=2687
+file a220b787895753c02cbc9100bf0a75f738d19d62 chash=987e069c2b98c4b31114f01f942a47f9f9b30d64 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/components/title_en_US.properties pkg.csize=977 pkg.size=1967
+file ff81b2fc6859a9c46b7876939ff1e3d41288c77d chash=55c1ee9b631a1e22b8766c67aef83c16172f585e group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/components/menu.xhtml pkg.csize=1784 pkg.size=7500
+file dd2ba2a7adcd8c2ac7984c13e6086d61cb2a0ef0 chash=208d15cd7fdbf1a01ef7acdfd6c17371de13ba52 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/components/title.properties pkg.csize=981 pkg.size=1973
+file bc00a432405dc7fe0ed7f54e8638381cb3a9eddc chash=d7bc08470e3e29376668800c2702b9df5ecb1fcf group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/components/title.xhtml pkg.csize=1519 pkg.size=3557
+file 36e8a47652ca98d799f9a5a3cb89fed549324070 chash=f75a64876d10477efc1103aee520b629d793c3f7 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/components/postitLink.xhtml pkg.csize=1261 pkg.size=2667
+file ae9f32e419e2bd063fcb48a2871c18c8aa5a6a0d chash=31114e92975ebd9ee08ae2e7403d4f8f79bc543c group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/components/bigPostit.xhtml pkg.csize=1350 pkg.size=3356
+file d53ea250beb38e4cb65fc1cc75540ce2926598a9 chash=184952f194dbaa5ff198bb32747fcdb5e55cd4f0 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/components/submenu.xhtml pkg.csize=1253 pkg.size=2760
+file f95e97ef5f58abea95e34980d6ac1f48c2f288c8 chash=13bfaea105a475d455b74b517e83ba6b44284f78 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/resources/components/menuItem.xhtml pkg.csize=1307 pkg.size=2837
+file c0088344aa5724c5d06e7d55e15f86c8321803a7 chash=37a87a914b0cee6ef1b27bcff4aacdd96beb1516 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/web/dashboard/show.xhtml pkg.csize=1835 pkg.size=6271
+file caff0af3602a37632b576b76ceb944f737fed43b chash=350c7cfa88cc44e066b8c43c50d0b63f867929a8 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/docs/index.html pkg.csize=3270 pkg.size=7843
+file d4c4f6fbe381c158a0bb482034def87bf17c6bb9 chash=dd32e3368670f6c79f9593fcbd5a5bb78bd083c0 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/nbproject/project.xml pkg.csize=1200 pkg.size=2577
+file f26b44af1f05d117ba94260cd51bc3ed4b9127b7 chash=8836dd49bed4c63e43aa63ef7dbb01d2cf308b2b group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/scrumtoys/nbproject/project.properties pkg.csize=1777 pkg.size=4082
+file 3a3705bfbc6bef241548c94d78978d18c3b050ee chash=8adf0fcd4d8d1291e205046dc1b3bdbd86f01740 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/nbbuild.xml pkg.csize=2067 pkg.size=5434
+file 32d63ee68fcfc7f8fd93221ad5072d4318cbee62 chash=de2977549f83f9eefb496aad8fad58b4e6ec2fac group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/build.xml pkg.csize=1222 pkg.size=2566
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/web
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/docs
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/src
+file 265ada25f592162104ac6b2fb276616b50f0691a chash=5dec6e00e023f1e1d9089a1af43e0aa9e64e0c4d group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/web/aggregate.xhtml pkg.csize=1455 pkg.size=3039
+file 0d3d5fd9af5c8c7dd51a646be86e19b1426e8c1d chash=d22e5fd72172cc325eeeb145566665e996c4f792 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/web/listener.xhtml pkg.csize=1429 pkg.size=3158
+file 08feebdfee7c600204f7abd5e984aafe2ea5b12a chash=f997c2a7ca89df42f68fff9b967231bb803acd32 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/web/redirect.xhtml pkg.csize=1323 pkg.size=2891
+file 8d8a81a83e2f29c6ffd1444f11012bced77ac2ce chash=dbe9815ff9abfc38b1ed3c1184e63c6b9e719fe4 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/web/home.xhtml pkg.csize=1677 pkg.size=4719
+file d3c416b532c46d35b737fa77210bdda1f35c66b5 chash=8fe91770cde2b842dbb33d8a5d80955ab97850fd group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/web/hidenshow.xhtml pkg.csize=1609 pkg.size=3410
+file 60c7deaf462678358e82a240351e8634f89b228b chash=ba41ed81b66c0e2c5f6ced1428cdd303c498ba37 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/web/redirecttarget1.xhtml pkg.csize=1223 pkg.size=2471
+file aeb846f1bd5c0d774eee71ba6e772651b5a4327d chash=59686ad367117d9c28c4d9e7685db597b6b29245 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/web/echo2.xhtml pkg.csize=1452 pkg.size=3176
+file b998a43b14b83dba879de31dadf55417041a600c chash=7c6bc747e171032aaa5525bec4d7fe6b113d45bd group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/web/redirecttarget2.xhtml pkg.csize=1222 pkg.size=2471
+file 7a2067eef135d015c16ed0713d7bd3be9927103b chash=31d2010fd47b37b3b4a3c5dd4849399913319844 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/web/count.xhtml pkg.csize=1560 pkg.size=3342
+file 4b869ab09f60927d595c515cf496a8d5c23caab0 chash=aa778fa2974a2b6c6f26fe629ba0cff045b2ea66 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/web/displaysource.xhtml pkg.csize=1228 pkg.size=2492
+file e98dd9d9140a07d5bd94e777422035da7ed4e37c chash=647b4c7ec74ecf6d047dc9f6332cd0212b93fe7b group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/web/echo1.xhtml pkg.csize=1519 pkg.size=3343
+file 836d7d39704736fdd486069a148420c93f84c400 chash=9bb6e9d69cc2893108a3968a4a5e7ed8aa3dbbbd group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/web/redirecttarget3.xhtml pkg.csize=1222 pkg.size=2471
+file 73019f02155d6528640c8eed1ef7a34c1bde30bf chash=0555a76c3c2cb6ca59b470c1835f21ac927b7fe4 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/web/index.html pkg.csize=1044 pkg.size=2116
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/web/sources
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/web/WEB-INF
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/web/resources
+file c522e656338ba933cb9c02cedf8a763530b6889b chash=e77d02bcdbf3af6aa9bcba9c903d3be0f4f0473d group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/web/sources/RedirectBean.java.source pkg.csize=1354 pkg.size=3366
+file e286d5c1b0c2c7dc1c4c58d6f5359b22ed515cf7 chash=42bf2ef65b1010b23c965a8469100b4a61d84982 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/web/sources/Count.java.source pkg.csize=1235 pkg.size=2515
+file 2bece4c36db19d287ad5f78666b37114f0896c59 chash=2d3ec2cc8e00132f7e586c4ccab3aecf6cdb06bb group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/web/sources/HideNShow.java.source pkg.csize=1246 pkg.size=2539
+file 2e1c5d5311a7142a752ec5a413f9d27b5a5f958b chash=021295095684a725f3062c672a364ee72237cf43 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/web/sources/ListenerBean.java.source pkg.csize=1216 pkg.size=2684
+file 06c7996a961cd1d1bb0a5717c5a056975dda9fd1 chash=f8c431dddc3b59b7f915b6ac9ec926aa74a0f762 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/web/sources/Echo.java.source pkg.csize=1248 pkg.size=2579
+file 40ff7e85b9121b18e35629a3535288d2e6bfe25a chash=6be085a768ae1f2668919e7a70e60fcbdea33bce group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/web/WEB-INF/demo.xml pkg.csize=1385 pkg.size=5757
+file 8d69efcd751352e12c3928ff99abe54b768e38c0 chash=b906b14d26022ba1d95661ae5d96c2d090cdded0 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/web/WEB-INF/web.xml pkg.csize=1461 pkg.size=3420
+file 7291d457b5a248e880cde96bc2e825d477c8a299 chash=214806063468e44392cc6b41673555b884fbc552 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/web/WEB-INF/basicajax-taglib.xml pkg.csize=1326 pkg.size=2837
+file 1ebc03da8abff348aa1ff860a887029bd998f349 chash=f5ef65a15fb3228c5b9dc208654c10880e1c3a3f group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/web/WEB-INF/demotemplate.xhtml pkg.csize=1229 pkg.size=2533
+file cab68a4291256ec101a07d8562e94f05c2e58e3e chash=e93323c110e288b3cc7e82139a4dcf14caf4fb54 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/web/resources/stylesheet.css pkg.csize=1302 pkg.size=2910
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/web/resources/javascript
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/web/resources/images
+file 6321ae848e8c237ee0b483f2876fcaba6388cf8e chash=1d5b3a701d1fedba78a37b39052a303877400324 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/web/resources/javascript/aggregate.js pkg.csize=1337 pkg.size=2820
+file 51a3f4cf61958749d14c8b444f85379c8130c0c8 chash=6c1fc5c1747df5e516008c39b9fe8ed0b766a71d group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/web/resources/javascript/echo1.js pkg.csize=1141 pkg.size=2463
+file 59c94ae880eb1106d43c620cb90f0cb5e24ce952 chash=e4f3cb4332184f307e212cf70511155afc7d81c1 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/web/resources/images/execute.gif pkg.csize=913 pkg.size=1242
+file 3cd3980ee446c5315b22faa009fc75db738f5cea chash=fa509fb06b95733fad3865a9ede25a349e00b44f group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/nbproject/project.properties pkg.csize=1728 pkg.size=4013
+file ab77b195e828fcb9b251cef274554890310ce104 chash=593a5e235f52f4e9eea238e2ed4c152b0a406f50 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/nbproject/project.xml pkg.csize=1200 pkg.size=2578
+file c1bb72094307cd590901f96c12960c15e097c26e chash=1c9437c0b303ec8bd95edbf148f9c15492f876c5 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/docs/index.html pkg.csize=2689 pkg.size=6384
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/src/java/basicajax
+file 06c7996a961cd1d1bb0a5717c5a056975dda9fd1 chash=f8c431dddc3b59b7f915b6ac9ec926aa74a0f762 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/src/java/basicajax/Echo.java pkg.csize=1248 pkg.size=2579
+file 2bece4c36db19d287ad5f78666b37114f0896c59 chash=2d3ec2cc8e00132f7e586c4ccab3aecf6cdb06bb group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/src/java/basicajax/HideNShow.java pkg.csize=1246 pkg.size=2539
+file 0bce85eef956eff0aef8891beb05bf1892cac51e chash=b051ce3869dcc3e738a19ba5c54a369c39f116a8 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/src/java/basicajax/DemoResourceBean.java pkg.csize=3031 pkg.size=11506
+file c522e656338ba933cb9c02cedf8a763530b6889b chash=e77d02bcdbf3af6aa9bcba9c903d3be0f4f0473d group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/src/java/basicajax/RedirectBean.java pkg.csize=1354 pkg.size=3366
+file 2e1c5d5311a7142a752ec5a413f9d27b5a5f958b chash=021295095684a725f3062c672a364ee72237cf43 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/src/java/basicajax/ListenerBean.java pkg.csize=1216 pkg.size=2684
+file e415fda19a2e3464dd8709cd34c50452cd550172 chash=495daf89f4770e638d684b949979f835fc835efa group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/src/java/basicajax/Functions.java pkg.csize=1615 pkg.size=3825
+file e286d5c1b0c2c7dc1c4c58d6f5359b22ed515cf7 chash=42bf2ef65b1010b23c965a8469100b4a61d84982 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/jsf/basic-ajax/src/java/basicajax/Count.java pkg.csize=1235 pkg.size=2515
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/container/mod_jk
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/container/customvalve-war
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/container/mod_jk/docs
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/container/mod_jk/src
+file 04c09679debc5faa93b715bc3a731622bf7f9040 chash=cf628ddd680bd5b0cd65bbbd72d2bed297c3354f group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/container/mod_jk/docs/index.html pkg.csize=2535 pkg.size=5453
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/container/mod_jk/src/conf
+file 26acae540cf5d762ac80f32bce819f93a1b115c8 chash=a8d07c49c579eb9b4d45cbdecaf737ce5038f082 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/container/mod_jk/src/conf/worker.properties pkg.csize=1041 pkg.size=2114
+file f1424beedd44058620efe73f6e790f2ae911ae41 chash=5b8728ec564fae10513e25a49edac5c01f469258 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/container/mod_jk/src/conf/httpd.conf_part pkg.csize=376 pkg.size=642
+file adfb12fc49ab9aa4f1d0d5702990b4cbf4fab5ee chash=ce277d23818c8a87fb2f0750a3779b04106a232c group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/container/customvalve-war/build.xml pkg.csize=1262 pkg.size=2708
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/container/customvalve-war/docs
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/container/customvalve-war/web
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/container/customvalve-war/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/container/customvalve-war/src
+file 831a69a7f5a6ca12147f431a74ec71047ed256c6 chash=09bf3f1fbe3454ba2844ba0df9a0464d8337c9b6 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/container/customvalve-war/docs/index.html pkg.csize=3196 pkg.size=7919
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/container/customvalve-war/web/WEB-INF
+file 711eaf9958bfffd35106958fb66b8ba3608894e2 chash=37264eb56b995a4638862ee6e4b8c4450b134fa2 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/container/customvalve-war/web/WEB-INF/web.xml pkg.csize=1201 pkg.size=2550
+file b2e3582d94fa0653454d6f0ff9e1e55a261e8b4c chash=9b010748c695278b3eb7c33d099f187b64aaad4e group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/container/customvalve-war/web/WEB-INF/sun-web.xml pkg.csize=1204 pkg.size=2419
+file 342c6513e9be7e72b2e7c68a88ea486225f80f03 chash=2e4a5c707914dfe8e12fad49e09b0719bf3b066e group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/container/customvalve-war/nbproject/project.xml pkg.csize=1260 pkg.size=2743
+file c8c925f00f852c7da1153c2922adbbeca9902bcc chash=0e805e5ad72556e03b76311e5b809e72c504ab2e group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/container/customvalve-war/nbproject/project.properties pkg.csize=1852 pkg.size=4578
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/container/customvalve-war/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/container/customvalve-war/src/java/web
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/container/customvalve-war/src/java/web/container
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/container/customvalve-war/src/java/web/container/customvalve_war
+file 693afa9ab71e959abd36aa14bd9de4f1841d1187 chash=868353f1ae8228d70e79c194a03aabc4ede8fdc9 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/container/customvalve-war/src/java/web/container/customvalve_war/TestServlet.java pkg.csize=1282 pkg.size=2654
+file 30f1e320bb9c105a7a37055351d4c80815b4e61c chash=a3b64189362bd5b0be935004969faa86dfe11ff8 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/container/customvalve-war/src/java/web/container/customvalve_war/TestValve.java pkg.csize=1280 pkg.size=2820
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/annotation-war
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/async-request-war
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/jsp-resource-in-bundled-jar-war
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/servletcontainerinitializer-war
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/multipart-war
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/dynamicregistration-war
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/sessioncookieconfig-war
+file 155bd04aa5c4aa6f3e574f8625bcb722edd3e330 chash=a2ab94fc9f647c2e26ad2c6c57ee5a85db6a2f93 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/annotation-war/build.xml pkg.csize=1263 pkg.size=2700
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/annotation-war/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/annotation-war/src
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/annotation-war/docs
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/annotation-war/web
+file dc5ec397d6ac97aa0d554396c5c17b6fc7a6dc39 chash=5798460de1a84ed60e425396ae87de893753d84b group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/annotation-war/nbproject/project.properties pkg.csize=1757 pkg.size=4064
+file eb60d1cd3552a5d4c90e6cb69ab460589cebd3c4 chash=97deb4706714a71bfe7dbd9078caf85fd32abf25 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/annotation-war/nbproject/project.xml pkg.csize=1201 pkg.size=2582
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/annotation-war/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/annotation-war/src/java/web
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/annotation-war/src/java/web/servlet
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/annotation-war/src/java/web/servlet/annotation_war
+file 300d0f5d51035fc3c229385b8ed7d85532711157 chash=029ac21d63ca04ee2cefe3b123329b2ebad5b9be group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/annotation-war/src/java/web/servlet/annotation_war/TestFilter.java pkg.csize=1334 pkg.size=3001
+file 9045181d5e56475685b785059b511ca21cf80ec6 chash=c5e82c1be4f674c80ae12262a9c1383969514217 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/annotation-war/src/java/web/servlet/annotation_war/TestServletContextListener.java pkg.csize=1196 pkg.size=2611
+file 615818427a28bcdb5f3fbe7907741e2518309497 chash=eb8dcd1e3ba3f11cf540ab4b0f72c60f0388dac7 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/annotation-war/src/java/web/servlet/annotation_war/TestServlet.java pkg.csize=1413 pkg.size=3273
+file e12a29dd850760a0c09994483301a86303b71c22 chash=818e710fdfdcf31f94046f383e23a2e9d9f1cfd0 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/annotation-war/docs/index.html pkg.csize=3502 pkg.size=10189
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/annotation-war/web/WEB-INF
+file 6bfe6b60963b5e9c8c6c5d26b5ebff17c8561f81 chash=bd63c80f3e3fc08830bb2e1de2d44506cdc1006a group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/async-request-war/build.xml pkg.csize=1269 pkg.size=2706
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/async-request-war/web
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/async-request-war/src
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/async-request-war/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/async-request-war/docs
+file 1d5a7e042ff892fc4b42d14adec5457e1249c35d chash=b10fa386ae867bedd939f4a12f711b01534d7d43 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/async-request-war/web/index.html pkg.csize=1552 pkg.size=4073
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/async-request-war/web/WEB-INF
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/async-request-war/web/stylesheets
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/async-request-war/web/javascripts
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/async-request-war/web/images
+file 1f3ae037bd7fd3a5a015faada537c78aed9e97c1 chash=81a73fbb19151abf455b0ec15caf226bc8442adc group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/async-request-war/web/WEB-INF/sun-web.xml pkg.csize=1256 pkg.size=2522
+file 2bf727a0fb520fe33202f8d498bcddc359bb3a94 chash=46e4d75231c557a6bd80ffd7997a2a9f479116e2 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/async-request-war/web/stylesheets/default.css pkg.csize=1345 pkg.size=2963
+file fc2c764dd7ec52427f9037414ce70b3efe548df4 chash=dd04fd71738b02cbe33b60712f1f4a5e731bc971 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/async-request-war/web/javascripts/moo.fx.pack.js pkg.csize=1774 pkg.size=4037
+file ff4b9078c5874b8f49eafd409e471c29d30de403 chash=ca7c09ed14e410f1c498a5ec75e780c0388f0a61 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/async-request-war/web/javascripts/moo.fx.js pkg.csize=2030 pkg.size=5115
+file 978824eca344623eeafcc3fc0234e5b3b934011d chash=9e01e083d06d23dc531a89e2994b12a32ee2fbbb group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/async-request-war/web/javascripts/prototype.js pkg.csize=11231 pkg.size=49095
+file 62612d92065188648688e8014c9f950fc00b446f chash=8fc51287813620c581b8658d958bef2700720880 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/async-request-war/web/javascripts/application.js pkg.csize=1645 pkg.size=4149
+file 24ff717ea3bab4b179c28e838b0fd764535db0d6 chash=417b236d02895480a9da7628a4a7adde06213ba3 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/async-request-war/web/javascripts/behaviour.js pkg.csize=3313 pkg.size=9877
+file 2573fe0b070922c67482158a92e96fa556b1bf75 chash=941e347606d6264255cadee88508e64c934f71df group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/async-request-war/web/images/header-background.png pkg.csize=20628 pkg.size=20847
+file 0b54979052f1c78067b64c47b054c096ef812ce7 chash=e489ee2be93f16413b2fc8ec1ebea702ead71eae group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/async-request-war/web/images/main-background.png pkg.csize=7054 pkg.size=8026
+file ee7973f2814f11d64756d3479cb6a294165a31ba chash=8897c33355bc68befa6f2fea79755e369a8a3245 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/async-request-war/web/images/body-background.png pkg.csize=2404 pkg.size=2381
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/async-request-war/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/async-request-war/src/java/web
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/async-request-war/src/java/web/servlet
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/async-request-war/src/java/web/servlet/async_request_war
+file e2ccda4e37ff7461e7bc28875c996f1f4a6ba791 chash=eaa535968ef2669cb8a84c38cf1a84a46cb173b2 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/async-request-war/src/java/web/servlet/async_request_war/AjaxCometServlet.java pkg.csize=2750 pkg.size=8772
+file 653dfbcd2ad6536f75787a13a1e5b50a93c99ddb chash=049cc5a9870a49ac657ea2f56364910a7ce46355 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/async-request-war/nbproject/project.properties pkg.csize=1747 pkg.size=4040
+file 82e5100d248e8747b5049c3587587aeeaf23e29a chash=4899cca1021aed398b6da36dd5c4c607778ca41e group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/async-request-war/nbproject/project.xml pkg.csize=1205 pkg.size=2585
+file baf1167caef688af334ca18b0da14c6250784e72 chash=4059397cc278bb7943b44d3e091abbe03fc77580 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/async-request-war/docs/index.html pkg.csize=3481 pkg.size=9210
+file 510cce295fa51dce89bea0008d25f2a95a9b0257 chash=fe6842e9eedecfb6ee7e6d06ce682efefdd94072 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/jsp-resource-in-bundled-jar-war/build.xml pkg.csize=1312 pkg.size=2825
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/jsp-resource-in-bundled-jar-war/docs
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/jsp-resource-in-bundled-jar-war/src
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/jsp-resource-in-bundled-jar-war/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/jsp-resource-in-bundled-jar-war/web
+file 61eaa261de70df476ef027c04a4f3e76a15534f6 chash=2e6d52111f60d0a47c9fe498163b7b39cdf53e37 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/jsp-resource-in-bundled-jar-war/docs/index.html pkg.csize=2902 pkg.size=7358
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/jsp-resource-in-bundled-jar-war/src/java
+file dd50c906efc7521550a9857790c73985a7219a14 chash=4d4678a6a7633f20e494e9b3854e930d9a10c2b3 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/jsp-resource-in-bundled-jar-war/nbproject/project.xml pkg.csize=1224 pkg.size=2620
+file 491a54fda7e842a01be50c4b3d6824ee50096f9b chash=83df5493acbf5e5e48f81110aa22aeb8dd054bf4 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/jsp-resource-in-bundled-jar-war/nbproject/project.properties pkg.csize=1764 pkg.size=4086
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/jsp-resource-in-bundled-jar-war/web/WEB-INF
+file 266d92f124702a02bb1a74ac61ac72198f8dd801 chash=e49d65d6968740562930eeb84b3620cf64b3284d group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/jsp-resource-in-bundled-jar-war/web/WEB-INF/web.xml pkg.csize=1110 pkg.size=2281
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/jsp-resource-in-bundled-jar-war/web/WEB-INF/lib
+file f789a31e94ea91e598668d707b5964fef2d8d50b chash=e19329491ffc343d86524ebe36edefdf26e274c3 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/jsp-resource-in-bundled-jar-war/web/WEB-INF/lib/dynamicResources.jar pkg.csize=349 pkg.size=782
+file 93fceafd4a851971c2dbd2a5f8381cf1c0352cba chash=51027bb0f6478ee6488c29b8d8d7077a434cc996 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/servletcontainerinitializer-war/build.xml pkg.csize=1898 pkg.size=5604
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/servletcontainerinitializer-war/docs
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/servletcontainerinitializer-war/src
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/servletcontainerinitializer-war/web
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/servletcontainerinitializer-war/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/servletcontainerinitializer-war/containerinitializerlibrary
+file 01da82877999b167ed71e167cf57f7345da62a8e chash=7f1cf5445e246d860940c2592b174675fc0c2a04 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/servletcontainerinitializer-war/docs/index.html pkg.csize=3344 pkg.size=8713
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/servletcontainerinitializer-war/src/lib
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/servletcontainerinitializer-war/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/servletcontainerinitializer-war/src/lib/web
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/servletcontainerinitializer-war/src/lib/META-INF
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/servletcontainerinitializer-war/src/lib/web/servlet
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/servletcontainerinitializer-war/src/lib/web/servlet/servletcontainerinitializer_lib
+file 7f907e60b682fdc18ef0688ae8f834725ec8f57a chash=1a1594523cb00bdb4160cd4c0b5d3b3a63554c2c group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/servletcontainerinitializer-war/src/lib/web/servlet/servletcontainerinitializer_lib/SharedLibrary.java pkg.csize=1208 pkg.size=2456
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/servletcontainerinitializer-war/src/lib/META-INF/services
+file f6319ad31397d698b0f2034f1e1efc9f4900d39d chash=a5f00d7c8a143bb009c98fb30ae43a1f9375cf0c group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/servletcontainerinitializer-war/src/lib/META-INF/services/javax.servlet.ServletContainerInitializer pkg.csize=71 pkg.size=58
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/servletcontainerinitializer-war/src/java/web
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/servletcontainerinitializer-war/src/java/web/servlet
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/servletcontainerinitializer-war/src/java/web/servlet/servletcontainerinitializer_war
+file c065871293a843e4e157b60ae38fac5fc08f8baa chash=1028fa61569b295f08429f23df27a749a02ae008 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/servletcontainerinitializer-war/src/java/web/servlet/servletcontainerinitializer_war/TestServlet.java pkg.csize=1337 pkg.size=2884
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/servletcontainerinitializer-war/web/WEB-INF
+file 254ee43eb50fd1eb9cca61b483320d17a2745aac chash=7a189250c85b0acd975f60e9ecfe436339da8812 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/servletcontainerinitializer-war/nbproject/project.properties pkg.csize=1807 pkg.size=4313
+file 8789ab7e6ccdb49adab8f8625da4eaaa95800e1f chash=5023d7ceabda1ec3a5be1af77ef8a4ba04f9fb28 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/servletcontainerinitializer-war/nbproject/project.xml pkg.csize=1374 pkg.size=3228
+file 279e0fa639b5e7b91e4af17b751515b20a8659df chash=6b056821aec7e54558a298fad06daa335bb8682e group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/servletcontainerinitializer-war/containerinitializerlibrary/build.xml pkg.csize=1109 pkg.size=2238
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/servletcontainerinitializer-war/containerinitializerlibrary/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/servletcontainerinitializer-war/containerinitializerlibrary/src
+file 93e1ed07e9952af7b3baedac188934e787fc1c90 chash=5f2b3d057b5d1c334f446fedacf9698e937a8136 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/servletcontainerinitializer-war/containerinitializerlibrary/nbproject/project.xml pkg.csize=1177 pkg.size=2524
+file 1bd879a9cc40ac544f2083682fc9fcde770ac204 chash=77ce06b6380afffda818bd7951f41263b472f6a5 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/servletcontainerinitializer-war/containerinitializerlibrary/nbproject/project.properties pkg.csize=1674 pkg.size=3946
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/servletcontainerinitializer-war/containerinitializerlibrary/src/web
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/servletcontainerinitializer-war/containerinitializerlibrary/src/META-INF
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/servletcontainerinitializer-war/containerinitializerlibrary/src/web/servlet
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/servletcontainerinitializer-war/containerinitializerlibrary/src/web/servlet/servletcontainerinitializer_lib
+file 7f907e60b682fdc18ef0688ae8f834725ec8f57a chash=1a1594523cb00bdb4160cd4c0b5d3b3a63554c2c group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/servletcontainerinitializer-war/containerinitializerlibrary/src/web/servlet/servletcontainerinitializer_lib/SharedLibrary.java pkg.csize=1208 pkg.size=2456
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/servletcontainerinitializer-war/containerinitializerlibrary/src/META-INF/services
+file f6319ad31397d698b0f2034f1e1efc9f4900d39d chash=a5f00d7c8a143bb009c98fb30ae43a1f9375cf0c group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/servletcontainerinitializer-war/containerinitializerlibrary/src/META-INF/services/javax.servlet.ServletContainerInitializer pkg.csize=71 pkg.size=58
+file 4f3966f9a7e060771635ee598f34cfd25e8b8f2b chash=8b4f14df011ee21582c90a4fe9aeb77fd3ea664c group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/build.xml pkg.csize=1418 pkg.size=3545
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/docs
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment3
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment1
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/web
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment2
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/src
+file 798be2308dec7d40d6e5e660253a46b468b1c073 chash=16cd0589fe29496f4df0be3302c21d9539617dfa group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/docs/index.html pkg.csize=3893 pkg.size=11387
+file b82e3a7709a339b6d252fe73f20431494c506172 chash=a48b8271715cefdcb4ce0ea701351ebc8d9184e7 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/nbproject/project.properties pkg.csize=1835 pkg.size=4505
+file 306fe47f1dea0078a21032e3c33313748672cf15 chash=fe24f8575b22ae2ed5638722773a3355266d7245 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/nbproject/project.xml pkg.csize=1426 pkg.size=4305
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/nbproject/private
+file 5730bc6cbabc5d062ca9a58f511655d7c851384a chash=693864d7e3ce2b5d68f82739c63221acc852e653 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment3/build.xml pkg.csize=1134 pkg.size=2296
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment3/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment3/src
+file 2481e4fc405ece78b80264a98128d75dbc0c6dcb chash=1b013ddb9f76d218fcf3aa19e15ed2510cfee1ea group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment3/nbproject/project.properties pkg.csize=1675 pkg.size=3927
+file b44dd67a538418a7205c6a451ad59be6a72f069e chash=8254a9c34ef3852312c6fe47051e21761449a475 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment3/nbproject/project.xml pkg.csize=1167 pkg.size=2509
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment3/nbproject/private
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment3/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment3/src/java/web
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment3/src/java/META-INF
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment3/src/java/web/servlet
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment3/src/java/web/servlet/absolute_ordering_web_fragments_war
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment3/src/java/web/servlet/absolute_ordering_web_fragments_war/webfragment3
+file 330dd418f5f0430524ea336ce6457bcc1c0f08d5 chash=eb9eabd8ece8505c9632fad5f8e64280b3376a0e group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment3/src/java/web/servlet/absolute_ordering_web_fragments_war/webfragment3/Wf3TestFilter.java pkg.csize=1333 pkg.size=3043
+file fc4b210c0d6c1973713e7f9216053a27555b5d6e chash=5cefcb784c01ec28f4695290e6f79ca322ad09f5 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment3/src/java/META-INF/web-fragment.xml pkg.csize=1133 pkg.size=2316
+file d721401102bd30e795526b77a3cf9f3a08bec225 chash=968344f9d754c28f9910087076e42e5af8c8460e group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment1/build.xml pkg.csize=1133 pkg.size=2296
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment1/src
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment1/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment1/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment1/src/java/web
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment1/src/java/web/servlet
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment1/src/java/web/servlet/absolute_ordering_web_fragments_war
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment1/src/java/web/servlet/absolute_ordering_web_fragments_war/webfragment1
+file 59353e924eaff35b6c066c8608d4021931871aee chash=632b52ab85691f9639e2e658816e2f581752b93a group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment1/src/java/web/servlet/absolute_ordering_web_fragments_war/webfragment1/Wf1TestFilter.java pkg.csize=1332 pkg.size=3043
+file 397cb7d12c1cde2762245650ccbdb10ac381d808 chash=bc88c0aac31553f18c14268608c43a1956aa5e6a group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment1/nbproject/project.properties pkg.csize=1675 pkg.size=3927
+file 35d994ec11ed9c557fe0ea9e631798aaa9fc75c1 chash=bb35c1edb329322bc67b475ea4a97a24861b7990 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment1/nbproject/project.xml pkg.csize=1167 pkg.size=2509
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment1/nbproject/private
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/web/WEB-INF
+file 71f99668254a947c9c3e83aba2605b2bba4ae89b chash=e484fffde25af605d4a3062759130df2533357a1 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/web/WEB-INF/web.xml pkg.csize=1167 pkg.size=2397
+file 7b24ae5893977b5ed0e80a0372bb76999596869b chash=d2a8ae13d518ee908de7a02e8a27954be49bc861 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment2/build.xml pkg.csize=1133 pkg.size=2296
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment2/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment2/src
+file deaebcf8252ea54282094198efc3b9658dfaf716 chash=1d606e0e05a69c0308f16fac613f5e98dfa19be5 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment2/nbproject/project.xml pkg.csize=1167 pkg.size=2509
+file c14114505a815ca90e293bd89ba36db4014773c5 chash=532baa27042ca7026b9eff4c8d85322a918c85c1 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment2/nbproject/project.properties pkg.csize=1675 pkg.size=3927
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment2/nbproject/private
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment2/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment2/src/java/web
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment2/src/java/META-INF
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment2/src/java/web/servlet
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment2/src/java/web/servlet/absolute_ordering_web_fragments_war
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment2/src/java/web/servlet/absolute_ordering_web_fragments_war/webfragment2
+file ec4abd6720a8c657d5c30679f436fe3dbfce4a2e chash=ce43d5efbdb46b50c83b05f6f1e007b97fc8748e group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment2/src/java/web/servlet/absolute_ordering_web_fragments_war/webfragment2/Wf2TestFilter.java pkg.csize=1267 pkg.size=2886
+file b2f440e094aab3c7576aeed9421b5eb889c34543 chash=f8e6f37be5f4d4df2ea280d05575ad6ddba1d7cb group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/webfragment2/src/java/META-INF/web-fragment.xml pkg.csize=1277 pkg.size=2683
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/src/java/web
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/src/java/web/servlet
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/src/java/web/servlet/absolute_ordering_web_fragments_war
+file d7dc952e99a6ef6da91a765ea96a6838009fd6eb chash=0ae4171edd10a2fe479a7b8e04b2f4872cb1f828 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/absolute-ordering-web-fragments-war/src/java/web/servlet/absolute_ordering_web_fragments_war/TestServlet.java pkg.csize=1216 pkg.size=2636
+file 55acddfb98db8ad4a594e850eb0dfb786feee3db chash=4c5f9c52ed20c6dd11cba51b8a32077b89d1a3e0 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/multipart-war/build.xml pkg.csize=1263 pkg.size=2696
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/multipart-war/src
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/multipart-war/docs
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/multipart-war/web
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/multipart-war/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/multipart-war/src/java
+file 5e8d31856a050cd6a437adce906c2e3c8e5da446 chash=ca15da11894860a0c43d8ef9bfb7b1a0845ce0fd group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/multipart-war/docs/index.html pkg.csize=2750 pkg.size=6804
+file 96be13cc1a0258cc61b7f7af3aa3943b7066b217 chash=147aaac4b54a801edcac89773d431c589662834b group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/multipart-war/web/getParts.jsp pkg.csize=1381 pkg.size=2967
+file f45f50caa03dfba1967a9fbb2df567368252f60a chash=a74dd50fdc65b23b504333dd7182b7262d1734ff group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/multipart-war/web/index.html pkg.csize=1150 pkg.size=2389
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/multipart-war/web/WEB-INF
+file 3d8a824f90acceca171396bdc11a999d547eb884 chash=6a15d7e7bafbc5387c5d9f3605231b39df3e0c86 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/multipart-war/nbproject/project.properties pkg.csize=1745 pkg.size=4032
+file 56e7179132be166913ed89233a0b90dbf8bd33f7 chash=86abd0f65f6662f47b64a44274e5df707edb3c50 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/multipart-war/nbproject/project.xml pkg.csize=1213 pkg.size=2602
+file a62eb264e4d6a08e5b012b41acec23be41ab33cd chash=c1722d8c38afd1c6fd976a14253cf2acf83fed1a group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/dynamicregistration-war/build.xml pkg.csize=1267 pkg.size=2722
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/dynamicregistration-war/web
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/dynamicregistration-war/docs
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/dynamicregistration-war/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/dynamicregistration-war/src
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/dynamicregistration-war/web/WEB-INF
+file 4b4a5c4bbb5292da1004eceb1430decd8c976ea0 chash=97453792a889ab352b808bea9411c4e81fba9b3a group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/dynamicregistration-war/web/WEB-INF/sun-web.xml pkg.csize=1259 pkg.size=2528
+file 249a82ca0e31f8223b2b5f30565ce80c08769ce3 chash=3bb71c02f2f391d2dfdb8ae52cd5e9f29208de4d group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/dynamicregistration-war/web/WEB-INF/web.xml pkg.csize=1171 pkg.size=2409
+file cff7dad01b8fd1ce4895f4194e8b99a2fc79ff34 chash=6b30ec0ab18177c99c0ec0ea7dc2d8aaada6d49d group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/dynamicregistration-war/docs/index.html pkg.csize=3160 pkg.size=8580
+file 5f6da60470566b47d6bfd8aa2091a2c90bcdb749 chash=7a46a24ce04fbaf786261a2809bd4782bf91cc8e group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/dynamicregistration-war/nbproject/project.properties pkg.csize=1715 pkg.size=3987
+file 0cec8fdfffcd00d0733ce3e5bee91ec05185c7ec chash=b11f0c066b07a6b83e75370ac67673746e2cf464 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/dynamicregistration-war/nbproject/project.xml pkg.csize=1220 pkg.size=2619
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/dynamicregistration-war/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/dynamicregistration-war/src/java/web
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/dynamicregistration-war/src/java/web/servlet
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/dynamicregistration-war/src/java/web/servlet/dynamicregistration_war
+file b930755fdc83d3cc304eaf510646bf35d07262b5 chash=c168eb9f931d846799c03499cc4a3d13b7f227c9 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/dynamicregistration-war/src/java/web/servlet/dynamicregistration_war/TestServletRequestListener.java pkg.csize=1222 pkg.size=2743
+file 1ad63c735b90e1be320e31c8476444964e593c6b chash=1ace07a7733de0b25da85602c93dc05a577ae309 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/dynamicregistration-war/src/java/web/servlet/dynamicregistration_war/TestServlet.java pkg.csize=1622 pkg.size=4032
+file d56e717c811169ead7c44677fd989ae65e5f2935 chash=dc26a04958a6c0f68919ee705fc58d764299d6df group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/dynamicregistration-war/src/java/web/servlet/dynamicregistration_war/TestFilter.java pkg.csize=1414 pkg.size=3179
+file 25d162e0ffb29e86953db3b602cfe3b8cee508b0 chash=657cc2db422535009b1105f872fbddd038145c12 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/dynamicregistration-war/src/java/web/servlet/dynamicregistration_war/TestServletContextListener.java pkg.csize=1522 pkg.size=3725
+file 21b0e27bd874c392cf9fd781f5bafe3da8320dbf chash=f203b573140ae27debe6e7ad13faa853a71cb6fc group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/sessioncookieconfig-war/build.xml pkg.csize=1270 pkg.size=2722
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/sessioncookieconfig-war/web
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/sessioncookieconfig-war/src
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/sessioncookieconfig-war/nbproject
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/sessioncookieconfig-war/docs
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/sessioncookieconfig-war/web/WEB-INF
+file 5c9a9e36a79e99f7cd7aafca85bde38783e3ab37 chash=253de3fc3337aad504e1a3664658f9c15d1b0d83 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/sessioncookieconfig-war/web/WEB-INF/web.xml pkg.csize=1230 pkg.size=2678
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/sessioncookieconfig-war/src/java
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/sessioncookieconfig-war/src/java/web
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/sessioncookieconfig-war/src/java/web/servlet
+dir group=sys mode=0755 owner=root path=glassfish/samples/javaee6/web/servlet/sessioncookieconfig-war/src/java/web/servlet/sessioncookieconfig_war
+file 3fe43e6e37a751d17f450c8bc18454278ce00996 chash=bd6ffd9d1ea073aacf6999e8e041bdda38a25330 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/sessioncookieconfig-war/src/java/web/servlet/sessioncookieconfig_war/CreateSession.java pkg.csize=1387 pkg.size=3614
+file 7ba98cca9eff7d46ea295c0137a5140def976542 chash=0e9bd25c42daceeea1fb3e12dd88c46939d6bd8b group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/sessioncookieconfig-war/src/java/web/servlet/sessioncookieconfig_war/ConfigListener.java pkg.csize=1326 pkg.size=2955
+file fcc3b31ff1b77da8d0fff2dd47493625c8912f66 chash=729696149c527a62d5d8c81a9dc1f231637fa3b0 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/sessioncookieconfig-war/nbproject/project.xml pkg.csize=1216 pkg.size=2612
+file 3637677b790859e609391c0bebc84c96c56c61e9 chash=4304d71edf24028f0daefe7d5e39fa60bf5005db group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/sessioncookieconfig-war/nbproject/project.properties pkg.csize=1750 pkg.size=4052
+file d8b6a455e1e4a9acf7bd1bd7d21120ceac6a270e chash=6ad73ea5885a771d9e89c18eb9cdc871e2646450 group=sys mode=0644 owner=root path=glassfish/samples/javaee6/web/servlet/sessioncookieconfig-war/docs/index.html pkg.csize=2986 pkg.size=7535

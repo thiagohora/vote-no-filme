@@ -1,0 +1,17 @@
+set name=fmri value=pkg:/glassfish-cluster-l10n@3.1,0-41.1:20110213T154512Z
+set name=info.classification value="Application Servers"
+set name=pkg.description value="Localization of GlassFish cluster.  GlassFish Server is a modular, lightweight, and extensible Java EE 6 application server built on OSGi. Key features include fast startup time, improved developer productivity, hybrid OSGi/Java EE applications, high availability clustering, centralized administration, and overall ease-of-use."
+set name=pkg.summary value="GlassFish cluster Localization"
+depend fmri=pkg:/glassfish-cluster@3.1 type=require
+license 8741fa556feea4ca58ec28abc47de0bf9d5b39a3 chash=28b7cfba8f297b99296afc231955dc90e8d76d47 license="CDDL and GPL v2 with classpath exception" pkg.csize=12394 pkg.size=38052
+dir group=sys mode=0755 owner=nobody path=glassfish
+dir group=sys mode=0755 owner=nobody path=glassfish/modules
+file 0836a5d1e39b62d3e27d3ffdd48c5418516d8c97 chash=0759b674967ed19149d1a46bf1ad30e2be35407e group=sys mode=0644 owner=nobody path=glassfish/modules/cluster-admin-l10n.jar pkg.csize=460028 pkg.size=498211
+file 7146d735a4d025bc74001eeda3428acb78ec614a chash=bd3b7c7912f090ad37ef8b88bc04837927ca6548 group=sys mode=0644 owner=nobody path=glassfish/modules/cluster-common-l10n.jar pkg.csize=13479 pkg.size=16134
+file f9fbb82e835a361616daefe3d1a8e9bf08c3f9d2 chash=2fe1d2005802b630106dc1530f70ebf61b345959 group=sys mode=0644 owner=nobody path=glassfish/modules/cluster-l10n.jar pkg.csize=256183 pkg.size=271877
+file df26a4f81545fa7ae90013ce5f0069d3cb95aba7 chash=a83223ca5a9a2c2b5b9e00bcc1fc60fdd852bbaa group=sys mode=0644 owner=nobody path=glassfish/modules/cluster-ssh-l10n.jar pkg.csize=12087 pkg.size=15039
+file 5eb01412dd5ef6da9d7761777a764d2b3e854306 chash=87620bdd090f173b6665c26d32087e4feafebce1 group=sys mode=0644 owner=nobody path=glassfish/modules/console-cluster-plugin-l10n.jar pkg.csize=1293541 pkg.size=1406497
+file 138c3423f40d15970fa0b2dc44344b53255f1136 chash=9a66ca7799c51f91a93f61f1aa351245360580bc group=sys mode=0644 owner=nobody path=glassfish/modules/gms-adapter-l10n.jar pkg.csize=17957 pkg.size=21240
+file 6954b69c2f0119287061a7604667cded6e270aef chash=772c23cdcc8d7dd0cccc3dd435e9ccc73f728385 group=sys mode=0644 owner=nobody path=glassfish/modules/gms-bootstrap-l10n.jar pkg.csize=12378 pkg.size=15221
+file ce9399239aabefd56a2ef1d4e2d0fb5b3d90364b chash=120035b2a39acbf7caaf4e889c88ea7f872e9a3c group=sys mode=0644 owner=nobody path=glassfish/modules/load-balancer-admin-l10n.jar pkg.csize=216448 pkg.size=239181
+set name=publisher value=stable.glassfish.org

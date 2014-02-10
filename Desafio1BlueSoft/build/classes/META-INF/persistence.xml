@@ -15,18 +15,7 @@ xsi:schemaLocation = "http://java.sun.com/xml/ns/persistence http://java.sun.com
             <property name="javax.persistence.jdbc.url" value="jdbc:hsqldb:hsql://localhost" />
             <property name="javax.persistence.jdbc.user" value="sa" />
             <property name="javax.persistence.jdbc.password" value="" /> 
-            
 		<!--
-		
-		<property name="hibernate.dialect" value="org.hibernate.dialect.HSQLDialect"/>
-            <property name="hibernate.archive.autodetection" value="class"/>
-            <property name="hibernate.connection.driver_class" value="org.hsqldb.jdbcDriver" />
-			<property name="hibernate.connection.url" value="jdbc:hsqldb:hsql://localhost" />
-			<property name="hibernate.connection.username" value="sa" />
-			<property name="connection.password" value="" />
-			<property name="connection.pool_size" value="1" />
-			<property name="show_sql" value="true" />
-			<property name="hbm2ddl.auto" value="create" />
 		
 		////// mysql /////
 		

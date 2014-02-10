@@ -1,0 +1,31 @@
+set name=fmri value=pkg://release.javaeesdk.oracle.com/javaee-samples-build@1.0,0-4:20120712T103842Z
+set name=authority value=release.javaeesdk.oracle.com
+set name=info.classification value="Application Servers"
+set name=pkg.description value="Provides build infrastructure for building and running samples based on bp-project and ant. GlassFish is an application server created using modular, lightweight, extensible architecture built on OSGi.  It is the first implementation of Java EE 6 standard and is a great developer platform, starts fast, and it is easy to use."
+set name=pkg.summary value="Java EE Samples Build"
+depend fmri=pkg:/glassfish-nucleus type=require
+license d5bbc6352d2afabc58bb30c4e8b68b3f87c212b3 chash=4d8efa3e2f655ad262555c5e989e11b42062f20e license=BSDLicense pkg.csize=923 pkg.size=1743
+dir group=sys mode=0755 owner=root path=glassfish
+dir group=sys mode=0755 owner=root path=glassfish/samples
+dir group=sys mode=0755 owner=root path=glassfish/samples/bp-project
+file 3d69e268f2d27edf521efa8f5deca3bc34a83e4d chash=92edaf6629f148e8e5c13886ea5860c85c94a678 group=sys mode=0644 owner=root path=glassfish/samples/bp-project/app-server-ant.xml pkg.csize=4790 pkg.size=31255
+file 66885a578aa946a1b5b42b95888026224c049c51 chash=8305dfcf73396cc19b3324b35dbf28c06cbf237f group=sys mode=0644 owner=root path=glassfish/samples/bp-project/java-client-ant.xml pkg.csize=1532 pkg.size=3470
+file 46337adc9d14ad88e2e41cdc131a1ae2c151833a chash=5465dcdabc60569f49efd8cb3a4d0f5444382b8c group=sys mode=0644 owner=root path=glassfish/samples/bp-project/build.properties.sample pkg.csize=1611 pkg.size=3603
+file 9e99d0e6579404e2c08d06777d077620095d4a78 chash=2ca90bb63f04d485e069407e485b3058709a0538 group=sys mode=0644 owner=root path=glassfish/samples/bp-project/web-services-management.xml pkg.csize=1684 pkg.size=5615
+file 23a13f3bacb9883bd6f93049c2abb3b403113c77 chash=23121e7e61ba4ee1b723c9452c06ece15a22925c group=sys mode=0644 owner=root path=glassfish/samples/bp-project/passwordfile pkg.csize=39 pkg.size=19
+file 088e3289f4a6010969d8917749d885a9d08be7b0 chash=f172bb75aaaa55c44900e96698fa9bcbc593a07f group=sys mode=0644 owner=root path=glassfish/samples/bp-project/persistence-unit-ant.xml pkg.csize=1461 pkg.size=3414
+file 2eeacc86fe70b4bf1077f40a4c7b0e76e44742c0 chash=1fc83acb7239d910c704ba459f3e148fb1dd2c3a group=sys mode=0644 owner=root path=glassfish/samples/bp-project/free-form-project-ant.xml pkg.csize=1351 pkg.size=2840
+file 933e5732f7aba3e36d83a115b2665097000422bd chash=5b557738d81c64aee5f3b21a8f9cf4f8b9d39271 group=sys mode=0644 owner=root path=glassfish/samples/bp-project/app-server.properties pkg.csize=1453 pkg.size=3202
+file 26301cd3a7dd843a35a84451c8c3b3dc4bdbfb9e chash=45883cdb72d774921447422f34affc06223b42a6 group=sys mode=0644 owner=root path=glassfish/samples/bp-project/common-properties.xml pkg.csize=1811 pkg.size=4665
+file 46337adc9d14ad88e2e41cdc131a1ae2c151833a chash=5465dcdabc60569f49efd8cb3a4d0f5444382b8c group=sys mode=0644 owner=root path=glassfish/samples/bp-project/build.properties pkg.csize=1611 pkg.size=3603
+file 403e0b2b461df842dc516fa61672cd7e13f03f70 chash=62fd3bb285fd7157bbbfac56d80a0d9401a4b7ef group=sys mode=0644 owner=root path=glassfish/samples/bp-project/command-line-ant-tasks.xml pkg.csize=2761 pkg.size=9090
+file e64719925fe060668927558f531cf7dd98d27c07 chash=da3d617318e6e2fcd61cbbd599fece4c9436f6cc group=sys mode=0644 owner=root path=glassfish/samples/bp-project/war-ant.xml pkg.csize=1728 pkg.size=4329
+file 6266ae1045a704c9584634c73ef83364de123589 chash=dbcda0d6878b7e1e0e7167a4392f1b1c00fa73cc group=sys mode=0644 owner=root path=glassfish/samples/bp-project/jar-ant.xml pkg.csize=1461 pkg.size=3191
+file 0e5d1f9a624591e0c627de8405c43d386ffa7ffd chash=5cb06734ab3228dad3662a52fc65d1c0bfeb9a92 group=sys mode=0644 owner=root path=glassfish/samples/bp-project/jaxws.xml pkg.csize=1643 pkg.size=3824
+file 62be6db35d6923b2959467aec6e28aa168e3cec0 chash=4b31750b70bbda3f207fb88b5b282ba9323773d6 group=sys mode=0644 owner=root path=glassfish/samples/bp-project/common.properties pkg.csize=1370 pkg.size=2950
+file 1122aca9e37d9aa08dd0782d704790822efef9ae chash=8ec493d8b66131aba346cfe327f6c10f0891bac4 group=sys mode=0644 owner=root path=glassfish/samples/bp-project/app-client-ant.xml pkg.csize=1654 pkg.size=3971
+file 93abb9e4dd87726bf9747c51495799b67de070c6 chash=2c23b1f437e88e84c7a8ecf17d64bd4636f74ce6 group=sys mode=0644 owner=root path=glassfish/samples/bp-project/ejb-jar-ant.xml pkg.csize=1546 pkg.size=3518
+file 45fb8b444a1d72eb53651af9e84ed7222869a909 chash=109dd0d21026ed53643aec274de059a8e6ab771f group=sys mode=0644 owner=root path=glassfish/samples/bp-project/main.xml pkg.csize=1375 pkg.size=2846
+file 40580c837a1a5a1673b3c991a2cca6e627d6f437 chash=bc149b7bc1e8550736320c40eac107a39befe4d8 group=sys mode=0644 owner=root path=glassfish/samples/bp-project/ear-ant.xml pkg.csize=1804 pkg.size=4452
+dir group=sys mode=0755 owner=root path=glassfish/samples/bp-project/docs
+file 056e96504018ee726e59a0a2095c6642f5629637 chash=d6e73edcde7ad91ec021fd280faf8c9381556570 group=sys mode=0644 owner=root path=glassfish/samples/bp-project/docs/DeveloperREADME.html pkg.csize=4527 pkg.size=18712

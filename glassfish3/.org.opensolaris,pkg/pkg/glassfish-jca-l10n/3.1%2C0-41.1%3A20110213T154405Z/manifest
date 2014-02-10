@@ -1,0 +1,10 @@
+set name=fmri value=pkg:/glassfish-jca-l10n@3.1,0-41.1:20110213T154405Z
+set name=info.classification value="Application Servers"
+set name=pkg.description value="Localization of GlassFish connector and connection pooling module.  GlassFish Server is a modular, lightweight, and extensible Java EE 6 application server built on OSGi. Key features include fast startup time, improved developer productivity, hybrid OSGi/Java EE applications, high availability clustering, centralized administration, and overall ease-of-use."
+set name=pkg.summary value="GlassFish JCA Localization"
+depend fmri=pkg:/glassfish-jca@3.1 type=require
+license 8741fa556feea4ca58ec28abc47de0bf9d5b39a3 chash=28b7cfba8f297b99296afc231955dc90e8d76d47 license="CDDL and GPL v2 with classpath exception" pkg.csize=12394 pkg.size=38052
+dir group=sys mode=0755 owner=nobody path=glassfish
+dir group=sys mode=0755 owner=nobody path=glassfish/modules
+file e1c3b012fe6c173daecc8a53f6def6ddacf5eea6 chash=85d1ddc704bf97e1c666ae94a751a36a3b0833a6 group=sys mode=0644 owner=nobody path=glassfish/modules/console-jca-plugin-l10n.jar pkg.csize=668576 pkg.size=737081
+set name=publisher value=stable.glassfish.org
