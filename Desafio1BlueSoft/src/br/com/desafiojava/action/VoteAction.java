@@ -3,6 +3,7 @@ package br.com.desafiojava.action;
 import java.util.List;
 import java.util.Map;
 import java.util.Random;
+import java.util.UUID;
 
 import org.apache.struts2.convention.annotation.Action;
 import org.apache.struts2.convention.annotation.Namespace;
@@ -11,20 +12,24 @@ import org.apache.struts2.convention.annotation.Result;
 import com.opensymphony.xwork2.ActionContext;
 
 import br.com.desafiojava.model.Movie;
+import br.com.desafiojava.model.VoteUser;
 import br.com.desafiojava.repository.MovieRepository;
 
 @Namespace("/Vote")
 public class VoteAction extends ActionDefault {
 
+	public Map<String, Object> session;
+	
 	private MovieRepository movieRepository = new MovieRepository(this.getEntityManager());
+	
 	private Movie movieOpt1;
-	private Movie movieOpt2;
-	private List<Movie> listMovie = movieRepository.listMovie(); 
+	private Movie movieOpt2;	
+	private List<Movie> listMovie = movieRepository.listMovie();
 	private long current;
 	private String name;
 	private String email;
+	private List<VoteUser> listVoteUser;
 	
-	public Map<String, Object> session;
 	
 	private Movie randomMovie(){
 		Random Randomizer = new Random(); 
@@ -34,9 +39,9 @@ public class VoteAction extends ActionDefault {
 	
 	private void random(){
 		
-		Map<String, Object> session = ActionContext.getContext().getSession();
+		this.session = ActionContext.getContext().getSession();
 	
-		if(session.size() == 0)
+		if(this.session.size() == 0)
 		{
 			do
 			{
@@ -45,8 +50,10 @@ public class VoteAction extends ActionDefault {
 			}
 			while(movieOpt2.getId() == movieOpt1.getId());
 			
-			session.put("movieOpt1", movieOpt1);
-			session.put("movieOpt2", movieOpt2);
+			this.session.put("movieOpt1", movieOpt1);
+			this.session.put("movieOpt2", movieOpt2);
+			
+			this.session.put("UUID", UUID.randomUUID());
 			
 		} else {
 			 
@@ -65,12 +72,12 @@ public class VoteAction extends ActionDefault {
                   movieOpt1.getId() == movieOpt2.getId()
                   );
 			
-			session.remove("movieOpt1");
-			session.remove("movieOpt2");
+			this.session.remove("movieOpt1");
+			this.session.remove("movieOpt2");
 			
-			session.put("movieOpt1", movieOpt1);
-			session.put("movieOpt2", movieOpt2);
-		}
+			this.session.put("movieOpt1", movieOpt1);
+			this.session.put("movieOpt2", movieOpt2);
+		} 
 		
 	}
 	
@@ -78,12 +85,15 @@ public class VoteAction extends ActionDefault {
 			@Result(name ="ok", location="/voto.jsp")
 			})
 	public String Vote(){
-		movieRepository.voteMovie(this.current);
+		
+		this.session = ActionContext.getContext().getSession();
+		
 		this.random();
+		movieRepository.voteMovie(this.current,this.session.get("UUID").toString());
 		return "ok";
 	}
 	
-	@Action(value="pageVote", results=@Result(name ="ok", location="/voto.jsp"  ))
+	@Action(value="pageVote", results=@Result(name ="ok", location="/voto.jsp"))
 	public String PageVote(){
 		this.random();
 		return "ok";
@@ -145,6 +155,12 @@ public class VoteAction extends ActionDefault {
 
 	public final void setEmail(String email) {
 		this.email = email;
+	}
+
+	public final List<VoteUser> getListVoteUser() {
+		this.session = ActionContext.getContext().getSession();		
+		this.listVoteUser = movieRepository.listVoteUser(this.session.get("UUID").toString());
+		return this.listVoteUser;
 	}
 	
 }

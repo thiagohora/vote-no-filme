@@ -14,11 +14,6 @@ public class JPAFilter implements Filter {
 
 	private EntityManagerFactory factory;
 	
-	//static {
-	//	Persistence.
-	//	createEntityManagerFactory("DesafioJava");
-	//}
-	
 	@Override
 	public void init(FilterConfig filterConfig) throws ServletException{
 		this.factory = Persistence.createEntityManagerFactory("DesafioJava");

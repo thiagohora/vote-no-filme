@@ -14,6 +14,14 @@ Create table Movie(
 );
 ///////////////////////
 
+				create table VoteUser(
+	chaveuser varchar(50),
+	movieid int,
+	points int,
+constraint pk_vote primary key(chaveuser,points ), 
+constraint fk_movie FOREIGN  key (movieid) references movie(id) 
+);
+
 
 
 INSERT INTO Movie (id,name,points) VALUES (2,'Underworld',52);

@@ -14,10 +14,12 @@
 		<h2 class="divtitle">Thank you very much for participation: ${name}</h2>
 		<center>
 			<table cellpadding="0" cellspacing="0" class="blocktable">
-				<tr><th colspan="2">Table of Movies</th></tr>
+				<tr><th colspan="2">Your Ranking of Movies</th></tr>
 				<tr><th>Name:</th><th>Votes:</th></tr>
-				<s:iterator value="listMovie">
-					<tr><td style="padding: 0 10px"><s:property value="name" /></td><td style="text-align: center;"><s:property value="points" /></td></tr>
+				<s:iterator value="listVoteUser">
+					<tr>
+					<td style="padding: 0 10px"><s:property value="voteUserId.movieId.name" /> </td>
+					<td style="text-align: center;"><s:property value="points" /></td></tr>
 				</s:iterator>
 			</table>
 		</center>
